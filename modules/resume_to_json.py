@@ -508,6 +508,20 @@ if uploaded is not None:
             file_name=os.path.splitext(uploaded.name)[0] + f"_groq_{emb_model.replace('/','-')}_with_vectors.json",
             mime="application/json"
         )
+                # -------- Save JSON connector file --------
+        output_dir = "outputs"
+        os.makedirs(output_dir, exist_ok=True)
+
+        # Create a consistent connector path
+        connector_path = os.path.join(output_dir, "latest_resume_output.json")
+
+        # Save the JSON file
+        with open(connector_path, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=2)
+
+        st.success(f"✅ Resume JSON stored successfully at {connector_path}")
+        st.caption("This file will be used automatically by the transparency module.")
+
     else:
         st.warning("No content to embed after Groq processing.")
 else:

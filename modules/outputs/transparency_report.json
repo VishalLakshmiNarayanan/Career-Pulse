@@ -1,0 +1,276 @@
+{
+  "transparency_report": [
+    {
+      "job_title": "Machine Learning Engineer",
+      "company": "",
+      "overall_similarity": 0.302,
+      "top_matching_sections": [
+        {
+          "section": "section::background_education",
+          "score": 0.591
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.482
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.48
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.461
+        },
+        {
+          "section": "section::skills_from_experience",
+          "score": 0.375
+        }
+      ]
+    },
+    {
+      "job_title": "Python/ Cloud/AI/ML - Machine learning",
+      "company": "",
+      "overall_similarity": 0.298,
+      "top_matching_sections": [
+        {
+          "section": "section::background_education",
+          "score": 0.595
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.527
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.486
+        },
+        {
+          "section": "section::skills",
+          "score": 0.419
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.379
+        }
+      ]
+    },
+    {
+      "job_title": "Principal Applied Scientist/Machine Learning Engineer",
+      "company": "",
+      "overall_similarity": 0.291,
+      "top_matching_sections": [
+        {
+          "section": "section::background_education",
+          "score": 0.45
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.431
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.377
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.361
+        },
+        {
+          "section": "section::skills",
+          "score": 0.32
+        }
+      ]
+    },
+    {
+      "job_title": "Principal ML Engineer (Data IKU)",
+      "company": "",
+      "overall_similarity": 0.291,
+      "top_matching_sections": [
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.574
+        },
+        {
+          "section": "section::background_education",
+          "score": 0.53
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.458
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.437
+        },
+        {
+          "section": "section::background_role::Data Analyst",
+          "score": 0.338
+        }
+      ]
+    },
+    {
+      "job_title": "Machine Learning (ML) & Python Engineer (DC)",
+      "company": "",
+      "overall_similarity": 0.288,
+      "top_matching_sections": [
+        {
+          "section": "section::background_education",
+          "score": 0.486
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.464
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.463
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.378
+        },
+        {
+          "section": "section::skills",
+          "score": 0.334
+        }
+      ]
+    },
+    {
+      "job_title": "Research Analyst/ Jr. ML Engineer/ Jr. AI Engineer/ NLP Engineer",
+      "company": "",
+      "overall_similarity": 0.286,
+      "top_matching_sections": [
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.603
+        },
+        {
+          "section": "section::background_education",
+          "score": 0.548
+        },
+        {
+          "section": "section::skills",
+          "score": 0.433
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.341
+        },
+        {
+          "section": "section::experience",
+          "score": 0.337
+        }
+      ]
+    },
+    {
+      "job_title": "Machine Learning Engineer",
+      "company": "",
+      "overall_similarity": 0.283,
+      "top_matching_sections": [
+        {
+          "section": "section::background_education",
+          "score": 0.532
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.497
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.474
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.439
+        },
+        {
+          "section": "section::background_role::Applied Scientist",
+          "score": 0.315
+        }
+      ]
+    },
+    {
+      "job_title": "Machine Learning Engineer",
+      "company": "",
+      "overall_similarity": 0.283,
+      "top_matching_sections": [
+        {
+          "section": "section::background_education",
+          "score": 0.532
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.497
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.474
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.439
+        },
+        {
+          "section": "section::background_role::Applied Scientist",
+          "score": 0.315
+        }
+      ]
+    },
+    {
+      "job_title": "Data Scientist / Machine Learning Engineer",
+      "company": "",
+      "overall_similarity": 0.282,
+      "top_matching_sections": [
+        {
+          "section": "section::background_education",
+          "score": 0.562
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.487
+        },
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.486
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.478
+        },
+        {
+          "section": "section::skills",
+          "score": 0.326
+        }
+      ]
+    },
+    {
+      "job_title": "Machine Learning Engineer",
+      "company": "",
+      "overall_similarity": 0.281,
+      "top_matching_sections": [
+        {
+          "section": "section::background_role::Machine Learning Engineer",
+          "score": 0.607
+        },
+        {
+          "section": "section::background_education",
+          "score": 0.483
+        },
+        {
+          "section": "section::skills",
+          "score": 0.43
+        },
+        {
+          "section": "section::background_role::Data Scientist",
+          "score": 0.344
+        },
+        {
+          "section": "section::background_role::Data Engineer",
+          "score": 0.341
+        }
+      ]
+    }
+  ],
+  "total_jobs_evaluated": 862,
+  "embedding_model": "all-MiniLM-L6-v2"
+}
