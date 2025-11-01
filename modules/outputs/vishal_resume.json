@@ -1,0 +1,253 @@
+{
+  "name": "Lvishal1607",
+  "email": "lvishal1607@gmail.com",
+  "parsed": {
+    "source_file": "Vishal Resume.pdf",
+    "parsed_at": 1762040267,
+    "name": "Lvishal1607",
+    "email": "lvishal1607@gmail.com",
+    "phone": "+1480",
+    "sections": {
+      "education": "M.S.inDataScience,AnalyticsandEngineering Aug2024\u2013Present\nArizonaStateUniversity,Tempe,AZ\n\n- RelevantCoursework: StatisticalMachineLearning,BigDataAnalysis,DataMining,AppliedStatistics\nB.TechinComputerScience(AI/MLSpecialization) Aug2020\u2013May2024\nVelloreInstituteofTechnology,Chennai,India\n\n- GraduatedwithDistinction;developedastrongfoundationinArtificialIntelligenceandMachineLearning.\n\n- RelevantCoursework: MachineLearning,DeepLearning,NaturalLanguageProcessing",
+      "technicalskills": "- Programming&QueryLanguages\u2013Python,R,Java,SQL,Git,C,C++\n\n- Databases\u2013MySQL,PostgreSQL,SQLServer,SQLite,Databricks,PySpark\n\n- Analytics&Visualization\u2013Pandas,NumPy,Matplotlib,Seaborn,PowerBI,Tableau,Excel\n\n- AppliedStatistics\u2013HypothesisTesting,RegressionAnalysis,CausalInference,TimeSeriesForecasting\n\n- MachineLearning\u2013PredictiveModeling,DeepLearning,NLP,AnomalyDetection,GradientBoostedModels",
+      "experience": "DATAANALYSTINTERN May2023\u2013Jul2023\nAmrutanjanHealthCareLtd.,Chennai,India\n\n- Analyzed2017\u20132018salesdatasetsusingstatisticalmodelingandMachineLearningtoidentifykeytrends.\n\n- Builtandautomatedinteractivedashboards,acceleratingdata-drivendecisionsacrossteams.\n\n- Deliveredactionableinsightsthatimprovedforecastingaccuracyby15%andguidedstrategicplanning.\nRESEARCHINTERN Dec2022\u2013Aug2023\nVITChennai&GlobalHealthResearchandInnovationsCanada\n\n- InvestigatededgecomputingandAR/VRinInternetofMedicalThingstoenhancehealthcareequityandaccess.\n\n- Conductedasystematicliteraturereviewtoevaluatefeasibilityandbarrierspresentindigitalhealth.\n\n- Providedevidence-basedrecommendationsthatInfluencedresearchandpromotedhealthcareaccessibility.",
+      "projects": "MAILY\u2013AIMailingandScheduleAgent Jun2025\nn8nagents,GroqLLM,GmailAPI\n\n- Developedann8nAIagentthatautomatesemailandschedulingviaGmail,Calendar,andSheets.\n\n- Implementedcontactverificationworkflowsensuringemailaddressesarevalidatedbeforesendingmessages.\n\n- DeliveredanAIsystemthatschedulesmeetings,sendsemails,andmaintainscontextwithLLMreasoning.\n\n- Enhancedschedulingefficiencythroughautomatedworkflows,reducingmanualcoordination.\nAITravelItineraryPlanner Apr2025\nStreamlit,GroqLLaMA,Python\n\n- EngineeredanAI-drivenplatformthatgeneratesoptimizedmulti-daytravelitinerarieswithreal-timerouterefinement.\n\n- Integratedcostestimation,weatherforecasts,andinteractivemapvisualizations,improvingplanningaccuracyby30%.\n\n- Designedafeedback-drivenlooptotestitineraryvariations,enhancinguserengagementandsatisfaction.\nPath2Pro\u2013AI-PoweredJobPortal Mar2025\nPython,Streamlit,SentenceTransformers,SQLite\n\n- BuiltanAIjob-matchingportalwithsemanticsimilarityscoringandautomatedresumeparsingfor100+applications.\n\n- Developedsecurerecruiter/applicantdashboardswithauthentication,jobposting,andreal-timeresumeuploads.\n\n- Implementedskill-gapanalysiswithpersonalizedcourserecommendations,reducingscreeningtimeby25%.\n\n- WonthePeople\u2019sChoiceAwardatHackAZonav0.1forinnovationandimpact.",
+      "publications": "Lakshminarayanan,V.,etal. (2023). Healthcareequitythroughintelligentedgecomputingandaugmentedreality/virtual\nreality: Asystematicreview. JournalofMultidisciplinaryHealthcare,16,2839\u20132859. https://doi.org/10.2147/JMDH.S419923"
+    },
+    "skills": [],
+    "links": [
+      "https://doi.org/10.2147/JMDH.S419923",
+      "https://github.com/VishalLakshmiNarayanan",
+      "https://medium.com/@lvishal1607",
+      "https://vishallakshportfolio.vercel.app/",
+      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
+      "mailto:lvishal1607@gmail.com"
+    ]
+  },
+  "groq_result": {
+    "normalized_sections": {
+      "education": "Master of Science in Data Science, Analytics, and Engineering (Aug 2024 - Present) at Arizona State University, Tempe, AZ. Relevant coursework: Statistical Machine Learning, Big Data Analysis, Data Mining, Applied Statistics. Graduated with Distinction; developed a strong foundation in Artificial Intelligence and Machine Learning.",
+      "technicalskills": "- Programming & Query Languages \u2013 Python, R, Java, SQL, Git, C, C++\n- Databases \u2013 MySQL, PostgreSQL, SQL Server, SQLite, Databricks, PySpark\n- Analytics & Visualization \u2013 Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau, Excel\n- Applied Statistics \u2013 Hypothesis Testing, Regression Analysis, Causal Inference, Time Series Forecasting\n- Machine Learning \u2013 Predictive Modeling, Deep Learning, NLP, Anomaly Detection, Gradient Boosted Models",
+      "experience": "DATA ANALYST INTERN (May 2023 - Jul 2023) at Amrutanjan Health Care Ltd., Chennai, India. Analyzed 2017-2018 sales datasets using statistical modeling and Machine Learning to identify key trends. Built and automated interactive dashboards, accelerating data-driven decisions across teams. Delivered actionable insights that improved forecasting accuracy by 15% and guided strategic planning.\nRESEARCH INTERN (Dec 2022 - Aug 2023) at VIT Chennai & Global Health Research and Innovations Canada. Investigated edge computing and AR/VR in Internet of Medical Things to enhance healthcare equity and access. Conducted a systematic literature review to evaluate feasibility and barriers present in digital health. Provided evidence-based recommendations that influenced research and promoted healthcare accessibility.",
+      "projects": "MAILY \u2013 AI Mailing and Schedule Agent (Jun 2025) using n8n agents, Groq LLM, Gmail API. Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets. Implemented contact verification workflows ensuring email addresses are validated before sending messages. Delivered an AI system that schedules meetings, sends emails, and maintains context with LLM reasoning. Enhanced scheduling efficiency through automated workflows, reducing manual coordination.\nAITravel Itinerary Planner (Apr 2025) using Streamlit, Groq LLM, Python. Engineered an AI-driven platform that generates optimized multi-day travel itineraries with real-time route refinement. Integrated cost estimation, weather forecasts, and interactive map visualizations, improving planning accuracy by 30%. Designed a feedback-driven loop to test itinerary variations, enhancing user engagement and satisfaction.\nPath2Pro \u2013 AI-Powered Job Portal (Mar 2025) using Python, Streamlit, Sentence Transformers, SQLite. Built an AI job-matching portal with semantic similarity scoring and automated resume parsing for 100+ applications. Developed secure recruiter/applicant dashboards with authentication, job posting, and real-time resume uploads. Implemented skill-gap analysis with personalized course recommendations, reducing screening time by 25%. Won the People\u2019s Choice Award at Hack AZ on a 0.1 for innovation and impact.",
+      "publications": "Lakshminarayanan, V., et al. (2023). Healthcare equity through intelligent edge computing and augmented reality/virtual reality: A systematic review. Journal of Multidisciplinary Healthcare, 16, 2839\u20132859. https://doi.org/10.2147/JMDH.S419923"
+    },
+    "skills_from_experience": [
+      "Python",
+      "R",
+      "Java",
+      "SQL",
+      "Git",
+      "C",
+      "C++",
+      "MySQL",
+      "PostgreSQL",
+      "SQL Server",
+      "SQLite",
+      "Databricks",
+      "PySpark",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Power BI",
+      "Tableau",
+      "Excel",
+      "Hypothesis Testing",
+      "Regression Analysis",
+      "Causal Inference",
+      "Time Series Forecasting",
+      "Predictive Modeling",
+      "Deep Learning",
+      "NLP",
+      "Anomaly Detection",
+      "Gradient Boosted Models"
+    ],
+    "skills_from_projects": [
+      "Python",
+      "Streamlit",
+      "Groq LLM",
+      "n8n",
+      "Gmail API",
+      "Calendar",
+      "Sheets",
+      "Sentence Transformers",
+      "SQLite"
+    ],
+    "skills_with_evidence": {
+      "experience": [
+        {
+          "skill": "Predictive Modeling",
+          "sources": [
+            2
+          ],
+          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+        },
+        {
+          "skill": "Deep Learning",
+          "sources": [
+            2
+          ],
+          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+        },
+        {
+          "skill": "NLP",
+          "sources": [
+            2
+          ],
+          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+        },
+        {
+          "skill": "Anomaly Detection",
+          "sources": [
+            2
+          ],
+          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+        },
+        {
+          "skill": "Gradient Boosted Models",
+          "sources": [
+            2
+          ],
+          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+        },
+        {
+          "skill": "Time Series Forecasting",
+          "sources": [
+            4
+          ],
+          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+        },
+        {
+          "skill": "Causal Inference",
+          "sources": [
+            4
+          ],
+          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+        },
+        {
+          "skill": "Hypothesis Testing",
+          "sources": [
+            4
+          ],
+          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+        },
+        {
+          "skill": "Regression Analysis",
+          "sources": [
+            4
+          ],
+          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+        }
+      ],
+      "projects": [
+        {
+          "skill": "Python",
+          "sources": [
+            0
+          ],
+          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+        },
+        {
+          "skill": "Streamlit",
+          "sources": [
+            1
+          ],
+          "evidence": "Engineered an AI-driven platform that generates optimized multi-day travel itineraries with real-time route refinement."
+        },
+        {
+          "skill": "Groq LLM",
+          "sources": [
+            1
+          ],
+          "evidence": "Engineered an AI-driven platform that generates optimized multi-day travel itineraries with real-time route refinement."
+        },
+        {
+          "skill": "n8n",
+          "sources": [
+            0
+          ],
+          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+        },
+        {
+          "skill": "Gmail API",
+          "sources": [
+            0
+          ],
+          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+        },
+        {
+          "skill": "Calendar",
+          "sources": [
+            0
+          ],
+          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+        },
+        {
+          "skill": "Sheets",
+          "sources": [
+            0
+          ],
+          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+        },
+        {
+          "skill": "Sentence Transformers",
+          "sources": [
+            2
+          ],
+          "evidence": "Built an AI job-matching portal with semantic similarity scoring and automated resume parsing for 100+ applications."
+        },
+        {
+          "skill": "SQLite",
+          "sources": [
+            2
+          ],
+          "evidence": "Built an AI job-matching portal with semantic similarity scoring and automated resume parsing for 100+ applications."
+        }
+      ]
+    },
+    "background_roles_ranked": [
+      {
+        "role": "Data Scientist",
+        "score": 0.8,
+        "evidence": "Analyzed 2017-2018 sales datasets using statistical modeling and Machine Learning to identify key trends. Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+      },
+      {
+        "role": "Machine Learning Engineer",
+        "score": 0.6,
+        "evidence": "Investigated edge computing and AR/VR in Internet of Medical Things to enhance healthcare equity and access. Conducted a systematic literature review to evaluate feasibility and barriers present in digital health."
+      },
+      {
+        "role": "Data Analyst",
+        "score": 0.4,
+        "evidence": "Analyzed 2017-2018 sales datasets using statistical modeling and Machine Learning to identify key trends."
+      },
+      {
+        "role": "Data Engineer",
+        "score": 0.2,
+        "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+      },
+      {
+        "role": "MLOps Engineer",
+        "score": 0.1,
+        "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+      }
+    ],
+    "background_education": "Master of Science in Data Science, Analytics, and Engineering from Arizona State University, Tempe, AZ. Relevant coursework: Statistical Machine Learning, Big Data Analysis, Data Mining, Applied Statistics. Graduated with Distinction; developed a strong foundation in Artificial Intelligence and Machine Learning.",
+    "links": [
+      "https://doi.org/10.2147/JMDH.S419923",
+      "https://github.com/VishalLakshmiNarayanan",
+      "https://medium.com/@lvishal1607",
+      "https://vishallakshportfolio.vercel.app/",
+      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
+      "mailto:lvishal1607@gmail.com"
+    ]
+  },
+  "sections": {
+    "education": "M.S.inDataScience,AnalyticsandEngineering Aug2024\u2013Present\nArizonaStateUniversity,Tempe,AZ\n\n- RelevantCoursework: StatisticalMachineLearning,BigDataAnalysis,DataMining,AppliedStatistics\nB.TechinComputerScience(AI/MLSpecialization) Aug2020\u2013May2024\nVelloreInstituteofTechnology,Chennai,India\n\n- GraduatedwithDistinction;developedastrongfoundationinArtificialIntelligenceandMachineLearning.\n\n- RelevantCoursework: MachineLearning,DeepLearning,NaturalLanguageProcessing",
+    "technicalskills": "- Programming&QueryLanguages\u2013Python,R,Java,SQL,Git,C,C++\n\n- Databases\u2013MySQL,PostgreSQL,SQLServer,SQLite,Databricks,PySpark\n\n- Analytics&Visualization\u2013Pandas,NumPy,Matplotlib,Seaborn,PowerBI,Tableau,Excel\n\n- AppliedStatistics\u2013HypothesisTesting,RegressionAnalysis,CausalInference,TimeSeriesForecasting\n\n- MachineLearning\u2013PredictiveModeling,DeepLearning,NLP,AnomalyDetection,GradientBoostedModels",
+    "experience": "DATAANALYSTINTERN May2023\u2013Jul2023\nAmrutanjanHealthCareLtd.,Chennai,India\n\n- Analyzed2017\u20132018salesdatasetsusingstatisticalmodelingandMachineLearningtoidentifykeytrends.\n\n- Builtandautomatedinteractivedashboards,acceleratingdata-drivendecisionsacrossteams.\n\n- Deliveredactionableinsightsthatimprovedforecastingaccuracyby15%andguidedstrategicplanning.\nRESEARCHINTERN Dec2022\u2013Aug2023\nVITChennai&GlobalHealthResearchandInnovationsCanada\n\n- InvestigatededgecomputingandAR/VRinInternetofMedicalThingstoenhancehealthcareequityandaccess.\n\n- Conductedasystematicliteraturereviewtoevaluatefeasibilityandbarrierspresentindigitalhealth.\n\n- Providedevidence-basedrecommendationsthatInfluencedresearchandpromotedhealthcareaccessibility.",
+    "projects": "MAILY\u2013AIMailingandScheduleAgent Jun2025\nn8nagents,GroqLLM,GmailAPI\n\n- Developedann8nAIagentthatautomatesemailandschedulingviaGmail,Calendar,andSheets.\n\n- Implementedcontactverificationworkflowsensuringemailaddressesarevalidatedbeforesendingmessages.\n\n- DeliveredanAIsystemthatschedulesmeetings,sendsemails,andmaintainscontextwithLLMreasoning.\n\n- Enhancedschedulingefficiencythroughautomatedworkflows,reducingmanualcoordination.\nAITravelItineraryPlanner Apr2025\nStreamlit,GroqLLaMA,Python\n\n- EngineeredanAI-drivenplatformthatgeneratesoptimizedmulti-daytravelitinerarieswithreal-timerouterefinement.\n\n- Integratedcostestimation,weatherforecasts,andinteractivemapvisualizations,improvingplanningaccuracyby30%.\n\n- Designedafeedback-drivenlooptotestitineraryvariations,enhancinguserengagementandsatisfaction.\nPath2Pro\u2013AI-PoweredJobPortal Mar2025\nPython,Streamlit,SentenceTransformers,SQLite\n\n- BuiltanAIjob-matchingportalwithsemanticsimilarityscoringandautomatedresumeparsingfor100+applications.\n\n- Developedsecurerecruiter/applicantdashboardswithauthentication,jobposting,andreal-timeresumeuploads.\n\n- Implementedskill-gapanalysiswithpersonalizedcourserecommendations,reducingscreeningtimeby25%.\n\n- WonthePeople\u2019sChoiceAwardatHackAZonav0.1forinnovationandimpact.",
+    "publications": "Lakshminarayanan,V.,etal. (2023). Healthcareequitythroughintelligentedgecomputingandaugmentedreality/virtual\nreality: Asystematicreview. JournalofMultidisciplinaryHealthcare,16,2839\u20132859. https://doi.org/10.2147/JMDH.S419923"
+  }
+}

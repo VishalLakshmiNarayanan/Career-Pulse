@@ -1,0 +1,11 @@
+[
+  {
+    "id": "job_1",
+    "title": "Machine Learning Engineer",
+    "company": "Amazon",
+    "location": "New York NY remote ",
+    "description": "The Artificial General Intelligence (AGI) team is building industry-leading multimodal systems that will transform how customers interact with AI. We are seeking an SDE II with machine learning expertise to build and scale the data foundation that powers our multimodal Large Language Models (LLMs).\n\nIn this role, you will develop the data strategies, infrastructure and systems that directly impact millions of customers through products leveraging vision and language technology. You will work with Amazon\u2019s heterogeneous data sources and large-scale computing resources to accelerate multimodal LLM development and advance Generative AI capabilities like image and video generation\n\nKey job responsibilities\n- Design and build scalable data pipelines and infrastructure for multimodal LLM training\n- Define and implement strategies for data enrichment, synthesis, and ablation testing\n- Drive system architecture decisions and establish engineering best practices\n- Partner with ML scientists to advance state-of-the-art multimodal capabilities\n- Own the technical roadmap for data foundation systems that enable high-quality model development\n\nAbout the team\nWe are passionate engineers and scientists dedicated to pushing the boundaries of innovation. We evaluate and represent the customer perspective through accurate benchmarking.\n\n- 3+ years of non-internship professional software development experience\n- 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience\n- Experience programming with at least one software programming language\n- Experience designing and building scalable data pipelines and infrastructure for multimodal LLM training",
+    "posted_by": "amazon",
+    "posted_date": "2025-11-01 16:40:01"
+  }
+]

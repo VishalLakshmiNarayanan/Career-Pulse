@@ -1,0 +1,14 @@
+[
+  {
+    "id": "app_1",
+    "job_id": "job_1",
+    "job_title": "Machine Learning Engineer",
+    "username": "vishal",
+    "candidate_name": "Lvishal1607",
+    "email": "lvishal1607@gmail.com",
+    "match_score": 55.63,
+    "transparency_score": 48.35,
+    "applied_date": "2025-11-01 16:40:42",
+    "resume_file": "outputs/vishal_resume.json"
+  }
+]

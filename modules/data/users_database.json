@@ -1,0 +1,10 @@
+{
+  "users": {
+    "demo_user": "password123",
+    "vishal": "vishal1607"
+  },
+  "recruiters": {
+    "demo_recruiter": "recruiter123",
+    "amazon": "amazon123"
+  }
+}
