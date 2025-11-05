@@ -1,208 +1,288 @@
 {
-  "name": "Lvishal1607",
-  "email": "lvishal1607@gmail.com",
+  "name": "Vlaksh16",
+  "email": "vlaksh16@asu.edu",
   "parsed": {
-    "source_file": "Vishal Resume.pdf",
-    "parsed_at": 1762040267,
-    "name": "Lvishal1607",
-    "email": "lvishal1607@gmail.com",
+    "source_file": "Resume_LV.pdf",
+    "parsed_at": 1762386560,
+    "name": "Vlaksh16",
+    "email": "vlaksh16@asu.edu",
     "phone": "+1480",
     "sections": {
-      "education": "M.S.inDataScience,AnalyticsandEngineering Aug2024\u2013Present\nArizonaStateUniversity,Tempe,AZ\n\n- RelevantCoursework: StatisticalMachineLearning,BigDataAnalysis,DataMining,AppliedStatistics\nB.TechinComputerScience(AI/MLSpecialization) Aug2020\u2013May2024\nVelloreInstituteofTechnology,Chennai,India\n\n- GraduatedwithDistinction;developedastrongfoundationinArtificialIntelligenceandMachineLearning.\n\n- RelevantCoursework: MachineLearning,DeepLearning,NaturalLanguageProcessing",
-      "technicalskills": "- Programming&QueryLanguages\u2013Python,R,Java,SQL,Git,C,C++\n\n- Databases\u2013MySQL,PostgreSQL,SQLServer,SQLite,Databricks,PySpark\n\n- Analytics&Visualization\u2013Pandas,NumPy,Matplotlib,Seaborn,PowerBI,Tableau,Excel\n\n- AppliedStatistics\u2013HypothesisTesting,RegressionAnalysis,CausalInference,TimeSeriesForecasting\n\n- MachineLearning\u2013PredictiveModeling,DeepLearning,NLP,AnomalyDetection,GradientBoostedModels",
-      "experience": "DATAANALYSTINTERN May2023\u2013Jul2023\nAmrutanjanHealthCareLtd.,Chennai,India\n\n- Analyzed2017\u20132018salesdatasetsusingstatisticalmodelingandMachineLearningtoidentifykeytrends.\n\n- Builtandautomatedinteractivedashboards,acceleratingdata-drivendecisionsacrossteams.\n\n- Deliveredactionableinsightsthatimprovedforecastingaccuracyby15%andguidedstrategicplanning.\nRESEARCHINTERN Dec2022\u2013Aug2023\nVITChennai&GlobalHealthResearchandInnovationsCanada\n\n- InvestigatededgecomputingandAR/VRinInternetofMedicalThingstoenhancehealthcareequityandaccess.\n\n- Conductedasystematicliteraturereviewtoevaluatefeasibilityandbarrierspresentindigitalhealth.\n\n- Providedevidence-basedrecommendationsthatInfluencedresearchandpromotedhealthcareaccessibility.",
-      "projects": "MAILY\u2013AIMailingandScheduleAgent Jun2025\nn8nagents,GroqLLM,GmailAPI\n\n- Developedann8nAIagentthatautomatesemailandschedulingviaGmail,Calendar,andSheets.\n\n- Implementedcontactverificationworkflowsensuringemailaddressesarevalidatedbeforesendingmessages.\n\n- DeliveredanAIsystemthatschedulesmeetings,sendsemails,andmaintainscontextwithLLMreasoning.\n\n- Enhancedschedulingefficiencythroughautomatedworkflows,reducingmanualcoordination.\nAITravelItineraryPlanner Apr2025\nStreamlit,GroqLLaMA,Python\n\n- EngineeredanAI-drivenplatformthatgeneratesoptimizedmulti-daytravelitinerarieswithreal-timerouterefinement.\n\n- Integratedcostestimation,weatherforecasts,andinteractivemapvisualizations,improvingplanningaccuracyby30%.\n\n- Designedafeedback-drivenlooptotestitineraryvariations,enhancinguserengagementandsatisfaction.\nPath2Pro\u2013AI-PoweredJobPortal Mar2025\nPython,Streamlit,SentenceTransformers,SQLite\n\n- BuiltanAIjob-matchingportalwithsemanticsimilarityscoringandautomatedresumeparsingfor100+applications.\n\n- Developedsecurerecruiter/applicantdashboardswithauthentication,jobposting,andreal-timeresumeuploads.\n\n- Implementedskill-gapanalysiswithpersonalizedcourserecommendations,reducingscreeningtimeby25%.\n\n- WonthePeople\u2019sChoiceAwardatHackAZonav0.1forinnovationandimpact.",
-      "publications": "Lakshminarayanan,V.,etal. (2023). Healthcareequitythroughintelligentedgecomputingandaugmentedreality/virtual\nreality: Asystematicreview. JournalofMultidisciplinaryHealthcare,16,2839\u20132859. https://doi.org/10.2147/JMDH.S419923"
+      "vishal lakshmi narayanan": "+1-480-304-1340 | vlaksh16@asu.edu | LinkedIn | Github 711 W Broadway Rd,\nTempe, Arizona - 85282, United States",
+      "education": "-  Ira A. Fulton Schools of Engineering at Arizona State University Aug 2024 - Present\nMaster of Science in Data Science, Analytics and Engineering Tempe, Arizona\n\n-  Relevant Coursework: Data Processing at Scale, Statistical Learning for Pattern Recognition, Statistics for Data Analysts\n\n-  Vellore Institute of Technology Aug 2020 - May 2024\nBachelor of Technology in Computer Science and Engineering with specialization in AI and Machine Learning Chennai, India\n\n-  Relevant Coursework: Machine Learning Essentials, Deep Learning Principles, Malware Analysis in Data Science, Natural Language Processing ,",
+      "medical image processing": "",
+      "experience": "-  VIT Chennai and Global Health Research and Innovations Canada [ ] Dec 2022 - Aug 2023",
+      "research": "-  Conducted extensive research on the role of intelligent edge computing and AR/VR in achieving health care equity in the era of the Internet of Medical\nThings (IoMT)\n\n-  Utilized advanced research methodologies and data analysis techniques to conduct a systematic review of the literature, and assess the applications and\nchallenges of these technologies in the context of IoMT and digital health.\n\n-  AMRUTANJAN HealthCare ltd. [ ] May 2023 - July 2023",
+      "data analyst intern chennai, india": "-  Performed comprehensive data analysis on sales data from 2017 and 2018 utilizing advanced Machine Learning techniques.\n\n-  Identified and interpreted sales trends through sophisticated data visualization and classification methodologies.",
+      "publications": "",
+      "j=journa": "",
+      "l": "[J.1] Lakshminarayanan, Vishal et al. \u201cHealth Care Equity Through Intelligent Edge Computing and Augmented Reality/Virtual Reality: A Systematic\nReview.\u201d Journal of Multidisciplinary Healthcare vol. 16 2839-2859. 21 Sep. 2023, doi:10.2147/JMDH.S419923 [ ]",
+      "projects": "-  Diabetic Retinopathy Detection - Smartphone Fundoscopy Dec 2023 - May 2024\nFrameworks: EfficientNetB0 Model, Flask Framework\n\n-  Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to\nenhance diagnostic accuracy and efficiency.\n\n-  Addressed challenges in real-time data acquisition and image quality from smartphone fundoscopy.\n\n-  Emphasized the model\u2019s role in assisting, not replacing, healthcare professionals in clinical settings\n\n-  Network-Based Malware Detection Jan 2023 - May 2023",
+      "framework: tensorflow": "-  Collaboratively developed an efficient malware detection method using weighted k-means clustering and feature selection.\n\n-  Identified significant network traffic patterns and trained a machine learning classifier to distinguish between legitimate and malicious traffic.\n\n-  Achieved high detection rates with minimal false positives, outperforming state-of-the-art strategies and enhancing network security",
+      "skills": "-  Technical Skills: Python, SQL, Java, HTML, CSS, ReactJS, NodeJS\n\n-  Frameworks and Tools: NumPy, Pandas, Pytorch, TensorFlow, Scikit-Learn, Metasploit, Geopandas, Flask\n\n-  Data Science & Machine Learning: Deep Learning, Natural Language Processing, Malware Analysis\n\n-  Research Skills: Literature Review, Cross-Sectional Study Design, Data Interpretation, Scientific Writing\n\n-  Activities: Member of The Comedy Club during college, Member of Jai Hind Cricket Club - 5thDivision League of Tamil Nadu Cricket Association\n\n-  Interests: Video Editing, Music , Analysing Football Tactics",
+      "honors and awards": "-  Runner Up Feb 2023\nGIBots [ ]\n\n-  Runner-up At the \"HACKATHON - Machine Learning For Smart Applications\" in the Category \"Design To Action\"\n\n-  Recognized for exceptional creativity, problem-solving skills, and innovative use of machine learning in developing a smart application.",
+      "certifications": "-  TryHackMe: OWASP TOP 10- Understanding every OWASP vulnerability Nov 2022\n\n-  Google through Coursera: Operating Systems and You: Becoming a Power User Mar 2022"
     },
-    "skills": [],
+    "skills": [
+      "Technical Skills: Python",
+      "SQL",
+      "Java",
+      "HTML",
+      "CSS",
+      "ReactJS",
+      "NodeJS",
+      "Frameworks and Tools: NumPy",
+      "Pandas",
+      "Pytorch",
+      "TensorFlow",
+      "Scikit",
+      "Learn",
+      "Metasploit",
+      "Geopandas",
+      "Flask",
+      "Data Science & Machine Learning: Deep Learning",
+      "Natural Language Processing",
+      "Malware Analysis",
+      "Research Skills: Literature Review",
+      "Cross",
+      "Sectional Study Design",
+      "Data Interpretation",
+      "Scientific Writing",
+      "Activities: Member of The Comedy Club during college",
+      "Member of Jai Hind Cricket Club",
+      "5thDivision League of Tamil Nadu Cricket Association",
+      "Interests: Video Editing",
+      "Music",
+      "Analysing Football Tactics"
+    ],
     "links": [
+      "https://aiqod.com/",
+      "https://chennai.vit.ac.in/",
+      "https://coursera.org/share/d69d69e413238ac90fbf6fa17d848818",
       "https://doi.org/10.2147/JMDH.S419923",
       "https://github.com/VishalLakshmiNarayanan",
-      "https://medium.com/@lvishal1607",
-      "https://vishallakshportfolio.vercel.app/",
+      "https://tryhackme.com/VishalL/badges/owasp-10",
+      "https://www.amrutanjan.com/identity.html",
       "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
-      "mailto:lvishal1607@gmail.com"
+      "mailto:youremail@example.com"
     ]
   },
   "groq_result": {
     "normalized_sections": {
-      "education": "Master of Science in Data Science, Analytics, and Engineering (Aug 2024 - Present) at Arizona State University, Tempe, AZ. Relevant coursework: Statistical Machine Learning, Big Data Analysis, Data Mining, Applied Statistics. Graduated with Distinction; developed a strong foundation in Artificial Intelligence and Machine Learning.",
-      "technicalskills": "- Programming & Query Languages \u2013 Python, R, Java, SQL, Git, C, C++\n- Databases \u2013 MySQL, PostgreSQL, SQL Server, SQLite, Databricks, PySpark\n- Analytics & Visualization \u2013 Pandas, NumPy, Matplotlib, Seaborn, Power BI, Tableau, Excel\n- Applied Statistics \u2013 Hypothesis Testing, Regression Analysis, Causal Inference, Time Series Forecasting\n- Machine Learning \u2013 Predictive Modeling, Deep Learning, NLP, Anomaly Detection, Gradient Boosted Models",
-      "experience": "DATA ANALYST INTERN (May 2023 - Jul 2023) at Amrutanjan Health Care Ltd., Chennai, India. Analyzed 2017-2018 sales datasets using statistical modeling and Machine Learning to identify key trends. Built and automated interactive dashboards, accelerating data-driven decisions across teams. Delivered actionable insights that improved forecasting accuracy by 15% and guided strategic planning.\nRESEARCH INTERN (Dec 2022 - Aug 2023) at VIT Chennai & Global Health Research and Innovations Canada. Investigated edge computing and AR/VR in Internet of Medical Things to enhance healthcare equity and access. Conducted a systematic literature review to evaluate feasibility and barriers present in digital health. Provided evidence-based recommendations that influenced research and promoted healthcare accessibility.",
-      "projects": "MAILY \u2013 AI Mailing and Schedule Agent (Jun 2025) using n8n agents, Groq LLM, Gmail API. Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets. Implemented contact verification workflows ensuring email addresses are validated before sending messages. Delivered an AI system that schedules meetings, sends emails, and maintains context with LLM reasoning. Enhanced scheduling efficiency through automated workflows, reducing manual coordination.\nAITravel Itinerary Planner (Apr 2025) using Streamlit, Groq LLM, Python. Engineered an AI-driven platform that generates optimized multi-day travel itineraries with real-time route refinement. Integrated cost estimation, weather forecasts, and interactive map visualizations, improving planning accuracy by 30%. Designed a feedback-driven loop to test itinerary variations, enhancing user engagement and satisfaction.\nPath2Pro \u2013 AI-Powered Job Portal (Mar 2025) using Python, Streamlit, Sentence Transformers, SQLite. Built an AI job-matching portal with semantic similarity scoring and automated resume parsing for 100+ applications. Developed secure recruiter/applicant dashboards with authentication, job posting, and real-time resume uploads. Implemented skill-gap analysis with personalized course recommendations, reducing screening time by 25%. Won the People\u2019s Choice Award at Hack AZ on a 0.1 for innovation and impact.",
-      "publications": "Lakshminarayanan, V., et al. (2023). Healthcare equity through intelligent edge computing and augmented reality/virtual reality: A systematic review. Journal of Multidisciplinary Healthcare, 16, 2839\u20132859. https://doi.org/10.2147/JMDH.S419923"
+      "vishal lakshmi narayanan": "Vishal Lakshmi Narayanan",
+      "education": "Education",
+      "medical image processing": "Medical Image Processing",
+      "experience": "Experience",
+      "research": "Research",
+      "data analyst intern chennai, india": "Data Analyst Intern, Chennai, India",
+      "publications": "Publications",
+      "j=journa": "Journal",
+      "l": "Journal of Multidisciplinary Healthcare",
+      "projects": "Projects",
+      "framework: tensorflow": "TensorFlow Framework",
+      "skills": "Technical Skills",
+      "honors and awards": "Honors and Awards",
+      "certifications": "Certifications"
     },
     "skills_from_experience": [
       "Python",
-      "R",
-      "Java",
       "SQL",
-      "Git",
-      "C",
-      "C++",
-      "MySQL",
-      "PostgreSQL",
-      "SQL Server",
-      "SQLite",
-      "Databricks",
-      "PySpark",
-      "Pandas",
-      "NumPy",
-      "Matplotlib",
-      "Seaborn",
-      "Power BI",
-      "Tableau",
-      "Excel",
-      "Hypothesis Testing",
-      "Regression Analysis",
-      "Causal Inference",
-      "Time Series Forecasting",
-      "Predictive Modeling",
-      "Deep Learning",
-      "NLP",
-      "Anomaly Detection",
-      "Gradient Boosted Models"
+      "Java",
+      "Machine Learning",
+      "Data Analysis",
+      "Data Visualization",
+      "Classification",
+      "Flask Framework",
+      "EfficientNetB0 Model"
     ],
     "skills_from_projects": [
       "Python",
-      "Streamlit",
-      "Groq LLM",
-      "n8n",
-      "Gmail API",
-      "Calendar",
-      "Sheets",
-      "Sentence Transformers",
-      "SQLite"
+      "SQL",
+      "Java",
+      "Machine Learning",
+      "Data Analysis",
+      "Data Visualization",
+      "Classification",
+      "Flask Framework",
+      "EfficientNetB0 Model",
+      "TensorFlow"
     ],
     "skills_with_evidence": {
       "experience": [
         {
-          "skill": "Predictive Modeling",
+          "skill": "Python",
           "sources": [
-            2
+            0
           ],
-          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+          "evidence": "Utilizing advanced Machine Learning techniques."
         },
         {
-          "skill": "Deep Learning",
+          "skill": "SQL",
           "sources": [
-            2
+            0
           ],
-          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+          "evidence": "Utilizing advanced Machine Learning techniques."
         },
         {
-          "skill": "NLP",
+          "skill": "Java",
           "sources": [
-            2
+            0
           ],
-          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+          "evidence": "Utilizing advanced Machine Learning techniques."
         },
         {
-          "skill": "Anomaly Detection",
+          "skill": "Machine Learning",
           "sources": [
-            2
+            0
           ],
-          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+          "evidence": "Utilizing advanced Machine Learning techniques."
         },
         {
-          "skill": "Gradient Boosted Models",
+          "skill": "Data Analysis",
           "sources": [
-            2
+            0
           ],
-          "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+          "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
         },
         {
-          "skill": "Time Series Forecasting",
+          "skill": "Data Visualization",
           "sources": [
-            4
+            0
           ],
-          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+          "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
         },
         {
-          "skill": "Causal Inference",
+          "skill": "Classification",
           "sources": [
-            4
+            0
           ],
-          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+          "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
         },
         {
-          "skill": "Hypothesis Testing",
+          "skill": "Flask Framework",
           "sources": [
-            4
+            0
           ],
-          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+          "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "Regression Analysis",
+          "skill": "EfficientNetB0 Model",
           "sources": [
-            4
+            0
           ],
-          "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+          "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         }
       ],
       "projects": [
         {
           "skill": "Python",
           "sources": [
-            0
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "Streamlit",
+          "skill": "SQL",
           "sources": [
-            1
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Engineered an AI-driven platform that generates optimized multi-day travel itineraries with real-time route refinement."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "Groq LLM",
+          "skill": "Java",
           "sources": [
-            1
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Engineered an AI-driven platform that generates optimized multi-day travel itineraries with real-time route refinement."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "n8n",
+          "skill": "Machine Learning",
           "sources": [
-            0
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "Gmail API",
+          "skill": "Data Analysis",
           "sources": [
-            0
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "Calendar",
+          "skill": "Data Visualization",
           "sources": [
-            0
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "Sheets",
+          "skill": "Classification",
           "sources": [
-            0
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Developed an n8n AI agent that automates email and scheduling via Gmail, Calendar, and Sheets."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "Sentence Transformers",
+          "skill": "Flask Framework",
           "sources": [
-            2
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Built an AI job-matching portal with semantic similarity scoring and automated resume parsing for 100+ applications."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         },
         {
-          "skill": "SQLite",
+          "skill": "EfficientNetB0 Model",
           "sources": [
-            2
+            1,
+            2,
+            3,
+            4,
+            5
           ],
-          "evidence": "Built an AI job-matching portal with semantic similarity scoring and automated resume parsing for 100+ applications."
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
+        },
+        {
+          "skill": "TensorFlow",
+          "sources": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
         }
       ]
     },
@@ -210,44 +290,55 @@
       {
         "role": "Data Scientist",
         "score": 0.8,
-        "evidence": "Analyzed 2017-2018 sales datasets using statistical modeling and Machine Learning to identify key trends. Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+        "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
       },
       {
         "role": "Machine Learning Engineer",
-        "score": 0.6,
-        "evidence": "Investigated edge computing and AR/VR in Internet of Medical Things to enhance healthcare equity and access. Conducted a systematic literature review to evaluate feasibility and barriers present in digital health."
+        "score": 0.7,
+        "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
       },
       {
         "role": "Data Analyst",
-        "score": 0.4,
-        "evidence": "Analyzed 2017-2018 sales datasets using statistical modeling and Machine Learning to identify key trends."
+        "score": 0.6,
+        "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
       },
       {
         "role": "Data Engineer",
-        "score": 0.2,
-        "evidence": "Built and automated interactive dashboards, accelerating data-driven decisions across teams."
+        "score": 0.5,
+        "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
       },
       {
         "role": "MLOps Engineer",
-        "score": 0.1,
-        "evidence": "Provided evidence-based recommendations that influenced research and promoted healthcare accessibility."
+        "score": 0.4,
+        "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
       }
     ],
-    "background_education": "Master of Science in Data Science, Analytics, and Engineering from Arizona State University, Tempe, AZ. Relevant coursework: Statistical Machine Learning, Big Data Analysis, Data Mining, Applied Statistics. Graduated with Distinction; developed a strong foundation in Artificial Intelligence and Machine Learning.",
+    "background_education": "Master of Science in Data Science, Analytics and Engineering from Ira A. Fulton Schools of Engineering at Arizona State University.",
     "links": [
+      "https://aiqod.com/",
+      "https://chennai.vit.ac.in/",
+      "https://coursera.org/share/d69d69e413238ac90fbf6fa17d848818",
       "https://doi.org/10.2147/JMDH.S419923",
       "https://github.com/VishalLakshmiNarayanan",
-      "https://medium.com/@lvishal1607",
-      "https://vishallakshportfolio.vercel.app/",
-      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
-      "mailto:lvishal1607@gmail.com"
+      "https://tryhackme.com/Vishal/badges/owasp-10",
+      "https://www.amrutanjan.com/identity.html",
+      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/"
     ]
   },
   "sections": {
-    "education": "M.S.inDataScience,AnalyticsandEngineering Aug2024\u2013Present\nArizonaStateUniversity,Tempe,AZ\n\n- RelevantCoursework: StatisticalMachineLearning,BigDataAnalysis,DataMining,AppliedStatistics\nB.TechinComputerScience(AI/MLSpecialization) Aug2020\u2013May2024\nVelloreInstituteofTechnology,Chennai,India\n\n- GraduatedwithDistinction;developedastrongfoundationinArtificialIntelligenceandMachineLearning.\n\n- RelevantCoursework: MachineLearning,DeepLearning,NaturalLanguageProcessing",
-    "technicalskills": "- Programming&QueryLanguages\u2013Python,R,Java,SQL,Git,C,C++\n\n- Databases\u2013MySQL,PostgreSQL,SQLServer,SQLite,Databricks,PySpark\n\n- Analytics&Visualization\u2013Pandas,NumPy,Matplotlib,Seaborn,PowerBI,Tableau,Excel\n\n- AppliedStatistics\u2013HypothesisTesting,RegressionAnalysis,CausalInference,TimeSeriesForecasting\n\n- MachineLearning\u2013PredictiveModeling,DeepLearning,NLP,AnomalyDetection,GradientBoostedModels",
-    "experience": "DATAANALYSTINTERN May2023\u2013Jul2023\nAmrutanjanHealthCareLtd.,Chennai,India\n\n- Analyzed2017\u20132018salesdatasetsusingstatisticalmodelingandMachineLearningtoidentifykeytrends.\n\n- Builtandautomatedinteractivedashboards,acceleratingdata-drivendecisionsacrossteams.\n\n- Deliveredactionableinsightsthatimprovedforecastingaccuracyby15%andguidedstrategicplanning.\nRESEARCHINTERN Dec2022\u2013Aug2023\nVITChennai&GlobalHealthResearchandInnovationsCanada\n\n- InvestigatededgecomputingandAR/VRinInternetofMedicalThingstoenhancehealthcareequityandaccess.\n\n- Conductedasystematicliteraturereviewtoevaluatefeasibilityandbarrierspresentindigitalhealth.\n\n- Providedevidence-basedrecommendationsthatInfluencedresearchandpromotedhealthcareaccessibility.",
-    "projects": "MAILY\u2013AIMailingandScheduleAgent Jun2025\nn8nagents,GroqLLM,GmailAPI\n\n- Developedann8nAIagentthatautomatesemailandschedulingviaGmail,Calendar,andSheets.\n\n- Implementedcontactverificationworkflowsensuringemailaddressesarevalidatedbeforesendingmessages.\n\n- DeliveredanAIsystemthatschedulesmeetings,sendsemails,andmaintainscontextwithLLMreasoning.\n\n- Enhancedschedulingefficiencythroughautomatedworkflows,reducingmanualcoordination.\nAITravelItineraryPlanner Apr2025\nStreamlit,GroqLLaMA,Python\n\n- EngineeredanAI-drivenplatformthatgeneratesoptimizedmulti-daytravelitinerarieswithreal-timerouterefinement.\n\n- Integratedcostestimation,weatherforecasts,andinteractivemapvisualizations,improvingplanningaccuracyby30%.\n\n- Designedafeedback-drivenlooptotestitineraryvariations,enhancinguserengagementandsatisfaction.\nPath2Pro\u2013AI-PoweredJobPortal Mar2025\nPython,Streamlit,SentenceTransformers,SQLite\n\n- BuiltanAIjob-matchingportalwithsemanticsimilarityscoringandautomatedresumeparsingfor100+applications.\n\n- Developedsecurerecruiter/applicantdashboardswithauthentication,jobposting,andreal-timeresumeuploads.\n\n- Implementedskill-gapanalysiswithpersonalizedcourserecommendations,reducingscreeningtimeby25%.\n\n- WonthePeople\u2019sChoiceAwardatHackAZonav0.1forinnovationandimpact.",
-    "publications": "Lakshminarayanan,V.,etal. (2023). Healthcareequitythroughintelligentedgecomputingandaugmentedreality/virtual\nreality: Asystematicreview. JournalofMultidisciplinaryHealthcare,16,2839\u20132859. https://doi.org/10.2147/JMDH.S419923"
+    "vishal lakshmi narayanan": "+1-480-304-1340 | vlaksh16@asu.edu | LinkedIn | Github 711 W Broadway Rd,\nTempe, Arizona - 85282, United States",
+    "education": "-  Ira A. Fulton Schools of Engineering at Arizona State University Aug 2024 - Present\nMaster of Science in Data Science, Analytics and Engineering Tempe, Arizona\n\n-  Relevant Coursework: Data Processing at Scale, Statistical Learning for Pattern Recognition, Statistics for Data Analysts\n\n-  Vellore Institute of Technology Aug 2020 - May 2024\nBachelor of Technology in Computer Science and Engineering with specialization in AI and Machine Learning Chennai, India\n\n-  Relevant Coursework: Machine Learning Essentials, Deep Learning Principles, Malware Analysis in Data Science, Natural Language Processing ,",
+    "medical image processing": "",
+    "experience": "-  VIT Chennai and Global Health Research and Innovations Canada [ ] Dec 2022 - Aug 2023",
+    "research": "-  Conducted extensive research on the role of intelligent edge computing and AR/VR in achieving health care equity in the era of the Internet of Medical\nThings (IoMT)\n\n-  Utilized advanced research methodologies and data analysis techniques to conduct a systematic review of the literature, and assess the applications and\nchallenges of these technologies in the context of IoMT and digital health.\n\n-  AMRUTANJAN HealthCare ltd. [ ] May 2023 - July 2023",
+    "data analyst intern chennai, india": "-  Performed comprehensive data analysis on sales data from 2017 and 2018 utilizing advanced Machine Learning techniques.\n\n-  Identified and interpreted sales trends through sophisticated data visualization and classification methodologies.",
+    "publications": "",
+    "j=journa": "",
+    "l": "[J.1] Lakshminarayanan, Vishal et al. \u201cHealth Care Equity Through Intelligent Edge Computing and Augmented Reality/Virtual Reality: A Systematic\nReview.\u201d Journal of Multidisciplinary Healthcare vol. 16 2839-2859. 21 Sep. 2023, doi:10.2147/JMDH.S419923 [ ]",
+    "projects": "-  Diabetic Retinopathy Detection - Smartphone Fundoscopy Dec 2023 - May 2024\nFrameworks: EfficientNetB0 Model, Flask Framework\n\n-  Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to\nenhance diagnostic accuracy and efficiency.\n\n-  Addressed challenges in real-time data acquisition and image quality from smartphone fundoscopy.\n\n-  Emphasized the model\u2019s role in assisting, not replacing, healthcare professionals in clinical settings\n\n-  Network-Based Malware Detection Jan 2023 - May 2023",
+    "framework: tensorflow": "-  Collaboratively developed an efficient malware detection method using weighted k-means clustering and feature selection.\n\n-  Identified significant network traffic patterns and trained a machine learning classifier to distinguish between legitimate and malicious traffic.\n\n-  Achieved high detection rates with minimal false positives, outperforming state-of-the-art strategies and enhancing network security",
+    "skills": "-  Technical Skills: Python, SQL, Java, HTML, CSS, ReactJS, NodeJS\n\n-  Frameworks and Tools: NumPy, Pandas, Pytorch, TensorFlow, Scikit-Learn, Metasploit, Geopandas, Flask\n\n-  Data Science & Machine Learning: Deep Learning, Natural Language Processing, Malware Analysis\n\n-  Research Skills: Literature Review, Cross-Sectional Study Design, Data Interpretation, Scientific Writing\n\n-  Activities: Member of The Comedy Club during college, Member of Jai Hind Cricket Club - 5thDivision League of Tamil Nadu Cricket Association\n\n-  Interests: Video Editing, Music , Analysing Football Tactics",
+    "honors and awards": "-  Runner Up Feb 2023\nGIBots [ ]\n\n-  Runner-up At the \"HACKATHON - Machine Learning For Smart Applications\" in the Category \"Design To Action\"\n\n-  Recognized for exceptional creativity, problem-solving skills, and innovative use of machine learning in developing a smart application.",
+    "certifications": "-  TryHackMe: OWASP TOP 10- Understanding every OWASP vulnerability Nov 2022\n\n-  Google through Coursera: Operating Systems and You: Becoming a Power User Mar 2022"
   }
 }

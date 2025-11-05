@@ -9,6 +9,7 @@ import plotly.graph_objects as go
 from dotenv import load_dotenv
 from groq import Groq
 from resume_to_json import load_text, build_parsed_json, groq_process_sections
+import subprocess
 
 # -------------------- CONFIG --------------------
 load_dotenv()
@@ -153,8 +154,96 @@ def calculate_transparency_score(resume_vec, job_vec, model):
     radar_scores = [sim_score * np.random.uniform(0.8, 1.1) for _ in weights]
     radar_scores = np.clip(radar_scores, 0, 1)
     transparency_score = sum(np.array(radar_scores) * list(weights.values())) / sum(weights.values())
+
     
     return transparency_score, sim_score, radar_scores
+# -------------------- GENERIC OPTIMIZED RESUME PDF GENERATOR --------------------
+import subprocess
+
+def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
+    """Generate a user-personalized ATS-optimized resume PDF (generic template)"""
+    try:
+        if not GROQ_API_KEY:
+            return None, "⚠️ Groq API key missing. Please set GROQ_API_KEY in .env."
+
+        client = Groq(api_key=GROQ_API_KEY)
+        prompt = f"""
+        You are an expert resume optimizer.
+        Rewrite the user's resume so that it best fits the target job description.
+        Keep structure: Summary, Skills, Experience, Projects, Education, Certifications.
+        Use professional tone and concise bullet points.
+        Return the rewritten body text in plain LaTeX-safe formatting (no preamble).
+
+        JOB DESCRIPTION:
+        {job_desc[:3000]}
+
+        USER RESUME DATA:
+        {json.dumps(resume_data, indent=2)[:7000]}
+
+        Output only the rewritten body content.
+        """
+
+        resp = client.chat.completions.create(
+            model="llama-3.1-8b-instant",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.25,
+        )
+        optimized_body = resp.choices[0].message.content.strip()
+
+        # === Generic LaTeX Template ===
+        latex_template = rf"""
+\documentclass[letterpaper,10pt]{{article}}
+\usepackage[T1]{{fontenc}}
+\usepackage[sfdefault]{{roboto}}
+\renewcommand{{\familydefault}}{{\sfdefault}}
+\usepackage[empty]{{fullpage}}
+\usepackage{{geometry}}
+\usepackage{{titlesec}}
+\usepackage{{hyperref}}
+\usepackage{{enumitem}}
+\usepackage{{fontawesome5}}
+
+\geometry{{left=0.6in, right=0.6in, top=0.5in, bottom=0.5in}}
+\linespread{{1.0}}
+\setlength{{\parindent}}{{0pt}}
+\setlength{{\parskip}}{{2pt}}
+\setlist[itemize]{{leftmargin=*, itemsep=1pt, topsep=1pt, parsep=0pt, partopsep=0pt}}
+\titleformat{{\section}}{{\bfseries\scshape\raggedright\large}}{{}}{{0em}}{{}}[\titlerule]
+\titlespacing*{{\section}}{{0pt}}{{5pt}}{{2pt}}
+\hypersetup{{colorlinks=true, urlcolor=black}}
+\pagestyle{{empty}}
+
+\begin{{document}}
+\begin{{center}}
+{{\LARGE \textbf{{{resume_data.get('name','Your Name')}}}}} \\
+\smallskip
+\faEnvelope~\href{{mailto:{resume_data.get('email','example@email.com')}}}{{{resume_data.get('email','example@email.com')}}} \quad
+\faMapMarker*~{resume_data.get('location','City, State')} \\
+\href{{{resume_data.get('linkedin','')}}}{{\faLinkedin\ LinkedIn}} \,
+\href{{{resume_data.get('github','')}}}{{\faGithub\ GitHub}}
+\end{{center}}
+\vspace{{0.3em}}
+
+{optimized_body}
+
+\end{{document}}
+"""
+
+        tex_path = f"outputs/{username}_{job_id}_optimized_resume.tex"
+        pdf_path = f"outputs/{username}_{job_id}_optimized_resume.pdf"
+
+        with open(tex_path, "w", encoding="utf-8") as f:
+            f.write(latex_template)
+
+        subprocess.run(
+            ["pdflatex", "-interaction=nonstopmode", "-output-directory", "outputs", tex_path],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+
+        return pdf_path, None
+    except Exception as e:
+        return None, f"⚠️ Error generating optimized PDF: {e}"
 
 # -------------------- LOGIN/SIGNUP SYSTEM --------------------
 def login_signup_page():
@@ -369,6 +458,28 @@ def show_transparency_report(job):
         }
     ))
     st.plotly_chart(gauge, use_container_width=True)
+
+         # -------------------- OPTIMIZED RESUME PDF SECTION --------------------
+    st.subheader("🧠 Optimized Resume for This Job")
+
+    with st.spinner("Generating job-tailored resume PDF..."):
+        pdf_path, error = generate_optimized_resume_pdf(resume_data, job['description'], st.session_state.username, job['id'])
+
+        if error:
+            st.error(error)
+        elif pdf_path and os.path.exists(pdf_path):
+            with open(pdf_path, "rb") as pdf_file:
+                st.download_button(
+                    "⬇️ Download Optimized Resume (PDF)",
+                    pdf_file,
+                    file_name=os.path.basename(pdf_path),
+                    mime="application/pdf"
+                )
+                st.success("✅ Optimized resume generated successfully!")
+                st.caption("This resume has been fine-tuned for this specific job posting.")
+        else:
+            st.warning("Resume generation failed. Please try again.")
+
 
 def apply_to_job(job_id):
     """Apply to a job"""
