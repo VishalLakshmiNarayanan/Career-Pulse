@@ -1,111 +1,105 @@
 {
-  "name": "Vlaksh16",
-  "email": "vlaksh16@asu.edu",
+  "name": "Lvishal1607",
+  "email": "lvishal1607@gmail.com",
   "parsed": {
-    "source_file": "Resume_LV.pdf",
-    "parsed_at": 1762386560,
-    "name": "Vlaksh16",
-    "email": "vlaksh16@asu.edu",
-    "phone": "+1480",
+    "source_file": "vishal_job_1_optimized_resume (1).pdf",
+    "parsed_at": 1763086440,
+    "name": "Lvishal1607",
+    "email": "lvishal1607@gmail.com",
+    "phone": "2",
     "sections": {
-      "vishal lakshmi narayanan": "+1-480-304-1340 | vlaksh16@asu.edu | LinkedIn | Github 711 W Broadway Rd,\nTempe, Arizona - 85282, United States",
-      "education": "-  Ira A. Fulton Schools of Engineering at Arizona State University Aug 2024 - Present\nMaster of Science in Data Science, Analytics and Engineering Tempe, Arizona\n\n-  Relevant Coursework: Data Processing at Scale, Statistical Learning for Pattern Recognition, Statistics for Data Analysts\n\n-  Vellore Institute of Technology Aug 2020 - May 2024\nBachelor of Technology in Computer Science and Engineering with specialization in AI and Machine Learning Chennai, India\n\n-  Relevant Coursework: Machine Learning Essentials, Deep Learning Principles, Malware Analysis in Data Science, Natural Language Processing ,",
-      "medical image processing": "",
-      "experience": "-  VIT Chennai and Global Health Research and Innovations Canada [ ] Dec 2022 - Aug 2023",
-      "research": "-  Conducted extensive research on the role of intelligent edge computing and AR/VR in achieving health care equity in the era of the Internet of Medical\nThings (IoMT)\n\n-  Utilized advanced research methodologies and data analysis techniques to conduct a systematic review of the literature, and assess the applications and\nchallenges of these technologies in the context of IoMT and digital health.\n\n-  AMRUTANJAN HealthCare ltd. [ ] May 2023 - July 2023",
-      "data analyst intern chennai, india": "-  Performed comprehensive data analysis on sales data from 2017 and 2018 utilizing advanced Machine Learning techniques.\n\n-  Identified and interpreted sales trends through sophisticated data visualization and classification methodologies.",
-      "publications": "",
-      "j=journa": "",
-      "l": "[J.1] Lakshminarayanan, Vishal et al. \u201cHealth Care Equity Through Intelligent Edge Computing and Augmented Reality/Virtual Reality: A Systematic\nReview.\u201d Journal of Multidisciplinary Healthcare vol. 16 2839-2859. 21 Sep. 2023, doi:10.2147/JMDH.S419923 [ ]",
-      "projects": "-  Diabetic Retinopathy Detection - Smartphone Fundoscopy Dec 2023 - May 2024\nFrameworks: EfficientNetB0 Model, Flask Framework\n\n-  Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to\nenhance diagnostic accuracy and efficiency.\n\n-  Addressed challenges in real-time data acquisition and image quality from smartphone fundoscopy.\n\n-  Emphasized the model\u2019s role in assisting, not replacing, healthcare professionals in clinical settings\n\n-  Network-Based Malware Detection Jan 2023 - May 2023",
-      "framework: tensorflow": "-  Collaboratively developed an efficient malware detection method using weighted k-means clustering and feature selection.\n\n-  Identified significant network traffic patterns and trained a machine learning classifier to distinguish between legitimate and malicious traffic.\n\n-  Achieved high detection rates with minimal false positives, outperforming state-of-the-art strategies and enhancing network security",
-      "skills": "-  Technical Skills: Python, SQL, Java, HTML, CSS, ReactJS, NodeJS\n\n-  Frameworks and Tools: NumPy, Pandas, Pytorch, TensorFlow, Scikit-Learn, Metasploit, Geopandas, Flask\n\n-  Data Science & Machine Learning: Deep Learning, Natural Language Processing, Malware Analysis\n\n-  Research Skills: Literature Review, Cross-Sectional Study Design, Data Interpretation, Scientific Writing\n\n-  Activities: Member of The Comedy Club during college, Member of Jai Hind Cricket Club - 5thDivision League of Tamil Nadu Cricket Association\n\n-  Interests: Video Editing, Music , Analysing Football Tactics",
-      "honors and awards": "-  Runner Up Feb 2023\nGIBots [ ]\n\n-  Runner-up At the \"HACKATHON - Machine Learning For Smart Applications\" in the Category \"Design To Action\"\n\n-  Recognized for exceptional creativity, problem-solving skills, and innovative use of machine learning in developing a smart application.",
-      "certifications": "-  TryHackMe: OWASP TOP 10- Understanding every OWASP vulnerability Nov 2022\n\n-  Google through Coursera: Operating Systems and You: Becoming a Power User Mar 2022"
+      "summary": "Highly motivated and detail-driven Data Scientist with a strong background in machine learning and data engineering.\nProvenexperienceindesigninganddeployingscalabledatapipelinesandinfrastructureformultimodalLargeLanguage\nModels(LLMs).SkilledinPython,R,andSQL,withexpertiseinNLP,recommendationsystems,andtimeseriesanalysis.\nProficientincloudcomputing,containerization,andCI/CDpipelines.",
+      "skills": "-  DataScience&MachineLearning: Python,R,Scikit-learn,TensorFlow,PyTorch,NLP,RecommendationSystems,LLM\nIntegration,TimeSeriesAnalysis,CausalInference,A/BTesting\n\n-  DataEngineering&Infrastructure:SQL,PySpark,Databricks,ApacheAirflow,MLflow,Docker,RESTAPIs,MySQL,PostgreSQL,SQLServer,SQLite,Supabase\n\n-  Data Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear\nOptimization(CPLEX),D3.js\n\n-  AdditionalProficiencies:Git,APIIntegration,n8nWorkflows,Julia,CI/CDpipelines",
+      "experience": "-  DataAnalystIntern,AmrutanjanHealthCareLtd.,Chennai,India(May2023-Jul2023)\n\u2013 DesignedanddeployedaPython-baseddemandforecastingpipeline,reducingmanualplanningeffortandimproving\nnext-yeardistributionaccuracyacross30+outlets.\n\u2013 LeveragedGeoPandastovisualizeandanalyzenationwidesalestrends(FY2022-23),uncoveringunderperforming\nregionsthatinformedstrategicmarketreallocation.\n\u2013 Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening\noperationalefficiencyacrossregionalunits.",
+      "projects": "-  SlideSageAI(Aug2025-Oct2025)\n\u2013 BuiltanAI-poweredlearningassistantinNext.js,TypeScript,andGroqLLMthattransformscomplexconceptsinto\nadaptiveexplainervideoswithinteractivecomprehensionquizzes.\n\u2013 Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing\nsystemperformanceandlow-latencyinference.\n\n-  MAILY-AIMailing&ScheduleAgent(May2025-Jun2025)\n\u2013 DevelopedanAI-drivenschedulingandmailingagentusingn8nautomationworkflowsandGroqLLMforseamless\ncross-platformcoordinationacrossGmail,Calendar,andSheets.\n\u2013 Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegenerationacrossdynamicschedulingscenarios.\n\n-  DiabeticRetinopathyDetection(Dec2023-May2024)\n\u2013 CreatedaFlask-baseddiagnosticplatformutilizingEfficientNetB0andOpenCVforAI-assistedretinaimageanalysis\nonlow-costdevices.\n\u2013 Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and\naccessibilityinlow-resourceclinicalsettings.",
+      "education": "M.S.,DataScience,Analytics&Engineering(Aug2024-May2026,Expected)ArizonaStateUniversity,Tempe,AZ\n\n-  Coursework: StatisticalML,BigDataAnalysis,DataMining,AppliedOptimization&LinearProgramming,CloudComputing\nB.Tech,ComputerScience(AI/ML)(Aug2020-May2024)VelloreInstituteofTechnology,Chennai,India\n\n-  Coursework:MachineLearning,DeepLearning&NeuralNetworks,ComputerVision,DatabaseManagementSystems",
+      "certifications": "",
+      "notapplicable": ""
     },
     "skills": [
-      "Technical Skills: Python",
-      "SQL",
-      "Java",
-      "HTML",
-      "CSS",
-      "ReactJS",
-      "NodeJS",
-      "Frameworks and Tools: NumPy",
-      "Pandas",
-      "Pytorch",
-      "TensorFlow",
+      "DataScience&MachineLearning: Python",
+      "R",
       "Scikit",
-      "Learn",
-      "Metasploit",
-      "Geopandas",
-      "Flask",
-      "Data Science & Machine Learning: Deep Learning",
-      "Natural Language Processing",
-      "Malware Analysis",
-      "Research Skills: Literature Review",
-      "Cross",
-      "Sectional Study Design",
-      "Data Interpretation",
-      "Scientific Writing",
-      "Activities: Member of The Comedy Club during college",
-      "Member of Jai Hind Cricket Club",
-      "5thDivision League of Tamil Nadu Cricket Association",
-      "Interests: Video Editing",
-      "Music",
-      "Analysing Football Tactics"
+      "learn",
+      "TensorFlow",
+      "PyTorch",
+      "NLP",
+      "RecommendationSystems",
+      "LLM",
+      "Integration",
+      "TimeSeriesAnalysis",
+      "CausalInference",
+      "A",
+      "BTesting",
+      "DataEngineering&Infrastructure:SQL",
+      "PySpark",
+      "Databricks",
+      "ApacheAirflow",
+      "MLflow",
+      "Docker",
+      "RESTAPIs",
+      "MySQL",
+      "PostgreSQL",
+      "SQLServer",
+      "SQLite",
+      "Supabase",
+      "Data Analytics & Visualization: Tableau",
+      "Power BI",
+      "Streamlit",
+      "Matplotlib",
+      "Seaborn",
+      "Excel",
+      "Statistical Modeling",
+      "Linear",
+      "Optimization(CPLEX)",
+      "D3.js",
+      "AdditionalProficiencies:Git",
+      "APIIntegration",
+      "n8nWorkflows",
+      "Julia",
+      "CI",
+      "CDpipelines"
     ],
     "links": [
-      "https://aiqod.com/",
-      "https://chennai.vit.ac.in/",
-      "https://coursera.org/share/d69d69e413238ac90fbf6fa17d848818",
-      "https://doi.org/10.2147/JMDH.S419923",
-      "https://github.com/VishalLakshmiNarayanan",
-      "https://tryhackme.com/VishalL/badges/owasp-10",
-      "https://www.amrutanjan.com/identity.html",
-      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
-      "mailto:youremail@example.com"
+      "mailto:lvishal1607@gmail.com"
     ]
   },
   "groq_result": {
     "normalized_sections": {
-      "vishal lakshmi narayanan": "Vishal Lakshmi Narayanan",
-      "education": "Education",
-      "medical image processing": "Medical Image Processing",
-      "experience": "Experience",
-      "research": "Research",
-      "data analyst intern chennai, india": "Data Analyst Intern, Chennai, India",
-      "publications": "Publications",
-      "j=journa": "Journal",
-      "l": "Journal of Multidisciplinary Healthcare",
-      "projects": "Projects",
-      "framework: tensorflow": "TensorFlow Framework",
-      "skills": "Technical Skills",
-      "honors and awards": "Honors and Awards",
-      "certifications": "Certifications"
+      "summary": "Highly motivated and detail-driven Data Scientist with a strong background in machine learning and data engineering. Proven experience in designing and deploying scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs). Skilled in Python, R, and SQL, with expertise in NLP, recommendations systems, and time series analysis. Proficient in cloud computing, containerization, and CI/CD pipelines.",
+      "skills": "-  Data Science & Machine Learning: Python, R, scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM Integration, Time Series Analysis, Causal Inference, A/B Testing\n\n-  Data Engineering & Infrastructure: SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQLite, Supabase\n\n-  Data Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js\n\n-  Additional Proficiencies: Git, API Integration, n8n Workflows, Julia, CI/CD pipelines",
+      "experience": "-  Data Analyst Intern, Amrutanjan Health Care Ltd., Chennai, India (May 2023 - Jul 2023)\n\u2013 Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving next-year distribution accuracy across 30+ outlets.\n\u2013 Leveraged GeoPandas to visualize and analyze nation-wide sale trends (FY 2022-23), uncovering underperforming regions that informed strategic market reallocation.\n\u2013 Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units.",
+      "projects": "-  SlideSage AI (Aug 2025 - Oct 2025)\n\u2013 Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into adaptive explainervideos with interactive comprehension quizzes.\n\u2013 Integrated Pexels API, shadcn/ui, and Tailwind CSS to create a visually rich and responsive interface emphasizing system performance and low-latency inference.\n\n-  MAILY-AI Mailing & Schedule Agent (May 2025 - Jun 2025)\n\u2013 Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless cross-platform coordination across Gmail, Calendar, and Sheets.\n\u2013 Focused on operational reliability, enabling consistent task handling, context retention, and adaptive response generation across dynamic scheduling scenarios.\n\n-  Diabetic Retinopathy Detection (Dec 2023 - May 2024)\n\u2013 Created a Flask-based diagnostic platform utilizing EfficientNet B0 and OpenCV for AI-assisted retina image analysis on low-cost devices.\n\u2013 Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.",
+      "education": "M.S., Data Science, Analytics & Engineering (Aug 2024 - May 2026, Expected) Arizona State University, Tempe, AZ\n\n-  Coursework: Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing\nB.Tech, Computer Science (AI/ML) (Aug 2020 - May 2024) Vellore Institute of Technology, Chennai, India\n\n-  Coursework: Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems",
+      "certifications": "",
+      "notapplicable": ""
     },
     "skills_from_experience": [
       "Python",
+      "R",
       "SQL",
-      "Java",
-      "Machine Learning",
-      "Data Analysis",
-      "Data Visualization",
-      "Classification",
-      "Flask Framework",
-      "EfficientNetB0 Model"
+      "GeoPandas",
+      "scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "NLP",
+      "Recommendation Systems",
+      "LLM",
+      "Time Series",
+      "Causal Inference",
+      "A/B Testing"
     ],
     "skills_from_projects": [
-      "Python",
-      "SQL",
-      "Java",
-      "Machine Learning",
-      "Data Analysis",
-      "Data Visualization",
-      "Classification",
-      "Flask Framework",
-      "EfficientNetB0 Model",
-      "TensorFlow"
+      "Next.js",
+      "TypeScript",
+      "Groq LLM",
+      "Pexels API",
+      "shadcn/ui",
+      "Tailwind CSS",
+      "n8n",
+      "Flask",
+      "OpenCV",
+      "EfficientNetB0"
     ],
     "skills_with_evidence": {
       "experience": [
@@ -114,231 +108,191 @@
           "sources": [
             0
           ],
-          "evidence": "Utilizing advanced Machine Learning techniques."
+          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
         },
         {
-          "skill": "SQL",
+          "skill": "GeoPandas",
           "sources": [
             0
           ],
-          "evidence": "Utilizing advanced Machine Learning techniques."
+          "evidence": "Leveraged GeoPandas to visualize and analyze nation-wide sale trends"
         },
         {
-          "skill": "Java",
+          "skill": "scikit-learn",
           "sources": [
             0
           ],
-          "evidence": "Utilizing advanced Machine Learning techniques."
-        },
-        {
-          "skill": "Machine Learning",
-          "sources": [
-            0
-          ],
-          "evidence": "Utilizing advanced Machine Learning techniques."
-        },
-        {
-          "skill": "Data Analysis",
-          "sources": [
-            0
-          ],
-          "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
-        },
-        {
-          "skill": "Data Visualization",
-          "sources": [
-            0
-          ],
-          "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
-        },
-        {
-          "skill": "Classification",
-          "sources": [
-            0
-          ],
-          "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
-        },
-        {
-          "skill": "Flask Framework",
-          "sources": [
-            0
-          ],
-          "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "EfficientNetB0 Model",
-          "sources": [
-            0
-          ],
-          "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        }
-      ],
-      "projects": [
-        {
-          "skill": "Python",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "SQL",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "Java",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "Machine Learning",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "Data Analysis",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "Data Visualization",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "Classification",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "Flask Framework",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
-        },
-        {
-          "skill": "EfficientNetB0 Model",
-          "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
-          ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
+          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
         },
         {
           "skill": "TensorFlow",
           "sources": [
-            1,
-            2,
-            3,
-            4,
-            5
+            0
           ],
-          "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
+          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
+        },
+        {
+          "skill": "PyTorch",
+          "sources": [
+            0
+          ],
+          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
+        },
+        {
+          "skill": "NLP",
+          "sources": [
+            0
+          ],
+          "evidence": "Skilled in NLP"
+        },
+        {
+          "skill": "Recommendation Systems",
+          "sources": [
+            0
+          ],
+          "evidence": "Skilled in Recommendation Systems"
+        },
+        {
+          "skill": "LLM",
+          "sources": [
+            0
+          ],
+          "evidence": "Proven experience in designing and deploying scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs)"
+        },
+        {
+          "skill": "Time Series",
+          "sources": [
+            0
+          ],
+          "evidence": "Skilled in Time Series analysis"
+        },
+        {
+          "skill": "Causal Inference",
+          "sources": [
+            0
+          ],
+          "evidence": "Skilled in Causal Inference"
+        },
+        {
+          "skill": "A/B Testing",
+          "sources": [
+            0
+          ],
+          "evidence": "Skilled in A/B Testing"
+        }
+      ],
+      "projects": [
+        {
+          "skill": "Next.js",
+          "sources": [
+            0
+          ],
+          "evidence": "Built an AI-powered learning assistant in Next.js"
+        },
+        {
+          "skill": "TypeScript",
+          "sources": [
+            0
+          ],
+          "evidence": "Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM"
+        },
+        {
+          "skill": "Groq LLM",
+          "sources": [
+            0
+          ],
+          "evidence": "Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM"
+        },
+        {
+          "skill": "Pexels API",
+          "sources": [
+            0
+          ],
+          "evidence": "Integrated Pexels API, shadcn/ui, and Tailwind CSS"
+        },
+        {
+          "skill": "shadcn/ui",
+          "sources": [
+            0
+          ],
+          "evidence": "Integrated Pexels API, shadcn/ui, and Tailwind CSS"
+        },
+        {
+          "skill": "Tailwind CSS",
+          "sources": [
+            0
+          ],
+          "evidence": "Integrated Pexels API, shadcn/ui, and Tailwind CSS"
+        },
+        {
+          "skill": "n8n",
+          "sources": [
+            1
+          ],
+          "evidence": "Developed an AI-driven scheduling and mailing agent using n8n automation workflows"
+        },
+        {
+          "skill": "Flask",
+          "sources": [
+            2
+          ],
+          "evidence": "Created a Flask-based diagnostic platform"
+        },
+        {
+          "skill": "OpenCV",
+          "sources": [
+            2
+          ],
+          "evidence": "Created a Flask-based diagnostic platform utilizing EfficientNet B0 and OpenCV"
+        },
+        {
+          "skill": "EfficientNet B0",
+          "sources": [
+            2
+          ],
+          "evidence": "Created a Flask-based diagnostic platform utilizing EfficientNet B0 and OpenCV"
         }
       ]
     },
     "background_roles_ranked": [
       {
         "role": "Data Scientist",
-        "score": 0.8,
-        "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
+        "score": 1.0,
+        "evidence": "Proven experience in designing and deploying scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs)"
       },
       {
         "role": "Machine Learning Engineer",
-        "score": 0.7,
-        "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
+        "score": 0.8,
+        "evidence": "Skilled in Python, R, and SQL, with expertise in NLP, recommendations systems, and time series analysis"
       },
       {
         "role": "Data Analyst",
         "score": 0.6,
-        "evidence": "Identified and interpreted sales trends through sophisticated data visualization and classification methodologies."
+        "evidence": "Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units"
       },
       {
         "role": "Data Engineer",
-        "score": 0.5,
-        "evidence": "Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
+        "score": 0.4,
+        "evidence": "Skilled in Data Engineering & Infrastructure"
       },
       {
         "role": "MLOps Engineer",
-        "score": 0.4,
-        "evidence": "Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to enhance diagnostic accuracy and efficiency."
+        "score": 0.2,
+        "evidence": "Skilled in CI/CD pipelines"
       }
     ],
-    "background_education": "Master of Science in Data Science, Analytics and Engineering from Ira A. Fulton Schools of Engineering at Arizona State University.",
+    "background_education": "M.S., Data Science, Analytics & Engineering (Aug 2024 - May 2026, Expected) Arizona State University, Tempe, AZ. Coursework includes Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, and Cloud Computing. B.Tech, Computer Science (AI/ML) (Aug 2020 - May 2024) Vellore Institute of Technology, Chennai, India. Coursework includes Machine Learning, Deep Learning & Neural Networks, Computer Vision, and Database Management Systems.",
     "links": [
-      "https://aiqod.com/",
-      "https://chennai.vit.ac.in/",
-      "https://coursera.org/share/d69d69e413238ac90fbf6fa17d848818",
-      "https://doi.org/10.2147/JMDH.S419923",
-      "https://github.com/VishalLakshmiNarayanan",
-      "https://tryhackme.com/Vishal/badges/owasp-10",
-      "https://www.amrutanjan.com/identity.html",
-      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/"
+      "mailto:lvishal1607@gmail.com"
     ]
   },
   "sections": {
-    "vishal lakshmi narayanan": "+1-480-304-1340 | vlaksh16@asu.edu | LinkedIn | Github 711 W Broadway Rd,\nTempe, Arizona - 85282, United States",
-    "education": "-  Ira A. Fulton Schools of Engineering at Arizona State University Aug 2024 - Present\nMaster of Science in Data Science, Analytics and Engineering Tempe, Arizona\n\n-  Relevant Coursework: Data Processing at Scale, Statistical Learning for Pattern Recognition, Statistics for Data Analysts\n\n-  Vellore Institute of Technology Aug 2020 - May 2024\nBachelor of Technology in Computer Science and Engineering with specialization in AI and Machine Learning Chennai, India\n\n-  Relevant Coursework: Machine Learning Essentials, Deep Learning Principles, Malware Analysis in Data Science, Natural Language Processing ,",
-    "medical image processing": "",
-    "experience": "-  VIT Chennai and Global Health Research and Innovations Canada [ ] Dec 2022 - Aug 2023",
-    "research": "-  Conducted extensive research on the role of intelligent edge computing and AR/VR in achieving health care equity in the era of the Internet of Medical\nThings (IoMT)\n\n-  Utilized advanced research methodologies and data analysis techniques to conduct a systematic review of the literature, and assess the applications and\nchallenges of these technologies in the context of IoMT and digital health.\n\n-  AMRUTANJAN HealthCare ltd. [ ] May 2023 - July 2023",
-    "data analyst intern chennai, india": "-  Performed comprehensive data analysis on sales data from 2017 and 2018 utilizing advanced Machine Learning techniques.\n\n-  Identified and interpreted sales trends through sophisticated data visualization and classification methodologies.",
-    "publications": "",
-    "j=journa": "",
-    "l": "[J.1] Lakshminarayanan, Vishal et al. \u201cHealth Care Equity Through Intelligent Edge Computing and Augmented Reality/Virtual Reality: A Systematic\nReview.\u201d Journal of Multidisciplinary Healthcare vol. 16 2839-2859. 21 Sep. 2023, doi:10.2147/JMDH.S419923 [ ]",
-    "projects": "-  Diabetic Retinopathy Detection - Smartphone Fundoscopy Dec 2023 - May 2024\nFrameworks: EfficientNetB0 Model, Flask Framework\n\n-  Developed and validated the EfficientNetB0 model for diabetic retinopathy detection and Utilized advanced machine learning techniques to\nenhance diagnostic accuracy and efficiency.\n\n-  Addressed challenges in real-time data acquisition and image quality from smartphone fundoscopy.\n\n-  Emphasized the model\u2019s role in assisting, not replacing, healthcare professionals in clinical settings\n\n-  Network-Based Malware Detection Jan 2023 - May 2023",
-    "framework: tensorflow": "-  Collaboratively developed an efficient malware detection method using weighted k-means clustering and feature selection.\n\n-  Identified significant network traffic patterns and trained a machine learning classifier to distinguish between legitimate and malicious traffic.\n\n-  Achieved high detection rates with minimal false positives, outperforming state-of-the-art strategies and enhancing network security",
-    "skills": "-  Technical Skills: Python, SQL, Java, HTML, CSS, ReactJS, NodeJS\n\n-  Frameworks and Tools: NumPy, Pandas, Pytorch, TensorFlow, Scikit-Learn, Metasploit, Geopandas, Flask\n\n-  Data Science & Machine Learning: Deep Learning, Natural Language Processing, Malware Analysis\n\n-  Research Skills: Literature Review, Cross-Sectional Study Design, Data Interpretation, Scientific Writing\n\n-  Activities: Member of The Comedy Club during college, Member of Jai Hind Cricket Club - 5thDivision League of Tamil Nadu Cricket Association\n\n-  Interests: Video Editing, Music , Analysing Football Tactics",
-    "honors and awards": "-  Runner Up Feb 2023\nGIBots [ ]\n\n-  Runner-up At the \"HACKATHON - Machine Learning For Smart Applications\" in the Category \"Design To Action\"\n\n-  Recognized for exceptional creativity, problem-solving skills, and innovative use of machine learning in developing a smart application.",
-    "certifications": "-  TryHackMe: OWASP TOP 10- Understanding every OWASP vulnerability Nov 2022\n\n-  Google through Coursera: Operating Systems and You: Becoming a Power User Mar 2022"
+    "summary": "Highly motivated and detail-driven Data Scientist with a strong background in machine learning and data engineering.\nProvenexperienceindesigninganddeployingscalabledatapipelinesandinfrastructureformultimodalLargeLanguage\nModels(LLMs).SkilledinPython,R,andSQL,withexpertiseinNLP,recommendationsystems,andtimeseriesanalysis.\nProficientincloudcomputing,containerization,andCI/CDpipelines.",
+    "skills": "-  DataScience&MachineLearning: Python,R,Scikit-learn,TensorFlow,PyTorch,NLP,RecommendationSystems,LLM\nIntegration,TimeSeriesAnalysis,CausalInference,A/BTesting\n\n-  DataEngineering&Infrastructure:SQL,PySpark,Databricks,ApacheAirflow,MLflow,Docker,RESTAPIs,MySQL,PostgreSQL,SQLServer,SQLite,Supabase\n\n-  Data Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear\nOptimization(CPLEX),D3.js\n\n-  AdditionalProficiencies:Git,APIIntegration,n8nWorkflows,Julia,CI/CDpipelines",
+    "experience": "-  DataAnalystIntern,AmrutanjanHealthCareLtd.,Chennai,India(May2023-Jul2023)\n\u2013 DesignedanddeployedaPython-baseddemandforecastingpipeline,reducingmanualplanningeffortandimproving\nnext-yeardistributionaccuracyacross30+outlets.\n\u2013 LeveragedGeoPandastovisualizeandanalyzenationwidesalestrends(FY2022-23),uncoveringunderperforming\nregionsthatinformedstrategicmarketreallocation.\n\u2013 Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening\noperationalefficiencyacrossregionalunits.",
+    "projects": "-  SlideSageAI(Aug2025-Oct2025)\n\u2013 BuiltanAI-poweredlearningassistantinNext.js,TypeScript,andGroqLLMthattransformscomplexconceptsinto\nadaptiveexplainervideoswithinteractivecomprehensionquizzes.\n\u2013 Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing\nsystemperformanceandlow-latencyinference.\n\n-  MAILY-AIMailing&ScheduleAgent(May2025-Jun2025)\n\u2013 DevelopedanAI-drivenschedulingandmailingagentusingn8nautomationworkflowsandGroqLLMforseamless\ncross-platformcoordinationacrossGmail,Calendar,andSheets.\n\u2013 Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegenerationacrossdynamicschedulingscenarios.\n\n-  DiabeticRetinopathyDetection(Dec2023-May2024)\n\u2013 CreatedaFlask-baseddiagnosticplatformutilizingEfficientNetB0andOpenCVforAI-assistedretinaimageanalysis\nonlow-costdevices.\n\u2013 Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and\naccessibilityinlow-resourceclinicalsettings.",
+    "education": "M.S.,DataScience,Analytics&Engineering(Aug2024-May2026,Expected)ArizonaStateUniversity,Tempe,AZ\n\n-  Coursework: StatisticalML,BigDataAnalysis,DataMining,AppliedOptimization&LinearProgramming,CloudComputing\nB.Tech,ComputerScience(AI/ML)(Aug2020-May2024)VelloreInstituteofTechnology,Chennai,India\n\n-  Coursework:MachineLearning,DeepLearning&NeuralNetworks,ComputerVision,DatabaseManagementSystems",
+    "certifications": "",
+    "notapplicable": ""
   }
 }

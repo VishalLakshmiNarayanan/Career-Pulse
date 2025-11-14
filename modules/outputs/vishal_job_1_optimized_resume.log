@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  5 NOV 2025 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.11.5)  13 NOV 2025 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -616,6 +616,11 @@ ii
 (C:\Users\efbvl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 )
 Package hyperref Info: Link coloring ON on input line 23.
+
+(C:\Users\efbvl\OneDrive\Desktop\Career Pulse\modules\outputs\vishal_job_1_opti
+mized_resume.out)
+(C:\Users\efbvl\OneDrive\Desktop\Career Pulse\modules\outputs\vishal_job_1_opti
+mized_resume.out)
 \@outlinefile=\write3
 \openout3 = `vishal_job_1_optimized_resume.out'.
 
@@ -653,28 +658,69 @@ n input line 29.
 
 Package hyperref Warning: Suppressing link with empty target on input line 30.
 
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \documentclass
+                   [12pt]{article}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \begin{document}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 34.
+(Font)              `T1/Roboto-LF/bold/n' on input line 38.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 34.
+(Font)              scaled to size 10.0pt on input line 38.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/sc' aliased to
-(Font)              `T1/Roboto-LF/bold/sc' on input line 34.
+(Font)              `T1/Roboto-LF/bold/sc' on input line 38.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/sc' will be
-(Font)              scaled to size 10.0pt on input line 34.
+(Font)              scaled to size 10.0pt on input line 38.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/sc' aliased to
-(Font)              `T1/Roboto-LF/bold/sc' on input line 34.
+(Font)              `T1/Roboto-LF/bold/sc' on input line 38.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/sc' will be
-(Font)              scaled to size 12.0pt on input line 34.
+(Font)              scaled to size 12.0pt on input line 38.
+
+Overfull \hbox (5.41478pt too wide) in paragraph at lines 42--46
+\T1/Roboto-LF/regular/n/10 te-gra-tion, Time Se-ries Anal-y-sis, Causal In-fer-
+ence, A/B Test-ing - Data En-gi-neer-ing & In-fras-truc-ture: SQL, PyS-park, Da
+tabricks,
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+Roboto-LF on input 
-line 39.
+line 50.
 (C:\Users\efbvl\AppData\Local\Programs\MiKTeX\tex/latex/roboto\ts1roboto-lf.fd
 File: TS1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' aliased to
-(Font)              `TS1/Roboto-LF/regular/n' on input line 39.
+(Font)              `TS1/Roboto-LF/regular/n' on input line 50.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 39.
+(Font)              scaled to size 10.0pt on input line 50.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' aliased to
+(Font)              `T1/Roboto-LF/regular/it' on input line 54.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 54.
+
+Overfull \vbox (35.61378pt too high) has occurred while \output is active []
+
+
 [1
 
 {C:/Users/efbvl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/efbv
@@ -700,28 +746,57 @@ anged.
 
 Package rerunfilecheck Info: Checksums for `vishal_job_1_optimized_resume.out':
 
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  3412634C83BA3BF7BCDBC5750E839D47;528.
- ) 
+(rerunfilecheck)             Before: 3412634C83BA3BF7BCDBC5750E839D47;528
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 36 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 13542 strings out of 474486
- 240321 string characters out of 5743755
- 1948542 words of memory out of 5000000
- 35667 multiletter control sequences out of 15000+600000
- 586426 words of font info for 52 fonts, out of 8000000 for 9000
+ 13552 strings out of 474486
+ 240822 string characters out of 5743755
+ 1945542 words of memory out of 5000000
+ 35672 multiletter control sequences out of 15000+600000
+ 591205 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,91p,515b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\efbvl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
-1000.pk><C:/Users/efbvl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontaw
-esome5/FontAwesome5Brands-Regular.pfb><C:/Users/efbvl/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/efbvl
-/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/Us
-ers/efbvl/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Regula
-r.pfb>
+ 75i,5n,91p,504b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section.6} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.3} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+ <C:\Users\efbvl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm10
+00.pk><C:/Users/efbvl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawes
+ome5/FontAwesome5Brands-Regular.pfb><C:/Users/efbvl/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/efbvl/A
+ppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Bold.pfb><C:/User
+s/efbvl/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Roboto-Italic.p
+fb><C:/Users/efbvl/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Robo
+to-Regular.pfb>
 Output written on "C:\Users\efbvl\OneDrive\Desktop\Career Pulse\modules\outputs
-\vishal_job_1_optimized_resume.pdf" (1 page, 107340 bytes).
+\vishal_job_1_optimized_resume.pdf" (1 page, 117115 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
