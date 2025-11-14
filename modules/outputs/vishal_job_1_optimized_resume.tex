@@ -1,89 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Career Pulse AI Resume Optimizer             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[letterpaper,10pt]{article}
-\usepackage[T1]{fontenc}
-\usepackage[sfdefault]{roboto}
-\renewcommand{\familydefault}{\sfdefault}
-\usepackage[empty]{fullpage}
-\usepackage{geometry}
-\usepackage{titlesec}
-\usepackage{hyperref}
-\usepackage{enumitem}
-\usepackage{fontawesome5}
-
-\geometry{left=0.6in, right=0.6in, top=0.5in, bottom=0.5in}
-\linespread{1.0}
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{2pt}
-\setlist[itemize]{leftmargin=*, itemsep=1pt, topsep=1pt, parsep=0pt, partopsep=0pt}
-\titleformat{\section}{\bfseries\scshape\raggedright\large}{}{0em}{}[\titlerule]
-\titlespacing*{\section}{0pt}{5pt}{2pt}
-\hypersetup{colorlinks=true, urlcolor=black}
-\pagestyle{empty}
-
-\begin{document}
-\begin{center}
-{\LARGE \textbf{Lvishal1607}} \\
-\smallskip
-\faEnvelope~\href{mailto:lvishal1607@gmail.com}{lvishal1607@gmail.com} \quad
-\faMapMarker*~City, State \\
-\href{}{\faLinkedin\ LinkedIn} \,
-\href{}{\faGithub\ GitHub}
-\end{center}
-\vspace{0.3em}
-
-\documentclass[12pt]{article}
+\documentclass{resume}
 
 \begin{document}
 
-\section*{Summary}
-Highly motivated and detail-driven Software Development Engineer with a strong background in machine learning and data engineering. Proven experience in designing and deploying scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs). Skilled in Python, R, and SQL, with expertise in NLP, recommendations systems, and time series analysis. Proficient in cloud computing, containerization, and CI/CD pipelines.
+% --------- Contact Information -----------
+\introduction[
+    fullname={Lvishal1607},
+    email={lvishal1607@gmail.com},
+    phone={123-456-7890},
+    linkedin={linkedin.com/in/yourprofile},
+    github={github.com/yourprofile}
+]
 
-\section*{Skills}
--  Data Science \& Machine Learning: Python, R, scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM Integration, Time Series Analysis, Causal Inference, A/B Testing
--  Data Engineering \& Infrastructure: SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQLite, Supabase
--  Data Analytics \& Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js
--  Additional Proficiencies: Git, API Integration, n8n Workflows, Julia, CI/CD pipelines
+% --------- Summary -----------
+\summary{Highly motivated and detail-oriented software developer with expertise in machine learning and data engineering. Proven track record of designing and deploying scalable data pipelines and infrastructure for multimodal LLM training. Skilled in programming languages such as Python, R, and SQL, with experience in data science and analytics tools like Tableau, Power BI, and Streamlit.}
 
-\section*{Experience}
--  Data Analyst Intern, Amrutanjan Health Care Ltd., Chennai, India (May 2023 - Jul 2023)
-  \begin{itemize}
-  \item Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving next-year distribution accuracy across 30+ outlets.
-  \item Leveraged GeoPandas to visualize and analyze nation-wide sale trends (FY 2022-23), uncovering underperforming regions that informed strategic market reallocation.
-  \item Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units.
-  \end{itemize}
--  Data Scientist, \emph{(Expected)} (Aug 2024 - May 2026)
-  \begin{itemize}
-  \item Designed and deployed scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs).
-  \item Collaborated with ML scientists to advance state-of-the-art multimodal capabilities.
-  \item Developed and maintained high-quality data foundation systems that enable efficient model development.
-  \end{itemize}
+% --------- Education ---------
+\begin{educationSection}{Education}
+    \educationItem[
+        university={Arizona State University},
+        college={},
+        graduation={Expected May 2026},
+        grade={},
+        program={M.S., Data Science, Analytics & Engineering},
+        coursework={Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing}
+    ]
+    \educationItem[
+        university={Vellore Institute of Technology},
+        college={},
+        graduation={May 2024},
+        grade={},
+        program={B.Tech, Computer Science (AI/ML)},
+        coursework={Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems}
+    ]
+\end{educationSection}
 
-\section*{Projects}
--  SlideSage AI (Aug 2025 - Oct 2025)
-  \begin{itemize}
-  \item Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into adaptive explainervideos with interactive comprehension quizzes.
-  \item Integrated Pexels API, shadcn/ui, and Tailwind CSS to create a visually rich and responsive interface emphasizing system performance and low-latency inference.
-  \end{itemize}
--  MAILY-AI Mailing \& Schedule Agent (May 2025 - Jun 2025)
-  \begin{itemize}
-  \item Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless cross-platform coordination across Gmail, Calendar, and Sheets.
-  \item Focused on operational reliability, enabling consistent task handling, context retention, and adaptive response generation across dynamic scheduling scenarios.
-  \end{itemize}
--  Diabetic Retinopathy Detection (Dec 2023 - May 2024)
-  \begin{itemize}
-  \item Created a Flask-based diagnostic platform utilizing EfficientNet B0 and OpenCV for AI-assisted retina image analysis on low-cost devices.
-  \item Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.
-  \end{itemize}
 
-\section*{Education}
-M.S., Data Science, Analytics \& Engineering (Aug 2024 - May 2026, Expected), Arizona State University, Tempe, AZ
--  Coursework: Statistical ML, Big Data Analysis, Data Mining, Applied Optimization \& Linear Programming, Cloud Computing
-B.Tech, Computer Science (AI/ML) (Aug 2020 - May 2024), Vellore Institute of Technology, Chennai, India
--  Coursework: Machine Learning, Deep Learning \& Neural Networks, Computer Vision, Database Management Systems
+% --------- Skills -----------
+\begin{skillsSection}{Technical Skills}
+    \skillItem[
+        category={Data Science & Machine Learning},
+        skills={Python, R, Scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM Integration, Time Series Analysis, Causal Inference, A/B Testing}
+    ] \\
+    \skillItem[
+        category={Data Engineering & Infrastructure},
+        skills={SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQL Server, SQLite, Supabase}
+    ] \\
+    \skillItem[
+        category={Data Analytics & Visualization},
+        skills={Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js}
+    ] \\
+    \skillItem[
+        category={Additional Proficiencies},
+        skills={Git, API Integration, n8n Workflows, Julia, CI/CD pipelines}
+    ] \\
+\end{skillsSection}
 
-\section*{Certifications}
-\emph{(None)}
 
-\end{document}
+% --------- Experience -----------
+\begin{experienceSection}{Professional Experience}
+    \experienceItem[
+        company={Amrutanjan HealthCare Ltd.},
+        location={Chennai, India},
+        position={Data Analyst Intern},
+        duration={May 2023 - Jul 2023}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving next-year distribution accuracy across 30+ outlets.
+        \item Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022-23), uncovering underperforming regions that informed strategic market reallocation.
+        \item Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units.
+    \end{itemize}
+
+\end{experienceSection}
+
+
+% --------- Projects -----------
+\begin{experienceSection}{Projects}
+    \projectItem[
+        title={SlideSage AI},
+        duration={Aug 2025 - Oct 2025},
+        keyHighlight={Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into adaptive explainer videos with interactive comprehension quizzes.}
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing system performance and low-latency inference.
+        \item Focused on operational reliability, enabling consistent task handling, context retention, and adaptive response generation across dynamic scheduling scenarios.
+    \end{itemize}
+
+    \projectItem[
+        title={MAILY - AI Mailing & Schedule Agent},
+        duration={May 2025 - Jun 2025},
+        keyHighlight={Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless cross-platform coordination across Gmail, Calendar, and Sheets.}
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Emphasized operational reliability, enabling consistent task handling, context retention, and adaptive response generation across dynamic scheduling scenarios.
+    \end{itemize}
+
+    \projectItem[
+        title={Diabetic Retinopathy Detection},
+        duration={Dec 2023 - May 2024},
+        keyHighlight={Created a Flask-based diagnostic platform utilizing EfficientNetB0 and OpenCV for AI-assisted retina image analysis on low-cost devices.}
+    ]
+    \begin{itemize}
+        \vspace{-0.5em}
+        \itemsep -6pt {}
+        \item Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.
+    \end{itemize}
+
+\end{experienceSection}
+
 
 \end{document}

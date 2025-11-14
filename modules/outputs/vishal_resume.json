@@ -2,45 +2,45 @@
   "name": "Lvishal1607",
   "email": "lvishal1607@gmail.com",
   "parsed": {
-    "source_file": "vishal_job_1_optimized_resume (1).pdf",
-    "parsed_at": 1763086440,
+    "source_file": "Vishal Resume.pdf",
+    "parsed_at": 1763088984,
     "name": "Lvishal1607",
     "email": "lvishal1607@gmail.com",
-    "phone": "2",
+    "phone": "+1480",
     "sections": {
-      "summary": "Highly motivated and detail-driven Data Scientist with a strong background in machine learning and data engineering.\nProvenexperienceindesigninganddeployingscalabledatapipelinesandinfrastructureformultimodalLargeLanguage\nModels(LLMs).SkilledinPython,R,andSQL,withexpertiseinNLP,recommendationsystems,andtimeseriesanalysis.\nProficientincloudcomputing,containerization,andCI/CDpipelines.",
-      "skills": "-  DataScience&MachineLearning: Python,R,Scikit-learn,TensorFlow,PyTorch,NLP,RecommendationSystems,LLM\nIntegration,TimeSeriesAnalysis,CausalInference,A/BTesting\n\n-  DataEngineering&Infrastructure:SQL,PySpark,Databricks,ApacheAirflow,MLflow,Docker,RESTAPIs,MySQL,PostgreSQL,SQLServer,SQLite,Supabase\n\n-  Data Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear\nOptimization(CPLEX),D3.js\n\n-  AdditionalProficiencies:Git,APIIntegration,n8nWorkflows,Julia,CI/CDpipelines",
-      "experience": "-  DataAnalystIntern,AmrutanjanHealthCareLtd.,Chennai,India(May2023-Jul2023)\n\u2013 DesignedanddeployedaPython-baseddemandforecastingpipeline,reducingmanualplanningeffortandimproving\nnext-yeardistributionaccuracyacross30+outlets.\n\u2013 LeveragedGeoPandastovisualizeandanalyzenationwidesalestrends(FY2022-23),uncoveringunderperforming\nregionsthatinformedstrategicmarketreallocation.\n\u2013 Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening\noperationalefficiencyacrossregionalunits.",
-      "projects": "-  SlideSageAI(Aug2025-Oct2025)\n\u2013 BuiltanAI-poweredlearningassistantinNext.js,TypeScript,andGroqLLMthattransformscomplexconceptsinto\nadaptiveexplainervideoswithinteractivecomprehensionquizzes.\n\u2013 Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing\nsystemperformanceandlow-latencyinference.\n\n-  MAILY-AIMailing&ScheduleAgent(May2025-Jun2025)\n\u2013 DevelopedanAI-drivenschedulingandmailingagentusingn8nautomationworkflowsandGroqLLMforseamless\ncross-platformcoordinationacrossGmail,Calendar,andSheets.\n\u2013 Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegenerationacrossdynamicschedulingscenarios.\n\n-  DiabeticRetinopathyDetection(Dec2023-May2024)\n\u2013 CreatedaFlask-baseddiagnosticplatformutilizingEfficientNetB0andOpenCVforAI-assistedretinaimageanalysis\nonlow-costdevices.\n\u2013 Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and\naccessibilityinlow-resourceclinicalsettings.",
-      "education": "M.S.,DataScience,Analytics&Engineering(Aug2024-May2026,Expected)ArizonaStateUniversity,Tempe,AZ\n\n-  Coursework: StatisticalML,BigDataAnalysis,DataMining,AppliedOptimization&LinearProgramming,CloudComputing\nB.Tech,ComputerScience(AI/ML)(Aug2020-May2024)VelloreInstituteofTechnology,Chennai,India\n\n-  Coursework:MachineLearning,DeepLearning&NeuralNetworks,ComputerVision,DatabaseManagementSystems",
-      "certifications": "",
-      "notapplicable": ""
+      "vishal lakshmi narayanan": "LinkedIn \u00a7 GitHub  Portfolio  Medium\n +1-480-304-1340 # lvishal1607@gmail.com + Tempe, AZ",
+      "education": "M.S., Data Science, Analytics & Engineering Aug 2024 \u2013 May 2026 (Expected)\nArizona State University, Tempe, AZ\n\n-  Coursework: Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing\nB.Tech, Computer Science (AI/ML) Aug 2020 \u2013 May 2024\nVellore Institute of Technology, Chennai, India\n\n-  Coursework: Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems",
+      "experience": "Data Analyst Intern May 2023 \u2013 Jul 2023\nAmrutanjan HealthCare Ltd., Chennai, India\n\n-  Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving\nnext-year distribution accuracy across 30+ outlets.\n\n-  Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022\u201323), uncovering underperforming regions\nthat informed strategic market reallocation.\n\n-  Delivereddata-backedinsightstosenioranalyticsstakeholders,guidinginventoryoptimizationandstrengtheningoperational\nefficiency across regional units.",
+      "research": "VIT Chennai & Global Health Research and Innovations Canada\n\n-  Conducted a systematic review on the integration of Intelligent Edge Computing and AR/VR for achieving equitable\nhealthcare within IoMT systems.\n\n-  Analyzed200+peer-reviewedstudiestoassesshowdistributededgeframeworksenhancelatency, privacy, andaffordability\nin digital health infrastructure.\n\n-  Proposed an applied architecture illustrating how edge-assisted diagnostics and AR-based collaboration can improve\nhealthcare access in resource-limited regions.",
+      "skills": "Data Science & Machine Learning: Python, R, Scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM\nIntegration, Time Series Analysis, Causal Inference, A/B Testing\nData Engineering & Infrastructure: SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQL Server, SQLite, Supabase\nData Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js\nAdditional Proficiencies: Git, API Integration, n8n Workflows, Julia, CI/CD pipelines",
+      "projects": "SlideSage AI \u00a7 GitHub Aug 2025 \u2013 Oct 2025\n\n-  Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into\nadaptive explainer videos with interactive comprehension quizzes.\n\n-  Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing system\nperformance and low-latency inference.\nMAILY \u2014 AI Mailing & Schedule Agent \u00a7 GitHub May 2025 \u2013 Jun 2025\n\n-  Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless\ncross-platform coordination across Gmail, Calendar, and Sheets.\n\n-  Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegeneration\nacross dynamic scheduling scenarios.\nDiabetic Retinopathy Detection Dec 2023 \u2013 May 2024\n\n-  Created a Flask-based diagnostic platform utilizing EfficientNetB0 and OpenCV for AI-assisted retina image analysis on\nlow-cost devices.\n\n-  Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.",
+      "publications": "-  Lakshminarayanan, V., et al. (2023). Health care equity via intelligent edge computing and AR/VR: a systematic\nreview. Journal of Multidisciplinary Healthcare, 16, 2839\u20132859. DOI:10.2147/JMDH.S419923"
     },
     "skills": [
-      "DataScience&MachineLearning: Python",
+      "Data Science & Machine Learning: Python",
       "R",
       "Scikit",
       "learn",
       "TensorFlow",
       "PyTorch",
       "NLP",
-      "RecommendationSystems",
+      "Recommendation Systems",
       "LLM",
       "Integration",
-      "TimeSeriesAnalysis",
-      "CausalInference",
+      "Time Series Analysis",
+      "Causal Inference",
       "A",
-      "BTesting",
-      "DataEngineering&Infrastructure:SQL",
+      "B Testing",
+      "Data Engineering & Infrastructure: SQL",
       "PySpark",
       "Databricks",
-      "ApacheAirflow",
+      "Apache Airflow",
       "MLflow",
       "Docker",
-      "RESTAPIs",
+      "REST APIs",
       "MySQL",
       "PostgreSQL",
-      "SQLServer",
+      "SQL Server",
       "SQLite",
       "Supabase",
       "Data Analytics & Visualization: Tableau",
@@ -50,44 +50,46 @@
       "Seaborn",
       "Excel",
       "Statistical Modeling",
-      "Linear",
-      "Optimization(CPLEX)",
+      "Linear Optimization (CPLEX)",
       "D3.js",
-      "AdditionalProficiencies:Git",
-      "APIIntegration",
-      "n8nWorkflows",
+      "Additional Proficiencies: Git",
+      "API Integration",
+      "n8n Workflows",
       "Julia",
       "CI",
-      "CDpipelines"
+      "CD pipelines"
     ],
     "links": [
+      "https://doi.org/10.2147/JMDH.S419923",
+      "https://github.com/VishalLakshmiNarayanan",
+      "https://github.com/VishalLakshmiNarayanan/SlideSage-v3",
+      "https://github.com/VishalLakshmiNarayanan/n8n",
+      "https://medium.com/@lvishal1607",
+      "https://vishallakshportfolio.vercel.app/",
+      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
       "mailto:lvishal1607@gmail.com"
     ]
   },
   "groq_result": {
     "normalized_sections": {
-      "summary": "Highly motivated and detail-driven Data Scientist with a strong background in machine learning and data engineering. Proven experience in designing and deploying scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs). Skilled in Python, R, and SQL, with expertise in NLP, recommendations systems, and time series analysis. Proficient in cloud computing, containerization, and CI/CD pipelines.",
-      "skills": "-  Data Science & Machine Learning: Python, R, scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM Integration, Time Series Analysis, Causal Inference, A/B Testing\n\n-  Data Engineering & Infrastructure: SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQLite, Supabase\n\n-  Data Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js\n\n-  Additional Proficiencies: Git, API Integration, n8n Workflows, Julia, CI/CD pipelines",
-      "experience": "-  Data Analyst Intern, Amrutanjan Health Care Ltd., Chennai, India (May 2023 - Jul 2023)\n\u2013 Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving next-year distribution accuracy across 30+ outlets.\n\u2013 Leveraged GeoPandas to visualize and analyze nation-wide sale trends (FY 2022-23), uncovering underperforming regions that informed strategic market reallocation.\n\u2013 Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units.",
-      "projects": "-  SlideSage AI (Aug 2025 - Oct 2025)\n\u2013 Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into adaptive explainervideos with interactive comprehension quizzes.\n\u2013 Integrated Pexels API, shadcn/ui, and Tailwind CSS to create a visually rich and responsive interface emphasizing system performance and low-latency inference.\n\n-  MAILY-AI Mailing & Schedule Agent (May 2025 - Jun 2025)\n\u2013 Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless cross-platform coordination across Gmail, Calendar, and Sheets.\n\u2013 Focused on operational reliability, enabling consistent task handling, context retention, and adaptive response generation across dynamic scheduling scenarios.\n\n-  Diabetic Retinopathy Detection (Dec 2023 - May 2024)\n\u2013 Created a Flask-based diagnostic platform utilizing EfficientNet B0 and OpenCV for AI-assisted retina image analysis on low-cost devices.\n\u2013 Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.",
-      "education": "M.S., Data Science, Analytics & Engineering (Aug 2024 - May 2026, Expected) Arizona State University, Tempe, AZ\n\n-  Coursework: Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing\nB.Tech, Computer Science (AI/ML) (Aug 2020 - May 2024) Vellore Institute of Technology, Chennai, India\n\n-  Coursework: Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems",
-      "certifications": "",
-      "notapplicable": ""
+      "LinkedIn \u00a7 GitHub  Portfolio  Medium": "LinkedIn, GitHub, Portfolio, Medium",
+      "education": "Education",
+      "experience": "Experience",
+      "research": "Research",
+      "skills": "Skills",
+      "projects": "Projects",
+      "publications": "Publications",
+      "vishal lakshmi narayanan": "LinkedIn \u00a7 GitHub  Portfolio  Medium\n +1-480-304-1340 # lvishal1607@gmail.com + Tempe, AZ"
     },
     "skills_from_experience": [
       "Python",
-      "R",
-      "SQL",
       "GeoPandas",
-      "scikit-learn",
-      "TensorFlow",
-      "PyTorch",
-      "NLP",
-      "Recommendation Systems",
-      "LLM",
-      "Time Series",
-      "Causal Inference",
-      "A/B Testing"
+      "SQL",
+      "PySpark",
+      "Apache Airflow",
+      "MLflow",
+      "Docker",
+      "REST APIs"
     ],
     "skills_from_projects": [
       "Next.js",
@@ -106,193 +108,102 @@
         {
           "skill": "Python",
           "sources": [
-            0
+            1
           ],
           "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
         },
         {
           "skill": "GeoPandas",
           "sources": [
-            0
+            2
           ],
-          "evidence": "Leveraged GeoPandas to visualize and analyze nation-wide sale trends"
+          "evidence": "Leveraged GeoPandas to visualize and analyze nationwide sales trends"
         },
         {
-          "skill": "scikit-learn",
+          "skill": "SQL",
           "sources": [
-            0
+            3
           ],
-          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
-        },
-        {
-          "skill": "TensorFlow",
-          "sources": [
-            0
-          ],
-          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
-        },
-        {
-          "skill": "PyTorch",
-          "sources": [
-            0
-          ],
-          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
-        },
-        {
-          "skill": "NLP",
-          "sources": [
-            0
-          ],
-          "evidence": "Skilled in NLP"
-        },
-        {
-          "skill": "Recommendation Systems",
-          "sources": [
-            0
-          ],
-          "evidence": "Skilled in Recommendation Systems"
-        },
-        {
-          "skill": "LLM",
-          "sources": [
-            0
-          ],
-          "evidence": "Proven experience in designing and deploying scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs)"
-        },
-        {
-          "skill": "Time Series",
-          "sources": [
-            0
-          ],
-          "evidence": "Skilled in Time Series analysis"
-        },
-        {
-          "skill": "Causal Inference",
-          "sources": [
-            0
-          ],
-          "evidence": "Skilled in Causal Inference"
-        },
-        {
-          "skill": "A/B Testing",
-          "sources": [
-            0
-          ],
-          "evidence": "Skilled in A/B Testing"
+          "evidence": "Delivered data-backed insights to senior analytics stakeholders"
         }
       ],
       "projects": [
         {
           "skill": "Next.js",
           "sources": [
-            0
+            4
           ],
           "evidence": "Built an AI-powered learning assistant in Next.js"
         },
         {
-          "skill": "TypeScript",
-          "sources": [
-            0
-          ],
-          "evidence": "Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM"
-        },
-        {
           "skill": "Groq LLM",
           "sources": [
-            0
+            4
           ],
-          "evidence": "Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM"
-        },
-        {
-          "skill": "Pexels API",
-          "sources": [
-            0
-          ],
-          "evidence": "Integrated Pexels API, shadcn/ui, and Tailwind CSS"
-        },
-        {
-          "skill": "shadcn/ui",
-          "sources": [
-            0
-          ],
-          "evidence": "Integrated Pexels API, shadcn/ui, and Tailwind CSS"
-        },
-        {
-          "skill": "Tailwind CSS",
-          "sources": [
-            0
-          ],
-          "evidence": "Integrated Pexels API, shadcn/ui, and Tailwind CSS"
-        },
-        {
-          "skill": "n8n",
-          "sources": [
-            1
-          ],
-          "evidence": "Developed an AI-driven scheduling and mailing agent using n8n automation workflows"
+          "evidence": "Built an AI-powered learning assistant in Next.js"
         },
         {
           "skill": "Flask",
           "sources": [
-            2
+            6
           ],
           "evidence": "Created a Flask-based diagnostic platform"
         },
         {
           "skill": "OpenCV",
           "sources": [
-            2
+            6
           ],
-          "evidence": "Created a Flask-based diagnostic platform utilizing EfficientNet B0 and OpenCV"
-        },
-        {
-          "skill": "EfficientNet B0",
-          "sources": [
-            2
-          ],
-          "evidence": "Created a Flask-based diagnostic platform utilizing EfficientNet B0 and OpenCV"
+          "evidence": "Created a Flask-based diagnostic platform"
         }
       ]
     },
     "background_roles_ranked": [
       {
         "role": "Data Scientist",
-        "score": 1.0,
-        "evidence": "Proven experience in designing and deploying scalable data pipelines and infrastructure for multimodal Large Language Models (LLMs)"
+        "score": 0.8,
+        "evidence": "Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving next-year distribution accuracy across 30+ outlets."
       },
       {
         "role": "Machine Learning Engineer",
-        "score": 0.8,
-        "evidence": "Skilled in Python, R, and SQL, with expertise in NLP, recommendations systems, and time series analysis"
+        "score": 0.6,
+        "evidence": "Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into adaptive explainer videos with interactive comprehension quizzes."
       },
       {
         "role": "Data Analyst",
-        "score": 0.6,
-        "evidence": "Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units"
+        "score": 0.4,
+        "evidence": "Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022\u201323), uncovering underperforming regions that informed strategic market reallocation."
       },
       {
         "role": "Data Engineer",
-        "score": 0.4,
-        "evidence": "Skilled in Data Engineering & Infrastructure"
+        "score": 0.2,
+        "evidence": "Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units."
       },
       {
-        "role": "MLOps Engineer",
-        "score": 0.2,
-        "evidence": "Skilled in CI/CD pipelines"
+        "role": "Applied Scientist",
+        "score": 0.1,
+        "evidence": "Conducted a systematic review on the integration of Intelligent Edge Computing and AR/VR for achieving equitable healthcare within IoMT systems."
       }
     ],
-    "background_education": "M.S., Data Science, Analytics & Engineering (Aug 2024 - May 2026, Expected) Arizona State University, Tempe, AZ. Coursework includes Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, and Cloud Computing. B.Tech, Computer Science (AI/ML) (Aug 2020 - May 2024) Vellore Institute of Technology, Chennai, India. Coursework includes Machine Learning, Deep Learning & Neural Networks, Computer Vision, and Database Management Systems.",
+    "background_education": "M.S., Data Science, Analytics & Engineering from Arizona State University, Tempe, AZ (Expected Aug 2024 \u2013 May 2026). B.Tech, Computer Science (AI/ML) from Vellore Institute of Technology, Chennai, India (Aug 2020 \u2013 May 2024). Coursework includes Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing, Machine Learning, Deep Learning & Neural Networks, Computer Vision, and Database Management Systems.",
     "links": [
+      "https://doi.org/10.2147/JMDH.S419923",
+      "https://github.com/VishalLakshmiNarayanan",
+      "https://github.com/VishalLakshmiNarayanan/SlideSage-v3",
+      "https://github.com/VishalLakshmiNarayanan/n8n",
+      "https://medium.com/@lvishal1607",
+      "https://vishallakshportfolio.vercel.app/",
+      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
       "mailto:lvishal1607@gmail.com"
     ]
   },
   "sections": {
-    "summary": "Highly motivated and detail-driven Data Scientist with a strong background in machine learning and data engineering.\nProvenexperienceindesigninganddeployingscalabledatapipelinesandinfrastructureformultimodalLargeLanguage\nModels(LLMs).SkilledinPython,R,andSQL,withexpertiseinNLP,recommendationsystems,andtimeseriesanalysis.\nProficientincloudcomputing,containerization,andCI/CDpipelines.",
-    "skills": "-  DataScience&MachineLearning: Python,R,Scikit-learn,TensorFlow,PyTorch,NLP,RecommendationSystems,LLM\nIntegration,TimeSeriesAnalysis,CausalInference,A/BTesting\n\n-  DataEngineering&Infrastructure:SQL,PySpark,Databricks,ApacheAirflow,MLflow,Docker,RESTAPIs,MySQL,PostgreSQL,SQLServer,SQLite,Supabase\n\n-  Data Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear\nOptimization(CPLEX),D3.js\n\n-  AdditionalProficiencies:Git,APIIntegration,n8nWorkflows,Julia,CI/CDpipelines",
-    "experience": "-  DataAnalystIntern,AmrutanjanHealthCareLtd.,Chennai,India(May2023-Jul2023)\n\u2013 DesignedanddeployedaPython-baseddemandforecastingpipeline,reducingmanualplanningeffortandimproving\nnext-yeardistributionaccuracyacross30+outlets.\n\u2013 LeveragedGeoPandastovisualizeandanalyzenationwidesalestrends(FY2022-23),uncoveringunderperforming\nregionsthatinformedstrategicmarketreallocation.\n\u2013 Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening\noperationalefficiencyacrossregionalunits.",
-    "projects": "-  SlideSageAI(Aug2025-Oct2025)\n\u2013 BuiltanAI-poweredlearningassistantinNext.js,TypeScript,andGroqLLMthattransformscomplexconceptsinto\nadaptiveexplainervideoswithinteractivecomprehensionquizzes.\n\u2013 Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing\nsystemperformanceandlow-latencyinference.\n\n-  MAILY-AIMailing&ScheduleAgent(May2025-Jun2025)\n\u2013 DevelopedanAI-drivenschedulingandmailingagentusingn8nautomationworkflowsandGroqLLMforseamless\ncross-platformcoordinationacrossGmail,Calendar,andSheets.\n\u2013 Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegenerationacrossdynamicschedulingscenarios.\n\n-  DiabeticRetinopathyDetection(Dec2023-May2024)\n\u2013 CreatedaFlask-baseddiagnosticplatformutilizingEfficientNetB0andOpenCVforAI-assistedretinaimageanalysis\nonlow-costdevices.\n\u2013 Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and\naccessibilityinlow-resourceclinicalsettings.",
-    "education": "M.S.,DataScience,Analytics&Engineering(Aug2024-May2026,Expected)ArizonaStateUniversity,Tempe,AZ\n\n-  Coursework: StatisticalML,BigDataAnalysis,DataMining,AppliedOptimization&LinearProgramming,CloudComputing\nB.Tech,ComputerScience(AI/ML)(Aug2020-May2024)VelloreInstituteofTechnology,Chennai,India\n\n-  Coursework:MachineLearning,DeepLearning&NeuralNetworks,ComputerVision,DatabaseManagementSystems",
-    "certifications": "",
-    "notapplicable": ""
+    "vishal lakshmi narayanan": "LinkedIn \u00a7 GitHub  Portfolio  Medium\n +1-480-304-1340 # lvishal1607@gmail.com + Tempe, AZ",
+    "education": "M.S., Data Science, Analytics & Engineering Aug 2024 \u2013 May 2026 (Expected)\nArizona State University, Tempe, AZ\n\n-  Coursework: Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing\nB.Tech, Computer Science (AI/ML) Aug 2020 \u2013 May 2024\nVellore Institute of Technology, Chennai, India\n\n-  Coursework: Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems",
+    "experience": "Data Analyst Intern May 2023 \u2013 Jul 2023\nAmrutanjan HealthCare Ltd., Chennai, India\n\n-  Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving\nnext-year distribution accuracy across 30+ outlets.\n\n-  Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022\u201323), uncovering underperforming regions\nthat informed strategic market reallocation.\n\n-  Delivereddata-backedinsightstosenioranalyticsstakeholders,guidinginventoryoptimizationandstrengtheningoperational\nefficiency across regional units.",
+    "research": "VIT Chennai & Global Health Research and Innovations Canada\n\n-  Conducted a systematic review on the integration of Intelligent Edge Computing and AR/VR for achieving equitable\nhealthcare within IoMT systems.\n\n-  Analyzed200+peer-reviewedstudiestoassesshowdistributededgeframeworksenhancelatency, privacy, andaffordability\nin digital health infrastructure.\n\n-  Proposed an applied architecture illustrating how edge-assisted diagnostics and AR-based collaboration can improve\nhealthcare access in resource-limited regions.",
+    "skills": "Data Science & Machine Learning: Python, R, Scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM\nIntegration, Time Series Analysis, Causal Inference, A/B Testing\nData Engineering & Infrastructure: SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQL Server, SQLite, Supabase\nData Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js\nAdditional Proficiencies: Git, API Integration, n8n Workflows, Julia, CI/CD pipelines",
+    "projects": "SlideSage AI \u00a7 GitHub Aug 2025 \u2013 Oct 2025\n\n-  Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into\nadaptive explainer videos with interactive comprehension quizzes.\n\n-  Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing system\nperformance and low-latency inference.\nMAILY \u2014 AI Mailing & Schedule Agent \u00a7 GitHub May 2025 \u2013 Jun 2025\n\n-  Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless\ncross-platform coordination across Gmail, Calendar, and Sheets.\n\n-  Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegeneration\nacross dynamic scheduling scenarios.\nDiabetic Retinopathy Detection Dec 2023 \u2013 May 2024\n\n-  Created a Flask-based diagnostic platform utilizing EfficientNetB0 and OpenCV for AI-assisted retina image analysis on\nlow-cost devices.\n\n-  Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.",
+    "publications": "-  Lakshminarayanan, V., et al. (2023). Health care equity via intelligent edge computing and AR/VR: a systematic\nreview. Journal of Multidisciplinary Healthcare, 16, 2839\u20132859. DOI:10.2147/JMDH.S419923"
   }
 }

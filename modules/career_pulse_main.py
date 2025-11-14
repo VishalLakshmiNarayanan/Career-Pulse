@@ -161,18 +161,17 @@ def calculate_transparency_score(resume_vec, job_vec, model):
 import subprocess
 
 def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
-    """Generate a user-personalized ATS-optimized resume PDF (generic template)"""
+    """Generate a user-personalized ATS-optimized resume PDF using custom resume class"""
     try:
         if not GROQ_API_KEY:
             return None, "⚠️ Groq API key missing. Please set GROQ_API_KEY in .env."
 
         client = Groq(api_key=GROQ_API_KEY)
-        prompt = f"""
+
+        # Get structured resume data from Groq
+        structure_prompt = f"""
         You are an expert resume optimizer.
-        Rewrite the user's resume so that it best fits the target job description.
-        Keep structure: Summary, Skills, Experience, Projects, Education, Certifications.
-        Use professional tone and concise bullet points.
-        Return the rewritten body text in plain LaTeX-safe formatting (no preamble).
+        Analyze the user's resume and the target job description, then create an optimized resume structure.
 
         JOB DESCRIPTION:
         {job_desc[:3000]}
@@ -180,60 +179,164 @@ def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
         USER RESUME DATA:
         {json.dumps(resume_data, indent=2)[:7000]}
 
-        Output only the rewritten body content.
+        Return a JSON with the following structure:
+        {{
+            "summary": "Professional summary optimized for the job (2-3 sentences)",
+            "skills": [
+                {{"category": "Category Name", "skills": "skill1, skill2, skill3"}},
+                ...
+            ],
+            "experience": [
+                {{
+                    "position": "Job Title",
+                    "company": "Company Name",
+                    "location": "Location",
+                    "duration": "Start - End",
+                    "achievements": ["Achievement 1", "Achievement 2", ...]
+                }},
+                ...
+            ],
+            "projects": [
+                {{
+                    "title": "Project Name",
+                    "duration": "Timeline",
+                    "highlight": "One-line highlight",
+                    "details": ["Detail 1", "Detail 2", ...]
+                }},
+                ...
+            ],
+            "education": [
+                {{
+                    "university": "University Name",
+                    "college": "Optional College Name",
+                    "program": "Degree Program",
+                    "graduation": "Graduation Date",
+                    "grade": "GPA",
+                    "coursework": "Relevant Coursework"
+                }},
+                ...
+            ]
+        }}
         """
 
         resp = client.chat.completions.create(
             model="llama-3.1-8b-instant",
-            messages=[{"role": "user", "content": prompt}],
+            messages=[{"role": "user", "content": structure_prompt}],
             temperature=0.25,
+            response_format={"type": "json_object"}
         )
-        optimized_body = resp.choices[0].message.content.strip()
 
-        # === Generic LaTeX Template ===
-        latex_template = rf"""
-\documentclass[letterpaper,10pt]{{article}}
-\usepackage[T1]{{fontenc}}
-\usepackage[sfdefault]{{roboto}}
-\renewcommand{{\familydefault}}{{\sfdefault}}
-\usepackage[empty]{{fullpage}}
-\usepackage{{geometry}}
-\usepackage{{titlesec}}
-\usepackage{{hyperref}}
-\usepackage{{enumitem}}
-\usepackage{{fontawesome5}}
+        optimized_structure = json.loads(resp.choices[0].message.content)
 
-\geometry{{left=0.6in, right=0.6in, top=0.5in, bottom=0.5in}}
-\linespread{{1.0}}
-\setlength{{\parindent}}{{0pt}}
-\setlength{{\parskip}}{{2pt}}
-\setlist[itemize]{{leftmargin=*, itemsep=1pt, topsep=1pt, parsep=0pt, partopsep=0pt}}
-\titleformat{{\section}}{{\bfseries\scshape\raggedright\large}}{{}}{{0em}}{{}}[\titlerule]
-\titlespacing*{{\section}}{{0pt}}{{5pt}}{{2pt}}
-\hypersetup{{colorlinks=true, urlcolor=black}}
-\pagestyle{{empty}}
+        # Build LaTeX resume using custom resume class
+        # Summary section
+        summary_tex = f"\\summary{{{optimized_structure.get('summary', '')}}}"
 
-\begin{{document}}
-\begin{{center}}
-{{\LARGE \textbf{{{resume_data.get('name','Your Name')}}}}} \\
-\smallskip
-\faEnvelope~\href{{mailto:{resume_data.get('email','example@email.com')}}}{{{resume_data.get('email','example@email.com')}}} \quad
-\faMapMarker*~{resume_data.get('location','City, State')} \\
-\href{{{resume_data.get('linkedin','')}}}{{\faLinkedin\ LinkedIn}} \,
-\href{{{resume_data.get('github','')}}}{{\faGithub\ GitHub}}
-\end{{center}}
-\vspace{{0.3em}}
+        # Education section
+        education_tex = "\\begin{educationSection}{Education}\n"
+        for edu in optimized_structure.get('education', []):
+            education_tex += f"""    \\educationItem[
+        university={{{edu.get('university', '')}}},
+        college={{{edu.get('college', '')}}},
+        graduation={{{edu.get('graduation', '')}}},
+        grade={{{edu.get('grade', '')}}},
+        program={{{edu.get('program', '')}}},
+        coursework={{{edu.get('coursework', '')}}}
+    ]
+"""
+        education_tex += "\\end{educationSection}\n"
 
-{optimized_body}
+        # Skills section
+        skills_tex = "\\begin{skillsSection}{Technical Skills}\n"
+        for skill in optimized_structure.get('skills', []):
+            skills_tex += f"""    \\skillItem[
+        category={{{skill.get('category', '')}}},
+        skills={{{skill.get('skills', '')}}}
+    ] \\\\\n"""
+        skills_tex += "\\end{skillsSection}\n"
 
-\end{{document}}
+        # Experience section
+        experience_tex = "\\begin{experienceSection}{Professional Experience}\n"
+        for exp in optimized_structure.get('experience', []):
+            experience_tex += f"""    \\experienceItem[
+        company={{{exp.get('company', '')}}},
+        location={{{exp.get('location', '')}}},
+        position={{{exp.get('position', '')}}},
+        duration={{{exp.get('duration', '')}}}
+    ]
+    \\begin{{itemize}}
+        \\itemsep -6pt {{}}
+"""
+            for achievement in exp.get('achievements', []):
+                experience_tex += f"        \\item {achievement}\n"
+            experience_tex += "    \\end{itemize}\n\n"
+        experience_tex += "\\end{experienceSection}\n"
+
+        # Projects section
+        projects_tex = ""
+        if optimized_structure.get('projects'):
+            projects_tex = "\\begin{experienceSection}{Projects}\n"
+            for proj in optimized_structure.get('projects', []):
+                projects_tex += f"""    \\projectItem[
+        title={{{proj.get('title', '')}}},
+        duration={{{proj.get('duration', '')}}},
+        keyHighlight={{{proj.get('highlight', '')}}}
+    ]
+    \\begin{{itemize}}
+        \\vspace{{-0.5em}}
+        \\itemsep -6pt {{}}
+"""
+                for detail in proj.get('details', []):
+                    projects_tex += f"        \\item {detail}\n"
+                projects_tex += "    \\end{itemize}\n\n"
+            projects_tex += "\\end{experienceSection}\n"
+
+        # === Custom Resume Class Template ===
+        latex_template = f"""%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Career Pulse AI Resume Optimizer             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\\documentclass{{resume}}
+
+\\begin{{document}}
+
+% --------- Contact Information -----------
+\\introduction[
+    fullname={{{resume_data.get('name', 'Your Name')}}},
+    email={{{resume_data.get('email', 'email@example.com')}}},
+    phone={{{resume_data.get('phone', '123-456-7890')}}},
+    linkedin={{{resume_data.get('linkedin', 'linkedin.com/in/yourprofile')}}},
+    github={{{resume_data.get('github', 'github.com/yourprofile')}}}
+]
+
+% --------- Summary -----------
+{summary_tex}
+
+% --------- Education ---------
+{education_tex}
+
+% --------- Skills -----------
+{skills_tex}
+
+% --------- Experience -----------
+{experience_tex}
+
+% --------- Projects -----------
+{projects_tex}
+
+\\end{{document}}
 """
 
         tex_path = f"outputs/{username}_{job_id}_optimized_resume.tex"
         pdf_path = f"outputs/{username}_{job_id}_optimized_resume.pdf"
+        log_path = f"outputs/{username}_{job_id}_optimized_resume.log"
 
         with open(tex_path, "w", encoding="utf-8") as f:
             f.write(latex_template)
+
+        # Log the generated structure for debugging
+        with open(log_path, "w", encoding="utf-8") as f:
+            f.write(json.dumps(optimized_structure, indent=2))
 
         subprocess.run(
             ["pdflatex", "-interaction=nonstopmode", "-output-directory", "outputs", tex_path],
@@ -458,6 +561,79 @@ def show_transparency_report(job):
         }
     ))
     st.plotly_chart(gauge, use_container_width=True)
+
+    # Formula breakdown
+    st.markdown("#### 🧮 Scoring Formula Breakdown")
+    for i, (criterion, score) in enumerate(zip(criteria, radar_scores)):
+        weight = [0.5, 0.3, 0.1, 0.1][i]
+        st.write(f"{criterion}: {score:.2f} × {weight:.2f} = {(score * weight):.2f}")
+    st.write(f"**Final Transparency Score = {transparency_score:.2f} (Weighted Avg)**")
+
+    # -------------------- GROQ AI TRANSPARENCY BREAKDOWN --------------------
+    if GROQ_API_KEY:
+        st.subheader("🤖 AI Transparency Breakdown (Groq)")
+
+        with st.spinner("Generating detailed AI analysis..."):
+            try:
+                client = Groq(api_key=GROQ_API_KEY)
+
+                analysis_prompt = f"""
+You are a career transparency coach.
+Compare this user's normalized resume and normalized job description.
+
+Resume:
+{resume_text}
+
+Job:
+{job_text}
+
+Output JSON:
+{{"match_summary":"Brief summary of how well the candidate matches the job", "strengths":["Strength 1", "Strength 2", "Strength 3"], "gaps":["Gap 1", "Gap 2"], "recommendations":["Recommendation 1", "Recommendation 2", "Recommendation 3"], "transparency_score":0.xx}}
+
+Provide actionable insights.
+"""
+
+                resp = client.chat.completions.create(
+                    model="llama-3.1-8b-instant",
+                    messages=[{"role": "user", "content": analysis_prompt}],
+                    temperature=0.3,
+                    response_format={"type": "json_object"}
+                )
+
+                report = json.loads(resp.choices[0].message.content)
+
+                # Display match summary
+                st.markdown("### 🧩 Match Summary")
+                st.info(report.get('match_summary', 'No summary available'))
+
+                # Display strengths
+                st.markdown("### ✅ Your Strengths")
+                for strength in report.get("strengths", []):
+                    st.write(f"- {strength}")
+
+                # Display gaps
+                st.markdown("### ⚠️ Potential Gaps")
+                for gap in report.get("gaps", []):
+                    st.write(f"- {gap}")
+
+                # Display recommendations
+                st.markdown("### 🎯 Recommendations")
+                for rec in report.get("recommendations", []):
+                    st.write(f"- {rec}")
+
+                # AI-estimated transparency score
+                if "transparency_score" in report:
+                    ai_score = report["transparency_score"]
+                    st.markdown("### 📊 AI-Estimated Transparency Score")
+                    st.progress(ai_score)
+                    st.caption(f"AI Score: **{ai_score * 100:.1f}%** | Your Match: **{transparency_score * 100:.1f}%**")
+
+            except Exception as e:
+                st.warning(f"⚠️ Groq analysis unavailable ({e}) — showing similarity results only.")
+    else:
+        st.info("💡 Groq API not configured. Set GROQ_API_KEY in .env for detailed AI analysis.")
+
+
 
          # -------------------- OPTIMIZED RESUME PDF SECTION --------------------
     st.subheader("🧠 Optimized Resume for This Job")
