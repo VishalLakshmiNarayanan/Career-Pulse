@@ -2,12 +2,12 @@
 <h3>AI-Powered Resume-Job Matching Platform with Semantic Transparency Scoring</h3>
 
 <p>
-Traditional ATS systems match keywords — they miss <b>transferable skills</b>, <b>semantic alignment</b>, and <b>role fit</b>.<br>
+Traditional ATS systems match keywords but miss <b>transferable skills</b>, <b>semantic alignment</b>, and <b>role fit</b>.<br>
 Career Pulse introduces a semantic intelligence layer that goes beyond keyword matching to measure <b>true job-candidate compatibility</b> using <b>LLM-powered normalization</b>, <b>sentence embeddings</b>, and <b>multi-criteria transparency scoring</b>.
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Python-3.10+-skyblue?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Streamlit-1.30+-red?style=for-the-badge&logo=streamlit"/>
   <img src="https://img.shields.io/badge/Groq-LLM-purple?style=for-the-badge"/>
@@ -24,7 +24,7 @@ Career Pulse solves a critical recruitment problem:
 
 This platform provides:
 
-- **For Job Seekers:** Instant transparency scores showing alignment across skills, experience, seniority, and domain — plus AI-generated job-specific resumes
+- **For Job Seekers:** Instant transparency scores showing alignment across skills, experience, seniority, and domain, plus AI-generated job-specific resumes
 - **For Recruiters:** Automated candidate ranking with semantic matching that finds qualified candidates even if they don't use exact job description terminology
 
 Built on a **dual-portal Streamlit architecture**, Career Pulse processes resumes in any format (PDF/DOCX/TXT), normalizes them using **Groq LLM**, computes **SBERT semantic embeddings**, and calculates **weighted transparency scores** to power both candidate discovery and recruiter efficiency.
@@ -53,40 +53,40 @@ Built on a **dual-portal Streamlit architecture**, Career Pulse processes resume
 │                    CAREER PULSE PLATFORM                    │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ┌─────────────────┐          ┌─────────────────┐          │
-│  │  Job Seeker     │          │   Recruiter     │          │
-│  │  Portal         │          │   Portal        │          │
-│  └────────┬────────┘          └────────┬────────┘          │
-│           │                            │                   │
-│           └──────────┬─────────────────┘                   │
-│                      │                                     │
-│         ┌────────────▼─────────────┐                       │
-│         │   Resume Parser          │                       │
-│         │   (PDF/DOCX/TXT)         │                       │
-│         └────────────┬─────────────┘                       │
-│                      │                                     │
-│         ┌────────────▼─────────────┐                       │
-│         │   Groq LLM Normalizer    │                       │
-│         │   (llama-3.1-8b-instant) │                       │
-│         └────────────┬─────────────┘                       │
-│                      │                                     │
-│         ┌────────────▼─────────────┐                       │
-│         │   SBERT Embedder         │                       │
-│         │   (all-MiniLM-L6-v2)     │                       │
-│         └────────────┬─────────────┘                       │
-│                      │                                     │
-│         ┌────────────▼─────────────┐                       │
-│         │  Transparency Scoring    │                       │
-│         │  (Weighted Cosine Sim)   │                       │
-│         └────────────┬─────────────┘                       │
-│                      │                                     │
-│         ┌────────────▼─────────────┐                       │
-│         │  Output Layer            │                       │
-│         │  • Rankings              │                       │
-│         │  • Reports (Plotly)      │                       │
-│         │  • LaTeX Resumes         │                       │
-│         │  • CSV Exports           │                       │
-│         └──────────────────────────┘                       │
+│  ┌─────────────────┐          ┌─────────────────┐           │
+│  │  Job Seeker     │          │   Recruiter     │           │
+│  │  Portal         │          │   Portal        │           │
+│  └────────┬────────┘          └────────┬────────┘           │
+│           │                            │                    │
+│           └──────────┬─────────────────┘                    │
+│                      │                                      │
+│         ┌────────────▼─────────────┐                        │
+│         │   Resume Parser          │                        │
+│         │   (PDF/DOCX/TXT)         │                        │
+│         └────────────┬─────────────┘                        │
+│                      │                                      │
+│         ┌────────────▼─────────────┐                        │
+│         │   Groq LLM Normalizer    │                        │
+│         │   (llama-3.1-8b-instant) │                        │
+│         └────────────┬─────────────┘                        │
+│                      │                                      │
+│         ┌────────────▼─────────────┐                        │
+│         │   SBERT Embedder         │                        │
+│         │   (all-MiniLM-L6-v2)     │                        │
+│         └────────────┬─────────────┘                        │
+│                      │                                      │
+│         ┌────────────▼─────────────┐                        │
+│         │  Transparency Scoring    │                        │
+│         │  (Weighted Cosine Sim)   │                        │
+│         └────────────┬─────────────┘                        │
+│                      │                                      │
+│         ┌────────────▼─────────────┐                        │
+│         │  Output Layer            │                        │
+│         │  • Rankings              │                        │ 
+│         │  • Reports (Plotly)      │                        │
+│         │  • LaTeX Resumes         │                        │
+│         │  • CSV Exports           │                        │
+│         └──────────────────────────┘                        │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -110,7 +110,7 @@ Built on a **dual-portal Streamlit architecture**, Career Pulse processes resume
 
 ### **2. LLM Normalization**
 - **Groq API** (llama-3.1-8b-instant, temp=0.2)
-- **Skill canonicalization** (TailwindCSS → Tailwind CSS)
+- **Skill canonicalization** (TailwindCSS to Tailwind CSS)
 - **Role ranking** with confidence scores
 - **Structured JSON output** (skills, seniority, domain)
 
@@ -144,26 +144,26 @@ Built on a **dual-portal Streamlit architecture**, Career Pulse processes resume
 
 ## Transparency Report Components
 
-### 🎯 **Match Analysis Dashboard**
+### **Match Analysis Dashboard**
 
 Each transparency report includes:
 
-1. **Overall Similarity Score** — Semantic cosine similarity (0-100%)
-2. **Weighted Transparency Score** — Multi-criteria composite metric
-3. **Radar Chart** — Visual breakdown across 4 factors
-4. **Gauge Visualization** — Composite score with color-coded ranges
-5. **Formula Breakdown** — Transparent calculation showing weights × scores
+1. **Overall Similarity Score**: Semantic cosine similarity (0-100%)
+2. **Weighted Transparency Score**: Multi-criteria composite metric
+3. **Radar Chart**: Visual breakdown across 4 factors
+4. **Gauge Visualization**: Composite score with color-coded ranges
+5. **Formula Breakdown**: Transparent calculation showing weights × scores
 6. **AI Insights** (Groq-powered):
-   - **Match Summary** — Brief compatibility assessment
-   - **Strengths** — Top 3 alignment areas
-   - **Gaps** — Missing qualifications
-   - **Recommendations** — Actionable improvement suggestions
+   - **Match Summary**: Brief compatibility assessment
+   - **Strengths**: Top 3 alignment areas
+   - **Gaps**: Missing qualifications
+   - **Recommendations**: Actionable improvement suggestions
 
 ---
 
 ## ATS Resume Generation
 
-### 🧠 **Job-Tailored Resume Pipeline**
+### **Job-Tailored Resume Pipeline**
 
 1. **Input:** User resume JSON + Target job description
 2. **Groq Processing:**
@@ -184,14 +184,14 @@ Each transparency report includes:
 
 ### **Job Seeker Workflow**
 ```
-Upload Resume → Parse & Normalize → Browse Jobs → View Transparency Report
-→ Generate Optimized Resume → Apply with Match Score
+Upload Resume > Parse & Normalize > Browse Jobs > View Transparency Report
+> Generate Optimized Resume > Apply with Match Score
 ```
 
 ### **Recruiter Workflow**
 ```
-Post Job → Receive Applications → Auto-Rank Candidates by Transparency Score
-→ View Detailed Metrics → Export Ranked CSV
+Post Job > Receive Applications > Auto-Rank Candidates by Transparency Score
+> View Detailed Metrics > Export Ranked CSV
 ```
 
 ---
@@ -321,7 +321,7 @@ Career Pulse/
 # 2. Normalizes via Groq (canonical skills, role ranking)
 # 3. Generates SBERT embeddings
 
-# Browse jobs → Click "View Transparency Report"
+# Browse jobs > Click "View Transparency Report"
 # Output:
 # • Overall Match: 78.3%
 # • Transparency Score: 82.1%
@@ -331,19 +331,19 @@ Career Pulse/
 
 ### **2. Job Seeker: Generate Optimized Resume**
 ```python
-# Select target job → Click "View Transparency Report"
+# Select target job > Click "View Transparency Report"
 # System generates job-tailored resume via Groq:
 # • Rewrites professional summary for role alignment
 # • Prioritizes relevant skills
 # • Restructures experience with role-specific achievements
-# • Compiles LaTeX → PDF
+# • Compiles LaTeX to PDF
 
 # Download: {username}_{jobid}_optimized_resume.pdf
 ```
 
 ### **3. Recruiter: Post Job & Rank Candidates**
 ```python
-# Recruiter Portal → Post Job
+# Recruiter Portal > Post Job
 job = {
     "title": "Senior ML Engineer",
     "company": "Tech Corp",
@@ -351,14 +351,14 @@ job = {
     "description": "Looking for ML engineer with production experience..."
 }
 
-# Candidates apply → Automatic ranking by transparency score
+# Candidates apply > Automatic ranking by transparency score
 # View Applications:
 # Rank | Candidate       | Email              | Match % | Transparency %
 # 1    | Alice Johnson   | alice@example.com  | 87.2    | 89.5
 # 2    | Bob Smith       | bob@example.com    | 82.1    | 85.3
 # 3    | Carol Lee       | carol@example.com  | 78.9    | 81.7
 
-# Export → applications_{jobid}.csv
+# Export > applications_{jobid}.csv
 ```
 
 ---
@@ -414,16 +414,16 @@ Final Score:              0.862 (86.2%)
 
 AI INSIGHTS (Groq)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-✅ Strengths:
+Strengths:
 • Strong Python/scikit-learn background with 4+ ML projects
 • Time series forecasting experience aligns with role needs
 • Tableau + Power BI proficiency matches visualization requirements
 
-⚠️ Gaps:
+Gaps:
 • Limited cloud deployment experience (AWS/GCP)
 • No explicit mention of A/B testing frameworks
 
-🎯 Recommendations:
+Recommendations:
 • Highlight any AWS/cloud projects in resume
 • Add certifications in cloud ML (SageMaker, Vertex AI)
 • Include A/B testing metrics from past projects
@@ -476,31 +476,3 @@ Contributions are welcome! Areas of interest:
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-## Acknowledgements
-
-- **Groq:** LLM API for semantic normalization
-- **Sentence-Transformers:** Pre-trained embedding models
-- **Streamlit:** Rapid web application framework
-- **LaTeX Community:** Resume template inspiration
-- **Mendeley Dataset:** Sample LinkedIn job postings (ai_ml_jobs_linkedin.csv)
-
----
-
-## Contact
-
-**Vishal Lakshmi Narayanan**
-📧 [Your Email]
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-🐙 [GitHub](https://github.com/VishalLakshmiNarayanan)
-
----
-
-<p align="center">
-  <b>Built with ❤️ for smarter hiring and better career matches</b>
-</p>
