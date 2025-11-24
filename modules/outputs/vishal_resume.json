@@ -2,208 +2,437 @@
   "name": "Lvishal1607",
   "email": "lvishal1607@gmail.com",
   "parsed": {
-    "source_file": "Vishal Resume.pdf",
-    "parsed_at": 1763088984,
+    "source_file": "resume_DS.pdf",
+    "parsed_at": 1764002604,
     "name": "Lvishal1607",
     "email": "lvishal1607@gmail.com",
-    "phone": "+1480",
+    "phone": "202",
     "sections": {
-      "vishal lakshmi narayanan": "LinkedIn \u00a7 GitHub  Portfolio  Medium\n +1-480-304-1340 # lvishal1607@gmail.com + Tempe, AZ",
-      "education": "M.S., Data Science, Analytics & Engineering Aug 2024 \u2013 May 2026 (Expected)\nArizona State University, Tempe, AZ\n\n-  Coursework: Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing\nB.Tech, Computer Science (AI/ML) Aug 2020 \u2013 May 2024\nVellore Institute of Technology, Chennai, India\n\n-  Coursework: Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems",
-      "experience": "Data Analyst Intern May 2023 \u2013 Jul 2023\nAmrutanjan HealthCare Ltd., Chennai, India\n\n-  Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving\nnext-year distribution accuracy across 30+ outlets.\n\n-  Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022\u201323), uncovering underperforming regions\nthat informed strategic market reallocation.\n\n-  Delivereddata-backedinsightstosenioranalyticsstakeholders,guidinginventoryoptimizationandstrengtheningoperational\nefficiency across regional units.",
-      "research": "VIT Chennai & Global Health Research and Innovations Canada\n\n-  Conducted a systematic review on the integration of Intelligent Edge Computing and AR/VR for achieving equitable\nhealthcare within IoMT systems.\n\n-  Analyzed200+peer-reviewedstudiestoassesshowdistributededgeframeworksenhancelatency, privacy, andaffordability\nin digital health infrastructure.\n\n-  Proposed an applied architecture illustrating how edge-assisted diagnostics and AR-based collaboration can improve\nhealthcare access in resource-limited regions.",
-      "skills": "Data Science & Machine Learning: Python, R, Scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM\nIntegration, Time Series Analysis, Causal Inference, A/B Testing\nData Engineering & Infrastructure: SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQL Server, SQLite, Supabase\nData Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js\nAdditional Proficiencies: Git, API Integration, n8n Workflows, Julia, CI/CD pipelines",
-      "projects": "SlideSage AI \u00a7 GitHub Aug 2025 \u2013 Oct 2025\n\n-  Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into\nadaptive explainer videos with interactive comprehension quizzes.\n\n-  Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing system\nperformance and low-latency inference.\nMAILY \u2014 AI Mailing & Schedule Agent \u00a7 GitHub May 2025 \u2013 Jun 2025\n\n-  Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless\ncross-platform coordination across Gmail, Calendar, and Sheets.\n\n-  Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegeneration\nacross dynamic scheduling scenarios.\nDiabetic Retinopathy Detection Dec 2023 \u2013 May 2024\n\n-  Created a Flask-based diagnostic platform utilizing EfficientNetB0 and OpenCV for AI-assisted retina image analysis on\nlow-cost devices.\n\n-  Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.",
-      "publications": "-  Lakshminarayanan, V., et al. (2023). Health care equity via intelligent edge computing and AR/VR: a systematic\nreview. Journal of Multidisciplinary Healthcare, 16, 2839\u20132859. DOI:10.2147/JMDH.S419923"
+      "vishal lakshmi narayanan": "480-304-1340 | lvishal1607@gmail.com | lvishal.com | GitHub | LinkedIn",
+      "education": "M.S.,DataScience,Analytics&Engineering,ArizonaStateUniversity ExpectedMay2026\nB.Tech,ComputerScience(AI/ML),VelloreInstituteofTechnology May2024",
+      "experience": "TECHNICALOFFICER Oct2025\u2014Present\nDevLabs\n\n-  Scaledparsingcapabilitiesfor676usersbyarchitectingaserverlesspipelineusingCloudflareAIandMongoDB.\n\n-  Enabledsemanticsearchfor100-resumebatchesbyprocessingtextdatainto384-dimensionalvectorembeddings.\n\n-  Achieved100%recordintegritybyengineeringautomatedingestionflowstoresolvemaintenancebottlenecks.\nDATAANALYSTINTERN May2023\u2014Jul2023\nAmrutanjanHealthCareLtd.\n\n-  Improveddemandforecastingaccuracyacross30+outletsbyengineeringanautomatedallocationpipeline.\n\n-  ReducedmanualplanningtimeforFY23\u201324byautomatinghistoricalsalesdataanalysisandreporting.\n\n-  IdentifiedunderperformingregionsforFY22\u201323strategybyanalyzingspatialtrendsusingGeoPandas.\n\n-  Optimizedregionalsalesperformanceacrossnationwidemarketsbyimplementingstatisticalmappingtovisualizedatatrends.\nRESEARCHINTERN Dec2022\u2014Aug2023\nVITChennai&GlobalHealthResearchandInnovationsCanada\n\n-  Evaluatedlatencyimpactsacross200+studiesbyconductingasystematicIoMTreviewofdecentralizedsystems.\n\n-  Proposedcost-efficientdiagnosticworkflowsforhealthcaresystemsbymodelingdecentralizedhealth-dataprocessingandedge\nshadows.",
+      "projects": "",
+      "tailrisk:risk-awaremlframework pypi |github": "TechStack:Python,Scikit-learn,CVaR/LaRLoss,Meta-learning,PyPI\n\n-  DevelopedandpublishedtheTailRiskpackageonPyPI,establishingaframeworkforpredictingextremeinsurancelosses.\n\n-  EngineeredaHybridMeta-LearnerarchitecturewithQuantileandLaRoptimizationtoovercometraditionalMSEmodelfailure.\n\n-  Achieveda10.25%reductioninCVaR(95%)anda3.21%dropin99th-percentileMSEinvalidationon69K+insuranceclaims.\n\n-  EnsuredproductionreadinessthroughfullScikit-learnAPIcompatibilityandautomatedGitHubActionstesting.",
+      "careerpulse:airesume\u2013jobmatching github": "TechStack:GroqLLM,SBERT,Streamlit,NLP,HuggingFace\n\n-  EngineeredasemanticmatchingsystemusingLLMnormalizationandSBERTembeddingswitha4-factorscoringalgorithm.\n\n-  Acceleratedrecruiterdecision-makingbyenablingcandidaterankingandCSVexportsthroughadedicatedrecruiterportal.\n\n-  ProvidedCandidateswithinstantprofilingbyengineeringautomatedtransparencyreportsandLaTeXresumeoptimization.",
+      "slidesageai:adaptivelearningassistant github": "TechStack:Next.js,TypeScript,GroqLLM,TailwindCSS\n\n-  Facilitatedpersonalizedconceptmasteryfor10+activeusersbyengineeringalow-latencyadaptivelearningplatform.\n\n-  Enabledreal-timegenerationoftailorededucationalvideosandinteractivequizzesusingNext.jsandGroqLLM.\n\n-  OptimizedinterfaceresponsivenessandmediarenderingspeedsbyintegratingPexelsAPIandTailwindCSS.",
+      "technicalskills": "Languages:ProficientinPython,SQL,R\nTechStack:PyTorch,TensorFlow,Scikit-learn,HuggingFace,NLP,TimeSeriesAnalysis,CausalInference,A/BTesting,StatisticalModeling,\nGCP,Docker,MongoDB,PostgreSQL,CloudflareAI,RESTAPIs,Git,CI/CD,Tableau,PowerBI,Streamlit",
+      "leadership&involvement": "-  ProvidedtechnicalguidanceanddebuggingexpertiseasaTechnicalMentorduringtheannualHackASUcompetitionFall2025\n\n-  Secured3Hackathonwins(includingPeople\u2019sChoiceatHackArizonav0.1)byengineeringscalable,user-centricsoftwaresolutions.\n\n-  Ledahands-onPortfolioWorkshop,empoweringstudentstodesignanddeployprofessionalwebsitesusingcodeandno-codetools.\n\n-  Developingasemester-longmachinelearningprojectasanactivememberoftheAISocietyatASU(Fall2025).",
+      "certifications": "-  GeminiforDataScientistsandAnalysts \u2013GoogleCloudSkillsBoost(Nov2025)\n\n-  AIAgentFundamentals \u2013Databricks(Sep2025)"
     },
-    "skills": [
-      "Data Science & Machine Learning: Python",
-      "R",
-      "Scikit",
-      "learn",
-      "TensorFlow",
-      "PyTorch",
-      "NLP",
-      "Recommendation Systems",
-      "LLM",
-      "Integration",
-      "Time Series Analysis",
-      "Causal Inference",
-      "A",
-      "B Testing",
-      "Data Engineering & Infrastructure: SQL",
-      "PySpark",
-      "Databricks",
-      "Apache Airflow",
-      "MLflow",
-      "Docker",
-      "REST APIs",
-      "MySQL",
-      "PostgreSQL",
-      "SQL Server",
-      "SQLite",
-      "Supabase",
-      "Data Analytics & Visualization: Tableau",
-      "Power BI",
-      "Streamlit",
-      "Matplotlib",
-      "Seaborn",
-      "Excel",
-      "Statistical Modeling",
-      "Linear Optimization (CPLEX)",
-      "D3.js",
-      "Additional Proficiencies: Git",
-      "API Integration",
-      "n8n Workflows",
-      "Julia",
-      "CI",
-      "CD pipelines"
-    ],
+    "skills": [],
     "links": [
-      "https://doi.org/10.2147/JMDH.S419923",
+      "https://credentials.databricks.com/3c81b547-1237-4332-8e42-4ac99621441f",
       "https://github.com/VishalLakshmiNarayanan",
       "https://github.com/VishalLakshmiNarayanan/SlideSage-v3",
-      "https://github.com/VishalLakshmiNarayanan/n8n",
-      "https://medium.com/@lvishal1607",
-      "https://vishallakshportfolio.vercel.app/",
-      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
+      "https://github.com/VishalLakshmiNarayanan/TailriskLib",
+      "https://github.com/VishalLakshmiNarayanan/career-pulse",
+      "https://pypi.org/project/tailrisk/",
+      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324",
+      "https://www.lvishal.com",
+      "https://www.skills.google/public_profiles/88828cfd-2add-4cf1-b27c-e7ce77848f50/badges/20406917?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
       "mailto:lvishal1607@gmail.com"
     ]
   },
   "groq_result": {
     "normalized_sections": {
-      "LinkedIn \u00a7 GitHub  Portfolio  Medium": "LinkedIn, GitHub, Portfolio, Medium",
-      "education": "Education",
-      "experience": "Experience",
-      "research": "Research",
-      "skills": "Skills",
-      "projects": "Projects",
-      "publications": "Publications",
-      "vishal lakshmi narayanan": "LinkedIn \u00a7 GitHub  Portfolio  Medium\n +1-480-304-1340 # lvishal1607@gmail.com + Tempe, AZ"
+      "vishal lakshmi narayanan": "480-304-1340 | lvishal1607@gmail.com | lvishal.com | GitHub | LinkedIn",
+      "education": "M.S. in Data Science, Analytics & Engineering, Arizona State University (Expected May 2026)\nB.Tech in Computer Science (AI/ML), Vellore Institute of Technology (May 2024)",
+      "experience": "TECHNICAL OFFICER (Oct 2025\u2014Present)\nDevLabs\n\n- Scaled parsing capabilities for 676 users by architecting a serverless pipeline using Cloudflare AI and MongoDB.\n\n- Enabled semantic search for 100-resume batches by processing text data into 384-dimensional vector embeddings.\n\n- Achieved 100% record integrity by engineering automated ingestion flow to solve maintenance bottlenecks.\n\nDATA ANALYST INTERN (May 2023\u2014Jul 2023)\nAmrutanjan Health Care Ltd.\n\n- Improved demand forecasting accuracy across 30+ outlets by engineering an automated allocation pipeline.\n\n- Reduced manual planning time for FY 23\u201324 by automating historical sales data analysis and reporting.\n\n- Identified underperforming regions for FY 22\u201323 strategy by analyzing spatial trends using GeoPandas.\n\n- Optimized regional sales performance across nation-wide markets by implementing statistical mapping to visualize data trends.\n\nRESEARCH INTERN (Dec 2022\u2014Aug 2023)\nVIT Chennai & Global Health Research and Innovations Canada\n\n- Evaluated latency impacts across 200+ studies by conducting a systematic IoMT review of decentralized systems.\n\n- Proposed cost-efficient diagnostic workflows for healthcare systems by modeling decentralized health-data processing and edge shadows.",
+      "experience_items": [
+        "TECHNICAL OFFICER (Oct 2025\u2014Present)\nDevLabs",
+        "Scaled parsing capabilities for 676 users by architecting a serverless pipeline using Cloudflare AI and MongoDB.",
+        "Enabled semantic search for 100-resume batches by processing text data into 384-dimensional vector embeddings.",
+        "Achieved 100% record integrity by engineering automated ingestion flow to solve maintenance bottlenecks.",
+        "DATA ANALYST INTERN (May 2023\u2014Jul 2023)\nAmrutanjan Health Care Ltd.",
+        "Improved demand forecasting accuracy across 30+ outlets by engineering an automated allocation pipeline.",
+        "Reduced manual planning time for FY 23\u201324 by automating historical sales data analysis and reporting.",
+        "Identified underperforming regions for FY 22\u201323 strategy by analyzing spatial trends using GeoPandas.",
+        "Optimized regional sales performance across nation-wide markets by implementing statistical mapping to visualize data trends.",
+        "RESEARCH INTERN (Dec 2022\u2014Aug 2023)\nVIT Chennai & Global Health Research and Innovations Canada",
+        "Evaluated latency impacts across 200+ studies by conducting a systematic IoMT review of decentralized systems.",
+        "Proposed cost-efficient diagnostic workflows for healthcare systems by modeling decentralized health-data processing and edge shadows."
+      ],
+      "projects": "",
+      "tailrisk:risk-aware ml framework pypi |github": "Tech Stack: Python, Scikit-learn, CVaR/LaR Loss, Meta-learning, PyPI\n\n- Developed and published the TailRisk package on PyPI, establishing a framework for predicting extreme insurance losses.\n\n- Engineered a Hybrid Meta-Learner architecture with Quantile and LaR optimization to overcome traditional MSE model failure.\n\n- Achieved a 10.25% reduction in CVaR (95%) and a 3.21% drop in 99th-percentile MSE invalidation on 69K+ insurance claims.\n\n- Ensured production readiness through full Scikit-learn API compatibility and automated GitHub Actions testing.",
+      "careerpulse:airesume\u2013jobmatching github": "Tech Stack: Groq LLM, SBERT, Streamlit, NLP, Hugging Face\n\n- Engineered a semantic matching system using LLM normalization and SBERT embeddings with a 4-factor scoring algorithm.\n\n- Accelerated recruiter decision-making by enabling candidate ranking and CSV export through a dedicated recruiter portal.\n\n- Provided candidates with instant profiling by engineering automated transparency reports and LaTeX resume optimization.",
+      "slidesageai:adaptivelearningassistant github": "Tech Stack: Next.js, TypeScript, Groq LLM, Tailwind CSS\n\n- Facilitated personalized concept mastery for 10+ active users by engineering a low-latency adaptive learning platform.\n\n- Enabled real-time generation of tailored educational videos and interactive quizzes using Next.js and Groq LLM.\n\n- Optimized interface responsiveness and media rendering speeds by integrating Pexels API and Tailwind CSS.",
+      "technicalskills": "Languages: Proficient in Python, SQL, R\nTech Stack: PyTorch, TensorFlow, Scikit-learn, Hugging Face, NLP, Time Series Analysis, Causal Inference, A/B Testing, Statistical Modeling,\nGCP, Docker, MongoDB, PostgreSQL, Cloudflare AI, REST APIs, Git, CI/CD, Tableau, Power BI, Streamlit",
+      "leadership&involvement": "- Provided technical guidance and debugging expertise as a Technical Mentor during the annual HackASU competition (Fall 2025)\n\n- Secured 3 Hackathon wins (including People\u2019s Choice at Hack Arizona v0.1) by engineering scalable, user-centric software solutions.\n\n- Led a hands-on Portfolio Workshop, empowering students to design and deploy professional websites using code and no-code tools.\n\n- Developing a semester-long machine learning project as an active member of the AISociety at ASU (Fall 2025).",
+      "certifications": "- Gemin for Data Scientists and Analysts \u2013 Google Cloud Skills Boost (Nov 2025)\n\n- AIAgent Fundamentals \u2013 Databricks (Sep 2025)",
+      "tailrisk:risk-awaremlframework pypi |github": "TechStack:Python,Scikit-learn,CVaR/LaRLoss,Meta-learning,PyPI\n\n-  DevelopedandpublishedtheTailRiskpackageonPyPI,establishingaframeworkforpredictingextremeinsurancelosses.\n\n-  EngineeredaHybridMeta-LearnerarchitecturewithQuantileandLaRoptimizationtoovercometraditionalMSEmodelfailure.\n\n-  Achieveda10.25%reductioninCVaR(95%)anda3.21%dropin99th-percentileMSEinvalidationon69K+insuranceclaims.\n\n-  EnsuredproductionreadinessthroughfullScikit-learnAPIcompatibilityandautomatedGitHubActionstesting."
     },
     "skills_from_experience": [
-      "Python",
+      "Cloudflare AI",
+      "MongoDB",
+      "Semantic Search",
+      "Serverless Pipeline",
+      "Automated Ingestion Flow",
       "GeoPandas",
-      "SQL",
-      "PySpark",
-      "Apache Airflow",
-      "MLflow",
-      "Docker",
-      "REST APIs"
-    ],
-    "skills_from_projects": [
+      "Statistical Mapping",
+      "CVaR",
+      "LaR Loss",
+      "Meta-learning",
+      "Scikit-learn",
+      "Quantile",
+      "LaR Optimization",
+      "MSE",
+      "PyPI",
+      "GitHub Actions",
+      "Streamlit",
+      "NLP",
+      "Hugging Face",
+      "Groq LLM",
+      "SBERT",
+      "LLM Normalization",
+      "SBERT Embeddings",
+      "4-Factor Scoring Algorithm",
       "Next.js",
       "TypeScript",
-      "Groq LLM",
-      "Pexels API",
-      "shadcn/ui",
       "Tailwind CSS",
-      "n8n",
-      "Flask",
-      "OpenCV",
-      "EfficientNetB0"
+      "Pexels API",
+      "CI/CD",
+      "Tableau",
+      "Power BI",
+      "GCP",
+      "Docker",
+      "REST APIs",
+      "Git",
+      "PyTorch",
+      "TensorFlow",
+      "Time Series Analysis",
+      "Causal Inference",
+      "A/B Testing",
+      "Statistical Modeling"
     ],
+    "skills_from_projects": [],
     "skills_with_evidence": {
       "experience": [
         {
-          "skill": "Python",
+          "skill": "Cloudflare AI",
+          "sources": [
+            0
+          ],
+          "evidence": "architecting a serverless pipeline using Cloudflare AI and MongoDB."
+        },
+        {
+          "skill": "Semantic Search",
           "sources": [
             1
           ],
-          "evidence": "Designed and deployed a Python-based demand forecasting pipeline"
+          "evidence": "processing text data into 384-dimensional vector embeddings."
+        },
+        {
+          "skill": "Automated Ingestion Flow",
+          "sources": [
+            2
+          ],
+          "evidence": "engineering automated ingestion flow to solve maintenance bottlenecks."
         },
         {
           "skill": "GeoPandas",
           "sources": [
-            2
+            6
           ],
-          "evidence": "Leveraged GeoPandas to visualize and analyze nationwide sales trends"
+          "evidence": "analyzing spatial trends using GeoPandas."
         },
         {
-          "skill": "SQL",
+          "skill": "Statistical Mapping",
+          "sources": [
+            7
+          ],
+          "evidence": "implementing statistical mapping to visualize data trends."
+        },
+        {
+          "skill": "CVaR",
           "sources": [
             3
           ],
-          "evidence": "Delivered data-backed insights to senior analytics stakeholders"
-        }
-      ],
-      "projects": [
+          "evidence": "10.25% reduction in CVaR (95%)"
+        },
         {
-          "skill": "Next.js",
+          "skill": "LaR Loss",
+          "sources": [
+            3
+          ],
+          "evidence": "3.21% drop in 99th-percentile MSE invalidation on 69K+ insurance claims."
+        },
+        {
+          "skill": "Meta-learning",
+          "sources": [
+            3
+          ],
+          "evidence": "overcoming traditional MSE model failure."
+        },
+        {
+          "skill": "Scikit-learn",
+          "sources": [
+            3
+          ],
+          "evidence": "full Scikit-learn API compatibility."
+        },
+        {
+          "skill": "Quantile",
+          "sources": [
+            3
+          ],
+          "evidence": "Quantile and LaR optimization."
+        },
+        {
+          "skill": "LaR Optimization",
+          "sources": [
+            3
+          ],
+          "evidence": "Quantile and LaR optimization."
+        },
+        {
+          "skill": "MSE",
+          "sources": [
+            3
+          ],
+          "evidence": "99th-percentile MSE invalidation on 69K+ insurance claims."
+        },
+        {
+          "skill": "PyPI",
+          "sources": [
+            3
+          ],
+          "evidence": "published the TailRisk package on PyPI."
+        },
+        {
+          "skill": "GitHub Actions",
+          "sources": [
+            3
+          ],
+          "evidence": "automated GitHub Actions testing."
+        },
+        {
+          "skill": "Streamlit",
           "sources": [
             4
           ],
-          "evidence": "Built an AI-powered learning assistant in Next.js"
+          "evidence": "enabling candidate ranking and CSV export through a dedicated recruiter portal."
+        },
+        {
+          "skill": "NLP",
+          "sources": [
+            4
+          ],
+          "evidence": "semantic matching system using LLM normalization and SBERT embeddings."
+        },
+        {
+          "skill": "Hugging Face",
+          "sources": [
+            4
+          ],
+          "evidence": "semantic matching system using LLM normalization and SBERT embeddings."
         },
         {
           "skill": "Groq LLM",
           "sources": [
             4
           ],
-          "evidence": "Built an AI-powered learning assistant in Next.js"
+          "evidence": "semantic matching system using LLM normalization and SBERT embeddings."
         },
         {
-          "skill": "Flask",
+          "skill": "SBERT",
           "sources": [
-            6
+            4
           ],
-          "evidence": "Created a Flask-based diagnostic platform"
+          "evidence": "semantic matching system using LLM normalization and SBERT embeddings."
         },
         {
-          "skill": "OpenCV",
+          "skill": "LLM Normalization",
           "sources": [
-            6
+            4
           ],
-          "evidence": "Created a Flask-based diagnostic platform"
+          "evidence": "semantic matching system using LLM normalization and SBERT embeddings."
+        },
+        {
+          "skill": "SBERT Embeddings",
+          "sources": [
+            4
+          ],
+          "evidence": "semantic matching system using LLM normalization and SBERT embeddings."
+        },
+        {
+          "skill": "4-Factor Scoring Algorithm",
+          "sources": [
+            4
+          ],
+          "evidence": "4-factor scoring algorithm."
+        },
+        {
+          "skill": "Next.js",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "TypeScript",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "Tailwind CSS",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "Pexels API",
+          "sources": [
+            5
+          ],
+          "evidence": "integrating Pexels API."
+        },
+        {
+          "skill": "CI/CD",
+          "sources": [
+            5
+          ],
+          "evidence": "CI/CD."
+        },
+        {
+          "skill": "Tableau",
+          "sources": [
+            5
+          ],
+          "evidence": "visualizing data trends."
+        },
+        {
+          "skill": "Power BI",
+          "sources": [
+            5
+          ],
+          "evidence": "visualizing data trends."
+        },
+        {
+          "skill": "GCP",
+          "sources": [
+            5
+          ],
+          "evidence": "GCP."
+        },
+        {
+          "skill": "Docker",
+          "sources": [
+            5
+          ],
+          "evidence": "Docker."
+        },
+        {
+          "skill": "REST APIs",
+          "sources": [
+            5
+          ],
+          "evidence": "REST APIs."
+        },
+        {
+          "skill": "Git",
+          "sources": [
+            5
+          ],
+          "evidence": "Git."
+        },
+        {
+          "skill": "PyTorch",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "TensorFlow",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "Time Series Analysis",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "Causal Inference",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "A/B Testing",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
+        },
+        {
+          "skill": "Statistical Modeling",
+          "sources": [
+            5
+          ],
+          "evidence": "facilitating personalized concept mastery for 10+ active users."
         }
-      ]
+      ],
+      "projects": []
     },
     "background_roles_ranked": [
       {
         "role": "Data Scientist",
         "score": 0.8,
-        "evidence": "Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving next-year distribution accuracy across 30+ outlets."
+        "evidence": "Evaluated latency impacts across 200+ studies by conducting a systematic IoMT review of decentralized systems."
       },
       {
         "role": "Machine Learning Engineer",
-        "score": 0.6,
-        "evidence": "Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into adaptive explainer videos with interactive comprehension quizzes."
+        "score": 0.7,
+        "evidence": "Engineered a Hybrid Meta-Learner architecture with Quantile and LaR optimization to overcome traditional MSE model failure."
       },
       {
         "role": "Data Analyst",
-        "score": 0.4,
-        "evidence": "Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022\u201323), uncovering underperforming regions that informed strategic market reallocation."
+        "score": 0.6,
+        "evidence": "Improved demand forecasting accuracy across 30+ outlets by engineering an automated allocation pipeline."
       },
       {
         "role": "Data Engineer",
-        "score": 0.2,
-        "evidence": "Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units."
+        "score": 0.5,
+        "evidence": "Achieved 100% record integrity by engineering automated ingestion flow to solve maintenance bottlenecks."
       },
       {
-        "role": "Applied Scientist",
-        "score": 0.1,
-        "evidence": "Conducted a systematic review on the integration of Intelligent Edge Computing and AR/VR for achieving equitable healthcare within IoMT systems."
+        "role": "MLOps Engineer",
+        "score": 0.4,
+        "evidence": "Ensured production readiness through full Scikit-learn API compatibility and automated GitHub Actions testing."
       }
     ],
-    "background_education": "M.S., Data Science, Analytics & Engineering from Arizona State University, Tempe, AZ (Expected Aug 2024 \u2013 May 2026). B.Tech, Computer Science (AI/ML) from Vellore Institute of Technology, Chennai, India (Aug 2020 \u2013 May 2024). Coursework includes Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing, Machine Learning, Deep Learning & Neural Networks, Computer Vision, and Database Management Systems.",
+    "background_education": "Vishal Lakshmi Narayanan holds a Master of Science degree in Data Science, Analytics & Engineering from Arizona State University, expected to be completed in May 2026. He also holds a Bachelor of Technology degree in Computer Science (AI/ML) from Vellore Institute of Technology, completed in May 2024. His academic background has provided him with a strong foundation in data science, machine learning, and software engineering.",
     "links": [
-      "https://doi.org/10.2147/JMDH.S419923",
+      "https://credentials.databricks.com/3c81b547-1237-4332-8e42-4ac99621441f",
       "https://github.com/VishalLakshmiNarayanan",
       "https://github.com/VishalLakshmiNarayanan/SlideSage-v3",
-      "https://github.com/VishalLakshmiNarayanan/n8n",
-      "https://medium.com/@lvishal1607",
-      "https://vishallakshportfolio.vercel.app/",
-      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324/",
+      "https://github.com/VishalLakshmiNarayanan/TailriskLib",
+      "https://github.com/VishalLakshmiNarayanan/career-pulse",
+      "https://pypi.org/project/tailrisk/",
+      "https://www.linkedin.com/in/vishal-lakshmi-narayanan-687619324",
+      "https://www.lvishal.com",
       "mailto:lvishal1607@gmail.com"
     ]
   },
   "sections": {
-    "vishal lakshmi narayanan": "LinkedIn \u00a7 GitHub  Portfolio  Medium\n +1-480-304-1340 # lvishal1607@gmail.com + Tempe, AZ",
-    "education": "M.S., Data Science, Analytics & Engineering Aug 2024 \u2013 May 2026 (Expected)\nArizona State University, Tempe, AZ\n\n-  Coursework: Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing\nB.Tech, Computer Science (AI/ML) Aug 2020 \u2013 May 2024\nVellore Institute of Technology, Chennai, India\n\n-  Coursework: Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems",
-    "experience": "Data Analyst Intern May 2023 \u2013 Jul 2023\nAmrutanjan HealthCare Ltd., Chennai, India\n\n-  Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving\nnext-year distribution accuracy across 30+ outlets.\n\n-  Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022\u201323), uncovering underperforming regions\nthat informed strategic market reallocation.\n\n-  Delivereddata-backedinsightstosenioranalyticsstakeholders,guidinginventoryoptimizationandstrengtheningoperational\nefficiency across regional units.",
-    "research": "VIT Chennai & Global Health Research and Innovations Canada\n\n-  Conducted a systematic review on the integration of Intelligent Edge Computing and AR/VR for achieving equitable\nhealthcare within IoMT systems.\n\n-  Analyzed200+peer-reviewedstudiestoassesshowdistributededgeframeworksenhancelatency, privacy, andaffordability\nin digital health infrastructure.\n\n-  Proposed an applied architecture illustrating how edge-assisted diagnostics and AR-based collaboration can improve\nhealthcare access in resource-limited regions.",
-    "skills": "Data Science & Machine Learning: Python, R, Scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM\nIntegration, Time Series Analysis, Causal Inference, A/B Testing\nData Engineering & Infrastructure: SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQL Server, SQLite, Supabase\nData Analytics & Visualization: Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js\nAdditional Proficiencies: Git, API Integration, n8n Workflows, Julia, CI/CD pipelines",
-    "projects": "SlideSage AI \u00a7 GitHub Aug 2025 \u2013 Oct 2025\n\n-  Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into\nadaptive explainer videos with interactive comprehension quizzes.\n\n-  Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing system\nperformance and low-latency inference.\nMAILY \u2014 AI Mailing & Schedule Agent \u00a7 GitHub May 2025 \u2013 Jun 2025\n\n-  Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless\ncross-platform coordination across Gmail, Calendar, and Sheets.\n\n-  Focusedonoperationalreliability,enablingconsistenttaskhandling,contextretention,andadaptiveresponsegeneration\nacross dynamic scheduling scenarios.\nDiabetic Retinopathy Detection Dec 2023 \u2013 May 2024\n\n-  Created a Flask-based diagnostic platform utilizing EfficientNetB0 and OpenCV for AI-assisted retina image analysis on\nlow-cost devices.\n\n-  Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.",
-    "publications": "-  Lakshminarayanan, V., et al. (2023). Health care equity via intelligent edge computing and AR/VR: a systematic\nreview. Journal of Multidisciplinary Healthcare, 16, 2839\u20132859. DOI:10.2147/JMDH.S419923"
+    "vishal lakshmi narayanan": "480-304-1340 | lvishal1607@gmail.com | lvishal.com | GitHub | LinkedIn",
+    "education": "M.S.,DataScience,Analytics&Engineering,ArizonaStateUniversity ExpectedMay2026\nB.Tech,ComputerScience(AI/ML),VelloreInstituteofTechnology May2024",
+    "experience": "TECHNICALOFFICER Oct2025\u2014Present\nDevLabs\n\n-  Scaledparsingcapabilitiesfor676usersbyarchitectingaserverlesspipelineusingCloudflareAIandMongoDB.\n\n-  Enabledsemanticsearchfor100-resumebatchesbyprocessingtextdatainto384-dimensionalvectorembeddings.\n\n-  Achieved100%recordintegritybyengineeringautomatedingestionflowstoresolvemaintenancebottlenecks.\nDATAANALYSTINTERN May2023\u2014Jul2023\nAmrutanjanHealthCareLtd.\n\n-  Improveddemandforecastingaccuracyacross30+outletsbyengineeringanautomatedallocationpipeline.\n\n-  ReducedmanualplanningtimeforFY23\u201324byautomatinghistoricalsalesdataanalysisandreporting.\n\n-  IdentifiedunderperformingregionsforFY22\u201323strategybyanalyzingspatialtrendsusingGeoPandas.\n\n-  Optimizedregionalsalesperformanceacrossnationwidemarketsbyimplementingstatisticalmappingtovisualizedatatrends.\nRESEARCHINTERN Dec2022\u2014Aug2023\nVITChennai&GlobalHealthResearchandInnovationsCanada\n\n-  Evaluatedlatencyimpactsacross200+studiesbyconductingasystematicIoMTreviewofdecentralizedsystems.\n\n-  Proposedcost-efficientdiagnosticworkflowsforhealthcaresystemsbymodelingdecentralizedhealth-dataprocessingandedge\nshadows.",
+    "projects": "",
+    "tailrisk:risk-awaremlframework pypi |github": "TechStack:Python,Scikit-learn,CVaR/LaRLoss,Meta-learning,PyPI\n\n-  DevelopedandpublishedtheTailRiskpackageonPyPI,establishingaframeworkforpredictingextremeinsurancelosses.\n\n-  EngineeredaHybridMeta-LearnerarchitecturewithQuantileandLaRoptimizationtoovercometraditionalMSEmodelfailure.\n\n-  Achieveda10.25%reductioninCVaR(95%)anda3.21%dropin99th-percentileMSEinvalidationon69K+insuranceclaims.\n\n-  EnsuredproductionreadinessthroughfullScikit-learnAPIcompatibilityandautomatedGitHubActionstesting.",
+    "careerpulse:airesume\u2013jobmatching github": "TechStack:GroqLLM,SBERT,Streamlit,NLP,HuggingFace\n\n-  EngineeredasemanticmatchingsystemusingLLMnormalizationandSBERTembeddingswitha4-factorscoringalgorithm.\n\n-  Acceleratedrecruiterdecision-makingbyenablingcandidaterankingandCSVexportsthroughadedicatedrecruiterportal.\n\n-  ProvidedCandidateswithinstantprofilingbyengineeringautomatedtransparencyreportsandLaTeXresumeoptimization.",
+    "slidesageai:adaptivelearningassistant github": "TechStack:Next.js,TypeScript,GroqLLM,TailwindCSS\n\n-  Facilitatedpersonalizedconceptmasteryfor10+activeusersbyengineeringalow-latencyadaptivelearningplatform.\n\n-  Enabledreal-timegenerationoftailorededucationalvideosandinteractivequizzesusingNext.jsandGroqLLM.\n\n-  OptimizedinterfaceresponsivenessandmediarenderingspeedsbyintegratingPexelsAPIandTailwindCSS.",
+    "technicalskills": "Languages:ProficientinPython,SQL,R\nTechStack:PyTorch,TensorFlow,Scikit-learn,HuggingFace,NLP,TimeSeriesAnalysis,CausalInference,A/BTesting,StatisticalModeling,\nGCP,Docker,MongoDB,PostgreSQL,CloudflareAI,RESTAPIs,Git,CI/CD,Tableau,PowerBI,Streamlit",
+    "leadership&involvement": "-  ProvidedtechnicalguidanceanddebuggingexpertiseasaTechnicalMentorduringtheannualHackASUcompetitionFall2025\n\n-  Secured3Hackathonwins(includingPeople\u2019sChoiceatHackArizonav0.1)byengineeringscalable,user-centricsoftwaresolutions.\n\n-  Ledahands-onPortfolioWorkshop,empoweringstudentstodesignanddeployprofessionalwebsitesusingcodeandno-codetools.\n\n-  Developingasemester-longmachinelearningprojectasanactivememberoftheAISocietyatASU(Fall2025).",
+    "certifications": "-  GeminiforDataScientistsandAnalysts \u2013GoogleCloudSkillsBoost(Nov2025)\n\n-  AIAgentFundamentals \u2013Databricks(Sep2025)"
   }
 }

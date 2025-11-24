@@ -16,7 +16,7 @@
 ]
 
 % --------- Summary -----------
-\summary{Highly motivated and detail-oriented software developer with expertise in machine learning and data engineering. Proven track record of designing and deploying scalable data pipelines and infrastructure for multimodal LLM training. Skilled in programming languages such as Python, R, and SQL, with experience in data science and analytics tools like Tableau, Power BI, and Streamlit.}
+\summary{Highly motivated and detail-oriented software development engineer with expertise in machine learning and data engineering. Proven track record of designing and building scalable data pipelines and infrastructure for multimodal LLM training. Skilled in programming languages such as Python, SQL, and R, with experience in working with large-scale computing resources.}
 
 % --------- Education ---------
 \begin{educationSection}{Education}
@@ -25,16 +25,16 @@
         college={},
         graduation={Expected May 2026},
         grade={},
-        program={M.S., Data Science, Analytics & Engineering},
-        coursework={Statistical ML, Big Data Analysis, Data Mining, Applied Optimization & Linear Programming, Cloud Computing}
+        program={Master of Science in Data Science, Analytics and Engineering},
+        coursework={}
     ]
     \educationItem[
         university={Vellore Institute of Technology},
         college={},
         graduation={May 2024},
         grade={},
-        program={B.Tech, Computer Science (AI/ML)},
-        coursework={Machine Learning, Deep Learning & Neural Networks, Computer Vision, Database Management Systems}
+        program={Bachelor of Technology in Computer Science (AI/ML)},
+        coursework={}
     ]
 \end{educationSection}
 
@@ -42,20 +42,12 @@
 % --------- Skills -----------
 \begin{skillsSection}{Technical Skills}
     \skillItem[
-        category={Data Science & Machine Learning},
-        skills={Python, R, Scikit-learn, TensorFlow, PyTorch, NLP, Recommendation Systems, LLM Integration, Time Series Analysis, Causal Inference, A/B Testing}
+        category={Technical Skills},
+        skills={Python, SQL, R, PyTorch, TensorFlow, Scikit-learn, HuggingFace, NLP, Time Series Analysis, Causal Inference, A/B Testing, Statistical Modeling, GCP, Docker, MongoDB, PostgreSQL, Cloudflare AI, REST APIs, Git, CI/CD, Tableau, Power BI, Streamlit}
     ] \\
     \skillItem[
-        category={Data Engineering & Infrastructure},
-        skills={SQL, PySpark, Databricks, Apache Airflow, MLflow, Docker, REST APIs, MySQL, PostgreSQL, SQL Server, SQLite, Supabase}
-    ] \\
-    \skillItem[
-        category={Data Analytics & Visualization},
-        skills={Tableau, Power BI, Streamlit, Matplotlib, Seaborn, Excel, Statistical Modeling, Linear Optimization (CPLEX), D3.js}
-    ] \\
-    \skillItem[
-        category={Additional Proficiencies},
-        skills={Git, API Integration, n8n Workflows, Julia, CI/CD pipelines}
+        category={Machine Learning},
+        skills={PyTorch, TensorFlow, Scikit-learn, HuggingFace, NLP, Time Series Analysis, Causal Inference, A/B Testing, Statistical Modeling}
     ] \\
 \end{skillsSection}
 
@@ -63,16 +55,42 @@
 % --------- Experience -----------
 \begin{experienceSection}{Professional Experience}
     \experienceItem[
-        company={Amrutanjan HealthCare Ltd.},
-        location={Chennai, India},
+        company={DevLabs},
+        location={},
+        position={Technical Officer},
+        duration={Oct 2025 - Present}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item Scaled parsing capabilities for 676 users by architecting a serverless pipeline using Cloudflare AI and MongoDB.
+        \item Enabled semantic search for 100-resume batches by processing text data into 384-dimensional vector embeddings.
+        \item Achieved 100\textbackslash{}% record integrity by engineering automated ingestion flow to solve maintenance bottlenecks.
+    \end{itemize}
+
+    \experienceItem[
+        company={Amrutanjan Health Care Ltd.},
+        location={},
         position={Data Analyst Intern},
         duration={May 2023 - Jul 2023}
     ]
     \begin{itemize}
         \itemsep -6pt {}
-        \item Designed and deployed a Python-based demand forecasting pipeline, reducing manual planning effort and improving next-year distribution accuracy across 30+ outlets.
-        \item Leveraged GeoPandas to visualize and analyze nationwide sales trends (FY 2022-23), uncovering underperforming regions that informed strategic market reallocation.
-        \item Delivered data-backed insights to senior analytics stakeholders, guiding inventory optimization and strengthening operational efficiency across regional units.
+        \item Improved demand forecasting accuracy across 30+ outlets by engineering an automated allocation pipeline.
+        \item Reduced manual planning time for FY23–24 by automating historical sales data analysis and reporting.
+        \item Identified underperforming regions for FY22–23 strategy by analyzing spatial trends using GeoPandas.
+        \item Optimized regional sales performance across nation-wide markets by implementing statistical mapping to visualized data trends.
+    \end{itemize}
+
+    \experienceItem[
+        company={VIT Chennai \textbackslash{}& Global Health Research and Innovations Canada},
+        location={},
+        position={Research Intern},
+        duration={Dec 2022 - Aug 2023}
+    ]
+    \begin{itemize}
+        \itemsep -6pt {}
+        \item Evaluated latency impacts across 200+ studies by conducting a systematic IoMT review of decentralized systems.
+        \item Proposed cost-efficient diagnostic workflows for healthcare systems by modeling decentralized health-data processing and edge shadows.
     \end{itemize}
 
 \end{experienceSection}
@@ -81,37 +99,40 @@
 % --------- Projects -----------
 \begin{experienceSection}{Projects}
     \projectItem[
-        title={SlideSage AI},
-        duration={Aug 2025 - Oct 2025},
-        keyHighlight={Built an AI-powered learning assistant in Next.js, TypeScript, and Groq LLM that transforms complex concepts into adaptive explainer videos with interactive comprehension quizzes.}
+        title={TailRisk: Risk-Aware ML Framework},
+        duration={Dec 2022 - Aug 2023},
+        keyHighlight={Developed and published the TailRisk package on PyPI, establishing a framework for predicting extreme insurance losses.}
     ]
     \begin{itemize}
         \vspace{-0.5em}
         \itemsep -6pt {}
-        \item Integrated Pexels API, shadcn/ui, and TailwindCSS to create a visually rich and responsive interface emphasizing system performance and low-latency inference.
-        \item Focused on operational reliability, enabling consistent task handling, context retention, and adaptive response generation across dynamic scheduling scenarios.
+        \item Engineered a Hybrid Meta-Learner architecture with Quantile and LaR optimization to overcome traditional MSE model failure.
+        \item Achieved a 10.25\textbackslash{}% reduction in CVaR (95\textbackslash{}%) and a 3.21\textbackslash{}% drop in 99th-percentile MSE invalidation on 69K+ insurance claims.
+        \item Ensured production readiness through full Scikit-learn API compatibility and automated GitHub Actions testing.
     \end{itemize}
 
     \projectItem[
-        title={MAILY - AI Mailing & Schedule Agent},
-        duration={May 2025 - Jun 2025},
-        keyHighlight={Developed an AI-driven scheduling and mailing agent using n8n automation workflows and Groq LLM for seamless cross-platform coordination across Gmail, Calendar, and Sheets.}
+        title={Careerpulse: AI Resume - Job Matching},
+        duration={Jan 2023 - Aug 2023},
+        keyHighlight={Engineered a semantic matching system using LLM normalization and SBERT embeddings with a 4-factor scoring algorithm.}
     ]
     \begin{itemize}
         \vspace{-0.5em}
         \itemsep -6pt {}
-        \item Emphasized operational reliability, enabling consistent task handling, context retention, and adaptive response generation across dynamic scheduling scenarios.
+        \item Accelerated recruiter decision-making by enabling candidate ranking and CSV export through a dedicated recruiter portal.
+        \item Provided candidates with instant profiling by engineering automated transparency reports and LaTeX resume optimization.
     \end{itemize}
 
     \projectItem[
-        title={Diabetic Retinopathy Detection},
-        duration={Dec 2023 - May 2024},
-        keyHighlight={Created a Flask-based diagnostic platform utilizing EfficientNetB0 and OpenCV for AI-assisted retina image analysis on low-cost devices.}
+        title={SlideSage-v3: Adaptive Learning Assistant},
+        duration={Jun 2023 - Aug 2023},
+        keyHighlight={Facilitated personalized concept mastery for 10+ active users by engineering a low-latency adaptive learning platform.}
     ]
     \begin{itemize}
         \vspace{-0.5em}
         \itemsep -6pt {}
-        \item Designed the model and interface to support rural healthcare deployment, emphasizing usability, portability, and accessibility in low-resource clinical settings.
+        \item Enabled real-time generation of tailored educational videos and interactive quizzes using Next.js and Groq LLM.
+        \item Optimized interface responsiveness and media rendering speeds by integrating Pexels API and Tailwind CSS.
     \end{itemize}
 
 \end{experienceSection}

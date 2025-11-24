@@ -160,6 +160,27 @@ def calculate_transparency_score(resume_vec, job_vec, model):
 # -------------------- GENERIC OPTIMIZED RESUME PDF GENERATOR --------------------
 import subprocess
 
+def escape_latex(text):
+    """Escape special LaTeX characters"""
+    if not isinstance(text, str):
+        return text
+    # Replace special characters that have meaning in LaTeX
+    replacements = {
+        '&': r'\&',
+        '%': r'\%',
+        '$': r'\$',
+        '#': r'\#',
+        '_': r'\_',
+        '{': r'\{',
+        '}': r'\}',
+        '~': r'\textasciitilde{}',
+        '^': r'\textasciicircum{}',
+        '\\': r'\textbackslash{}',
+    }
+    for char, replacement in replacements.items():
+        text = text.replace(char, replacement)
+    return text
+
 def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
     """Generate a user-personalized ATS-optimized resume PDF using custom resume class"""
     try:
@@ -230,18 +251,18 @@ def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
 
         # Build LaTeX resume using custom resume class
         # Summary section
-        summary_tex = f"\\summary{{{optimized_structure.get('summary', '')}}}"
+        summary_tex = f"\\summary{{{escape_latex(optimized_structure.get('summary', ''))}}}"
 
         # Education section
         education_tex = "\\begin{educationSection}{Education}\n"
         for edu in optimized_structure.get('education', []):
             education_tex += f"""    \\educationItem[
-        university={{{edu.get('university', '')}}},
-        college={{{edu.get('college', '')}}},
-        graduation={{{edu.get('graduation', '')}}},
-        grade={{{edu.get('grade', '')}}},
-        program={{{edu.get('program', '')}}},
-        coursework={{{edu.get('coursework', '')}}}
+        university={{{escape_latex(edu.get('university', ''))}}},
+        college={{{escape_latex(edu.get('college', ''))}}},
+        graduation={{{escape_latex(edu.get('graduation', ''))}}},
+        grade={{{escape_latex(edu.get('grade', ''))}}},
+        program={{{escape_latex(edu.get('program', ''))}}},
+        coursework={{{escape_latex(edu.get('coursework', ''))}}}
     ]
 """
         education_tex += "\\end{educationSection}\n"
@@ -250,8 +271,8 @@ def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
         skills_tex = "\\begin{skillsSection}{Technical Skills}\n"
         for skill in optimized_structure.get('skills', []):
             skills_tex += f"""    \\skillItem[
-        category={{{skill.get('category', '')}}},
-        skills={{{skill.get('skills', '')}}}
+        category={{{escape_latex(skill.get('category', ''))}}},
+        skills={{{escape_latex(skill.get('skills', ''))}}}
     ] \\\\\n"""
         skills_tex += "\\end{skillsSection}\n"
 
@@ -259,16 +280,16 @@ def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
         experience_tex = "\\begin{experienceSection}{Professional Experience}\n"
         for exp in optimized_structure.get('experience', []):
             experience_tex += f"""    \\experienceItem[
-        company={{{exp.get('company', '')}}},
-        location={{{exp.get('location', '')}}},
-        position={{{exp.get('position', '')}}},
-        duration={{{exp.get('duration', '')}}}
+        company={{{escape_latex(exp.get('company', ''))}}},
+        location={{{escape_latex(exp.get('location', ''))}}},
+        position={{{escape_latex(exp.get('position', ''))}}},
+        duration={{{escape_latex(exp.get('duration', ''))}}}
     ]
     \\begin{{itemize}}
         \\itemsep -6pt {{}}
 """
             for achievement in exp.get('achievements', []):
-                experience_tex += f"        \\item {achievement}\n"
+                experience_tex += f"        \\item {escape_latex(achievement)}\n"
             experience_tex += "    \\end{itemize}\n\n"
         experience_tex += "\\end{experienceSection}\n"
 
@@ -278,16 +299,16 @@ def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
             projects_tex = "\\begin{experienceSection}{Projects}\n"
             for proj in optimized_structure.get('projects', []):
                 projects_tex += f"""    \\projectItem[
-        title={{{proj.get('title', '')}}},
-        duration={{{proj.get('duration', '')}}},
-        keyHighlight={{{proj.get('highlight', '')}}}
+        title={{{escape_latex(proj.get('title', ''))}}},
+        duration={{{escape_latex(proj.get('duration', ''))}}},
+        keyHighlight={{{escape_latex(proj.get('highlight', ''))}}}
     ]
     \\begin{{itemize}}
         \\vspace{{-0.5em}}
         \\itemsep -6pt {{}}
 """
                 for detail in proj.get('details', []):
-                    projects_tex += f"        \\item {detail}\n"
+                    projects_tex += f"        \\item {escape_latex(detail)}\n"
                 projects_tex += "    \\end{itemize}\n\n"
             projects_tex += "\\end{experienceSection}\n"
 
@@ -302,11 +323,11 @@ def generate_optimized_resume_pdf(resume_data, job_desc, username, job_id):
 
 % --------- Contact Information -----------
 \\introduction[
-    fullname={{{resume_data.get('name', 'Your Name')}}},
-    email={{{resume_data.get('email', 'email@example.com')}}},
-    phone={{{resume_data.get('phone', '123-456-7890')}}},
-    linkedin={{{resume_data.get('linkedin', 'linkedin.com/in/yourprofile')}}},
-    github={{{resume_data.get('github', 'github.com/yourprofile')}}}
+    fullname={{{escape_latex(resume_data.get('name', 'Your Name'))}}},
+    email={{{escape_latex(resume_data.get('email', 'email@example.com'))}}},
+    phone={{{escape_latex(resume_data.get('phone', '123-456-7890'))}}},
+    linkedin={{{escape_latex(resume_data.get('linkedin', 'linkedin.com/in/yourprofile'))}}},
+    github={{{escape_latex(resume_data.get('github', 'github.com/yourprofile'))}}}
 ]
 
 % --------- Summary -----------

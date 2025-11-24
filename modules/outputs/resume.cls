@@ -1,153 +1,222 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% resume.cls - Custom Resume Document Class
-% Based on ASU Sparky Sundevil Resume Template
+% Author: Vignesh Iyer                                 %
+% MS CSE ASU                                           %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume}[2024/01/01 Custom Resume Class]
+\ProvidesClass{resume}[2023/01/11 v0.2 Resume class]
 
-% Load base class
-\LoadClass[11pt,letterpaper]{article}
+\LoadClass[11pt,letterpaper]{article} % Font size and paper type
 
-% Packages
-\RequirePackage[parfill]{parskip}
-\RequirePackage{array}
-\RequirePackage{ifthen}
-\RequirePackage[hidelinks]{hyperref}
-\RequirePackage{enumitem}
-\RequirePackage{geometry}
-\RequirePackage{fancyhdr}
-\RequirePackage{xcolor}
-\RequirePackage{etoolbox}
-\RequirePackage{titlesec}
+\usepackage[left=0.5in,top=0.4in,right=0.5in,bottom=0.4in]{geometry} % set document margins
+\usepackage[parfill]{parskip} % Remove paragraph indentation
 
-% Page setup
-\geometry{
-    letterpaper,
-    left=0.75in,
-    right=0.75in,
-    top=0.75in,
-    bottom=0.75in
+\usepackage{etoolbox}
+\usepackage{keycommand}
+\usepackage{xstring}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=black,
 }
 
-\pagestyle{fancy}
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\setlength{\parindent}{0pt}
+% Load the fontspec package to set the font
+\usepackage[scaled]{helvet} % Load the Helvetica font
+\renewcommand\familydefault{\sfdefault} % Set the  font family to sans-serif
+\usepackage[T1]{fontenc} % Use the T1 font encoding to ensure proper character rendering
 
-% Define colors
-\definecolor{primary}{RGB}{0,0,0}
-\definecolor{secondary}{RGB}{64,64,64}
+\pagestyle{empty}
 
-% Section formatting
-\titleformat{\section}
-  {\Large\bfseries\scshape\raggedright}
-  {}{0em}
-  {}
-  [\titlerule]
+% -------------- README --------------
+% Visit https://github.com/vgnshiyer/ASU-sparkysundevil-resume-template for comprehensive documenation.
 
-\titlespacing{\section}{0pt}{10pt}{5pt}
+% ------------ Utilities ------------
 
-% ---------- Contact Information Command ----------
-\newcommand{\introduction}[1]{
-    \setkeys{contact}{#1}
-    \begin{center}
-        {\Huge\bfseries \contactfullname} \\[5pt]
-        \contactemail \quad | \quad \contactphone \\
-        \href{\contactlinkedin}{\contactlinkedin} \quad | \quad \href{\contactgithub}{\contactgithub}
-    \end{center}
-    \vspace{10pt}
+\def \separator {
+    \textbf{\Large\textbullet}
 }
 
-\define@key{contact}{fullname}{\def\contactfullname{#1}}
-\define@key{contact}{email}{\def\contactemail{#1}}
-\define@key{contact}{phone}{\def\contactphone{#1}}
-\define@key{contact}{linkedin}{\def\contactlinkedin{#1}}
-\define@key{contact}{github}{\def\contactgithub{#1}}
+\newcommand{\email}[1]{\href{mailto:#1}{#1}}%
+\newcommand{\profilelink}[1]{\href{https://#1}{#1}}%
+\newcommand{\phonelink}[1]{\href{tel:#1}{#1}}%
 
-% ---------- Summary Command ----------
-\newcommand{\summary}[1]{
-    \section*{Summary}
+\newcommand{\isA}[1]{
+    \expandafter\ifstrequal\expandafter{#1}{default}{}{a}
+}
+
+\newcommand\sectionTitle[1]{%
+    \begingroup
+        \textbf{\MakeUppercase{#1}}
+        \vspace{0.4em}
+        \hrule
+        \vspace{-0.3em}
+    \endgroup
+}%
+
+% ------------------------------------
+
+% ------------- Header --------------
+\newcommand\printNameTitle[1]{%
+    \begingroup
+        \hfill{\MakeUppercase{\Huge\bfseries #1}}\hfill
+        \break
+        \vspace{-0.5em}
+        \hrule
+    \endgroup
+}%
+
+\newkeycommand{\introduction}[
+    fullname,
+    email,
+    phone,
+    linkedin,
+    github
+]{%
+    \begin{center}%
+        \printNameTitle{\commandkey{fullname}}% Full name title
+        {%
+            \expandafter\ifstrequal\expandafter{phone}{}{}% Contact number
+            {%
+                \ifcommandkey{phone}{\phonelink{\commandkey{phone}}}{}
+                \expandafter\ifstrequal\expandafter{email}{}%
+                {%
+                    \expandafter\ifstrequal\expandafter{linkedin}{}%
+                    {%
+                        \expandafter\ifstrequal\expandafter{github}{}%
+                        {%
+                            % empty %
+                        }{\separator}%
+                    }{\separator}%
+                }{\separator}%
+            }% Contact number field ends here
+            \expandafter\ifstrequal\expandafter{email}{}{}% Email
+            {%
+                \email{\commandkey{email}}%
+                \expandafter\ifstrequal\expandafter{linkedin}{}%
+                {%
+                    \expandafter\ifstrequal\expandafter{github}{}%
+                    {%
+                        % empty %
+                    }{\separator}%
+                }{\separator}%
+            }% Email fields ends here
+            \expandafter\ifstrequal\expandafter{linkedin}{}{}% Linkedin
+            {%
+                \profilelink{\commandkey{linkedin}}
+                \expandafter\ifstrequal\expandafter{github}{}
+                {%
+                    % empty %
+                }{\separator}%
+            }% Linkedin field ends here
+            \expandafter\ifstrequal\expandafter{github}{}{}% Github
+            {%
+                \profilelink{\commandkey{github}}%
+            }% Github field ends here
+        }
+    \end{center}%
+}%
+
+% -----------------------------------
+
+% ------------ Summary --------------
+\newcommand{\summary}[1]{%
+    \sectionTitle{Summary}%
     #1
-}
+}%
 
-% ---------- Education Section ----------
-\newenvironment{educationSection}[1]{
-    \section*{#1}
-}{}
+% -----------------------------------
 
-\newcommand{\educationItem}[1]{
-    \setkeys{education}{#1}
-    \noindent
-    \textbf{\educationuniversity} \hfill \educationgraduation \\
-    \textit{\educationprogram} \hfill GPA: \educationgrade \\
-    \ifthenelse{\equal{\educationcollege}{}}{}{%
-        \educationcollege \\
+% ------------ Education ------------
+\newenvironment{educationSection}[1]{%
+    \sectionTitle{#1}%
+}%
+
+\newkeycommand{\educationItem}[
+    university,
+    college,
+    program,
+    graduation,
+    grade,
+    coursework
+]{%
+    {% line 1
+        \bf \commandkey{program}%
+    } \hfill {%
+        \commandkey{graduation}%
+    } \\ % line end
+    {% line 2
+        \commandkey{university}%
+    } \hfill \ifcommandkey{grade}{% Grade field is optional (Can be left empty)
+        \commandkey{grade}%
+    }{} \\ % line end
+    {% line 3 - only show if not empty
+        \expandafter\ifstrequal\expandafter{\commandkey{college}}{}{}{\commandkey{college} \\}
+    } % line end
+    {% line 4 - only show if not empty
+        \expandafter\ifstrequal\expandafter{\commandkey{coursework}}{}{}{Relevant coursework: \commandkey{coursework}}%
+    }% line end
+}%
+
+% ------------------------------------
+
+% -------------- Skills --------------
+\newenvironment{skillsSection}[1]{%
+    \sectionTitle{#1}%
+}%
+
+\newkeycommand{\skillItem}[
+    category,
+    skills
+]{%
+    {%
+        \bf \commandkey{category}:
+    } {%
+        \commandkey{skills}%
     }
-    \ifthenelse{\equal{\educationcoursework}{}}{}{%
-        \textbf{Relevant Coursework:} \educationcoursework
+}%
+
+% ------------------------------------
+
+% -------------- Experience -------------
+\newenvironment{experienceSection}[1]{%
+    \sectionTitle{#1}%
+    \begin{list}{}{ % List for each highlight in the section
+        \setlength{\leftmargin}{0em} % Margin within the section
+    }%
+        \item[]%
+    }{%
+    \end{list}%
+}%
+
+\newkeycommand{\experienceItem}[
+    company,
+    position,
+    location,
+    duration
+]{%
+    \textbf{%
+        \commandkey{company},
+        \commandkey{location}:
+        \commandkey{position}
+    } \hfill {%
+        \commandkey{duration}%
     }
-    \vspace{5pt}
-}
+    \vspace{-0.5em}%
+}%
 
-\define@key{education}{university}{\def\educationuniversity{#1}}
-\define@key{education}{college}{\def\educationcollege{#1}}
-\define@key{education}{graduation}{\def\educationgraduation{#1}}
-\define@key{education}{grade}{\def\educationgrade{#1}}
-\define@key{education}{program}{\def\educationprogram{#1}}
-\define@key{education}{coursework}{\def\educationcoursework{#1}}
+% ---------------------------------------
 
-% Set defaults
-\setkeys{education}{college={}, coursework={}}
-
-% ---------- Skills Section ----------
-\newenvironment{skillsSection}[1]{
-    \section*{#1}
-    \begin{itemize}[leftmargin=*, itemsep=2pt, parsep=0pt]
-}{\end{itemize}}
-
-\newcommand{\skillItem}[1]{
-    \setkeys{skill}{#1}
-    \item \textbf{\skillcategory:} \skillskills
-}
-
-\define@key{skill}{category}{\def\skillcategory{#1}}
-\define@key{skill}{skills}{\def\skillskills{#1}}
-
-% ---------- Experience Section ----------
-\newenvironment{experienceSection}[1]{
-    \section*{#1}
-}{}
-
-\newcommand{\experienceItem}[1]{
-    \setkeys{experience}{#1}
-    \noindent
-    \textbf{\experienceposition} \hfill \experienceduration \\
-    \textit{\experiencecompany}, \experiencelocation
-    \vspace{2pt}
-}
-
-\define@key{experience}{company}{\def\experiencecompany{#1}}
-\define@key{experience}{location}{\def\experiencelocation{#1}}
-\define@key{experience}{position}{\def\experienceposition{#1}}
-\define@key{experience}{duration}{\def\experienceduration{#1}}
-
-% ---------- Project Item ----------
-\newcommand{\projectItem}[1]{
-    \setkeys{project}{#1}
-    \noindent
-    \textbf{\projecttitle} \hfill \projectduration \\
-    \ifthenelse{\equal{\projectkeyhighlight}{}}{}{%
-        \textit{\projectkeyhighlight}
+% ----------------- Project -------------
+\newkeycommand{\projectItem}[title, duration, keyHighlight]{%
+    \textbf{%
+        \commandkey{title}%
+    } \hfill {%
+        \commandkey{duration}%
+    } \\ {%
+        \commandkey{keyHighlight}%
     }
-    \vspace{2pt}
-}
+}%
 
-\define@key{project}{title}{\def\projecttitle{#1}}
-\define@key{project}{duration}{\def\projectduration{#1}}
-\define@key{project}{keyHighlight}{\def\projectkeyhighlight{#1}}
+% ----------------------------------------
 
-% Set defaults
-\setkeys{project}{keyHighlight={}, duration={}}
-
-\endinput
